@@ -28,4 +28,5 @@ body{
 .menus button{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: column; 
+    font-size: 20px;
