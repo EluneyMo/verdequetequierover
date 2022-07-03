@@ -88,4 +88,4 @@ body{
     width: 100%;
 }
 .box .slides ul li {
-    
+    align-items: flex-end;
