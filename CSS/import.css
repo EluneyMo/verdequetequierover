@@ -7,7 +7,6 @@
 body{
     background-color: rgb(155, 217, 156);
 }
-
 .box{
     display: flex;
     align-items: stretch;
@@ -18,4 +17,5 @@ body{
 .box h1{
     border-color: aliceblue;
     width: 500px;
+    height: 20px;
 }
