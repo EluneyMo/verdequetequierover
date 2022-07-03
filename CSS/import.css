@@ -80,3 +80,4 @@ body{
 .box .slides ul{    
     border: none;
     display: flex;
+    align-items: flex-end;
