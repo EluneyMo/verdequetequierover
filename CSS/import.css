@@ -75,3 +75,4 @@ body{
     max-height: 500px;
     margin: 0px;
     display: flex;
+    align-items: flex-end;
