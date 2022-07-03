@@ -56,3 +56,4 @@ body{
     flex-direction: column;
 }
 .box .titulo{
+    position: absolute ;
