@@ -67,3 +67,4 @@ body{
     margin-left: 500px;
     margin-top: 7%;
     position: absolute;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
