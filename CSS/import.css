@@ -105,4 +105,5 @@ body{
 @keyframes cambio {
     0%{margin-left: 0;}
     30%{margin-left: 0;}
+    35%{margin-left: -100%;}
 
