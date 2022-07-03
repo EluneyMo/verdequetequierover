@@ -83,3 +83,4 @@ body{
     align-items: flex-end;
     animation: alternate;
     animation: cambio 5s infinite alternate;
+    padding: 0;
