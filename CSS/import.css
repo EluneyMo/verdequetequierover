@@ -95,3 +95,4 @@ body{
     display: flex;
 }
 .box .slides ul li img{
+    align-items: flex-end
