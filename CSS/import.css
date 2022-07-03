@@ -17,4 +17,5 @@ body{
 }
 .box h1{
     border-color: aliceblue;
+    width: 500px;
 }
