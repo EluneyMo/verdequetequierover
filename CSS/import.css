@@ -111,4 +111,5 @@ body{
     100%{margin-left: -200%;}
 }
 .parent a{
+    border-color: black;
 
