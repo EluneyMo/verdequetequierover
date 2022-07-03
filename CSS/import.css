@@ -133,4 +133,5 @@ body{
     border-radius: 20px;
     text-align: center;
     justify-content: center;
+    grid-area: 1 / 1 / 2 / 2;
 
