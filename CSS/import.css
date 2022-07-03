@@ -57,3 +57,4 @@ body{
 }
 .box .titulo{
     position: absolute ;
+    display: flex;
