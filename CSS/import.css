@@ -119,5 +119,6 @@ body{
     justify-content: center;
 }
 .p{
-    margin-left:-10px;
+    margin-left:-10px;  
+    width: 220px;
 
