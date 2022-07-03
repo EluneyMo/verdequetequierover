@@ -187,5 +187,6 @@ body{
     border-radius: 20px;
     text-align: center;
     justify-content: center;
+    grid-area: 2 / 1 / 3 / 2;
     
 
