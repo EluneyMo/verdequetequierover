@@ -9,5 +9,5 @@ body{
 }
 
 .box{
-    
+    display: flex;
 }
