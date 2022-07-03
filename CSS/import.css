@@ -79,3 +79,4 @@ body{
 }
 .box .slides ul{    
     border: none;
+    display: flex;
