@@ -202,7 +202,8 @@ body{
     text-transform: uppercase;
     font-family: 'Helvetica', sans-serif;
     border-radius: 20px;
-    text-align: center;   
+    text-align: center;
+    justify-content: center;   
 
 
     
