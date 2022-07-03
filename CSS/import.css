@@ -58,3 +58,4 @@ body{
 .box .titulo{
     position: absolute ;
     display: flex;
+    align-items: flex-end;
