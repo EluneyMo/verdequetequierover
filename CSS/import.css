@@ -96,4 +96,4 @@ body{
 }
 .box .slides ul li img{
     align-items: flex-end
-    
+    display: flex;
