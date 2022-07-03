@@ -44,3 +44,4 @@ body{
 }
 .box .menus{
     align-items: flex-start;
+    width: 200px;
