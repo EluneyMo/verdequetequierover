@@ -103,4 +103,5 @@ body{
     height: 350px;
 }
 @keyframes cambio {
+    0%{margin-left: 0;}
 
