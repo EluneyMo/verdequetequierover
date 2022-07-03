@@ -127,4 +127,5 @@ body{
     background: url(../imagenes/plantas.png);
     background-size: 300px 200px;   
     background-position: -70px;
+    text-decoration: none; 
 
