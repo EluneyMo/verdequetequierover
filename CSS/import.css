@@ -123,5 +123,6 @@ body{
     width: 220px;   
     height: 200px;
     border: 5px solid transparent;
-    padding: 30px;
+    padding: 30px;  
+    background: url(../imagenes/plantas.png);
 
