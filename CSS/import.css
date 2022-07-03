@@ -53,3 +53,4 @@ body{
     font-size: 16px;
     position: absolute;
     display: flex;
+    flex-direction: column;
