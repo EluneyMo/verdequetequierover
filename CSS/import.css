@@ -110,6 +110,16 @@ body{
     70%{margin-left: -200%;}
     100%{margin-left: -200%;}
 }
+.parent{
+    margin-right: 50%;
+    margin-left: 30%;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
 .parent a{
     border-color: black;
     color: aliceblue;
@@ -117,6 +127,7 @@ body{
     padding-top: 80px;  
     text-align: center;
     justify-content: center;
+    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
 }
 .p{
     margin-left:-10px;  
