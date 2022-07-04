@@ -113,6 +113,7 @@ body{
 .parent{
     margin-right: 50%;
     margin-left: 30%;
+    padding-top: 20px;
 .parent a{
     border-color: black;
     color: aliceblue;
