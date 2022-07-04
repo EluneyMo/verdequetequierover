@@ -110,6 +110,7 @@ body{
     70%{margin-left: -200%;}
     100%{margin-left: -200%;}
 }
+.parent{
 .parent a{
     border-color: black;
     color: aliceblue;
