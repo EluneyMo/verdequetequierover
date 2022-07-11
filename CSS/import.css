@@ -161,6 +161,7 @@ body{
     justify-content: center;
     grid-area: 1 / 1 / 2 / 2;
 }
+/*Boton c del menu*/
 .c{
     margin-left: -90px;
     margin-right: 10px;
