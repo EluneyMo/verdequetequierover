@@ -47,6 +47,7 @@ body{
 .menus a{
     color: black;
 }
+/*Contenedor de botones de acceso: encabezado*/
 .box .menus{
     align-items: flex-start;
     width: 200px;
