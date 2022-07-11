@@ -113,6 +113,7 @@ body{
     width: 2000px;
     height: 350px;
 }
+/*Trancision de imagenes*/
 @keyframes cambio {
     0%{margin-left: 0;}
     30%{margin-left: 0;}
