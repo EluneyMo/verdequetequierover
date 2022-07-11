@@ -28,6 +28,7 @@ body{
     position: absolute;
     text-align: center;
 }
+/*Botones de accesos de encabezado*/
 .menus button{
     display: flex;
     justify-content: space-between;
