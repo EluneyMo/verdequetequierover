@@ -61,6 +61,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+/*Titulo del encabezado*/
 .box .titulo{
     position: absolute ;
     display: flex;
