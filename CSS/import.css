@@ -180,6 +180,7 @@ body{
     justify-content: center;
     grid-area: 1 / 2 / 2 / 3;
 }
+/*Boton h del menu*/
 .h{
     padding-left: -30px;
     margin-left: -10px;
