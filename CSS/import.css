@@ -8,6 +8,7 @@
 body{
     background-color: rgb(155, 217, 156);
 }
+/*Contenedor de Encabezado*/
 .box{
     display: flex;
     align-items: stretch;
