@@ -96,6 +96,7 @@ body{
     margin: 0px;
     width: 100%;
 }
+/*Lista de imagenes del encabezado*/
 .box .slides ul li {
     align-items: flex-end;
     width: 100%;    
