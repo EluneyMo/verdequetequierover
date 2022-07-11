@@ -133,6 +133,7 @@ body{
     grid-column-gap: 20px;
     grid-row-gap: 20px;
 }
+/*Links de los botones del menu*/
 .parent a{
     border-color: black;
     color: aliceblue;
