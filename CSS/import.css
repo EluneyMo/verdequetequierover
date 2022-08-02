@@ -4,14 +4,13 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-<<<<<<< HEAD
+
 header{
     width: auto;
     height: 100%;
 }
-=======
+
 /*Fondo de pagina*/
->>>>>>> 499f0a4c23ac1ae7f44e4c396684fa340f0a3cb0
 body{
     background-color: rgb(155, 217, 156);
 }
