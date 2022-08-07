@@ -248,7 +248,7 @@ body{
     opacity: 70%;
 }
 .desc a{
-    padding-bottom: 300px;
+    margin-top: 300px;
     opacity: 100%;
     text-align: center;
     position: inherit;
