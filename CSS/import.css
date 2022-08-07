@@ -249,7 +249,7 @@ body{
 }
 .desc a{
     text-align: center;
-    position:absolute;
+    position: inherit;
 }
 
 
