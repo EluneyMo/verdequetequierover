@@ -248,6 +248,7 @@ body{
     opacity: 70%;
 }
 .desc a{
+    opacity: 100%;
     text-align: center;
     position: inherit;
 }
