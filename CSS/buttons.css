@@ -183,3 +183,7 @@
     opacity: .5;
     transition: 2s;
 }
+.p:hover {
+    box-shadow: 0 0 20px 5px rgb(60, 255, 0);
+    transition: 2s;
+}
