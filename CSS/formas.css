@@ -12,11 +12,14 @@
 @keyframes forma1{
     0%{
         top: 80%;
+        rotate: 10deg;
     }
     50%{
         top: 100%;
+        rotate: 30deg;
     }
     100%{
         top: 80%;
+        rotate: 10deg;
     }
 }
