@@ -37,15 +37,15 @@
 @keyframes forma2{
     0%{
         top: 90%;
-        rotate: 10deg;
+        rotate: 15deg;
     }
     50%{
         top: 110%;
-        rotate: 30deg;
+        rotate: 40deg;
     }
     100%{
         top: 90%;
-        rotate: 10deg;
+        rotate: 15deg;
     }
 }
 .Estrella3{
