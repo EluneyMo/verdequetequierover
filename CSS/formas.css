@@ -2,9 +2,9 @@
     left: 15%;
     top: 80%;
     position: absolute;
-    width: 50px;
-    height: 50px;
-    background: rgb(70, 156, 0);
+    width: 70px;
+    height: 70px;
+    background: rgb(106, 235, 0);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
     animation: forma1 10s ease-in infinite normal both;
     animation-timing-function: ease-in-out;
