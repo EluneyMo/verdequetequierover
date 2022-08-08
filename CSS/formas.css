@@ -59,3 +59,17 @@
     animation: forma3 10s ease-in infinite normal both;
     animation-timing-function: ease-in-out;
 }
+@keyframes forma3{
+    0%{
+        top: 70%;
+        rotate: 10deg;
+    }
+    50%{
+        top: 105%;
+        rotate: 30deg;
+    }
+    100%{
+        top: 70%;
+        rotate: 10deg;
+    }
+}
