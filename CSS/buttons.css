@@ -108,6 +108,7 @@
     overflow: hidden;
     grid-area: 2 / 3 / 3 / 4;
 }
+/*hover del boton a*/
 .a:hover .cort_a{
     position: absolute;
     top: 0;
