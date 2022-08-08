@@ -155,3 +155,8 @@
     box-shadow: 0 0 20px 5px rgb(60, 255, 0);
     transition: 2s;
 }
+.h:hover a{
+    position:relative;
+    color: black;
+    transition: 2s;
+}
