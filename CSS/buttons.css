@@ -16,8 +16,7 @@
     font-size: x-large;
     padding-top: 80px;  
     text-align: center;
-    justify-content: center;
-    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+    -webkit-text-stroke: 1.0px ;
 }
 /*Boton p del menu*/
 .p{
@@ -96,19 +95,16 @@
 }
 /*Boton a del menu*/
 .a{
+    position: relative;
     margin-left:-130px;
     height: 200px;
     width: 220px;
-    border: 5px solid transparent;
     padding: 30px;
     background: url(../imagenes/accesorios.webp);
-    background-size: 300px 200px;
-    background-position: -70px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Helvetica', sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     border-radius: 20px;
-    text-align: center;
-    justify-content: center;
+    border: none;
+    overflow: hidden;
     grid-area: 2 / 3 / 3 / 4;
 }
