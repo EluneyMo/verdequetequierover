@@ -62,14 +62,14 @@
 @keyframes forma3{
     0%{
         top: 70%;
-        rotate: 10deg;
+        rotate: 20deg;
     }
     50%{
         top: 105%;
-        rotate: 30deg;
+        rotate: 110deg;
     }
     100%{
         top: 70%;
-        rotate: 10deg;
+        rotate: 20deg;
     }
 }
