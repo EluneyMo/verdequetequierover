@@ -157,3 +157,13 @@
     color: black;
     transition: 2s;
 }
+.c:hover .cort_c{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(60, 255, 0);
+    opacity: .5;
+    transition: 2s;
+}
