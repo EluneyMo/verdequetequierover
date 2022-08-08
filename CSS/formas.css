@@ -6,4 +6,17 @@
     height: 30px;
     background: red;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    animation: forma1 10s ease-in infinite normal both;
+    animation-timing-function: ease-in-out;
+}
+@keyframes forma1{
+    0%{
+        top: 80%;
+    }
+    50%{
+        top: 100%;
+    }
+    100%{
+        top: 80%;
+    }
 }
