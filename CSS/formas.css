@@ -34,3 +34,17 @@
     animation: forma2 10s ease-in infinite normal both;
     animation-timing-function: ease-in-out;
 }
+@keyframes forma2{
+    0%{
+        top: 90%;
+        rotate: 10deg;
+    }
+    50%{
+        top: 110%;
+        rotate: 30deg;
+    }
+    100%{
+        top: 90%;
+        rotate: 10deg;
+    }
+}
