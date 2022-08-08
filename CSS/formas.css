@@ -1,4 +1,8 @@
 .Estrella1{
+    left: 15%;
+    top: 80%;
+    position: absolute;
     width: 30px;
     height: 30px;
+    background: red;
 }
