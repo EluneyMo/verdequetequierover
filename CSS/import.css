@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0%;
     margin: 0%;
@@ -242,9 +243,20 @@ body{
     justify-content: center;
     grid-area: 2 / 3 / 3 / 4;
 }   
-.desc{
-    
+.desc img {
+    width: 1530px ;
+    height: 400px;
+    opacity: 70%;
+}
+.desc a h2{
+
+    opacity: 100%;
+    text-align: center;
+    position: absolute;
 }
 
+
     
 
+=======
+>>>>>>> 6054479e40b7cd5bb7f72240a7e8f719d9e2431a
