@@ -243,7 +243,9 @@ body{
     justify-content: center;
     grid-area: 2 / 3 / 3 / 4;
 }   
-.desc{}
+.desc{
+    display: grid;
+}
 .desc .imagendesc img {
     width: 1530px ;
     height: 400px;
