@@ -251,7 +251,7 @@ body{
 .desc a h2{
     opacity: 100%;
     text-align: center;
-    z-index: ;
+    z-index:initial ;
 }
 
 
