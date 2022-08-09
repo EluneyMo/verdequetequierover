@@ -248,7 +248,7 @@ body{
     height: 400px;
     opacity: 70%;
 }
-.desc a h2{
+.desc div a h2{
     opacity: 100%;
     text-align: center;
 }
