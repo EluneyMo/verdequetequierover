@@ -243,12 +243,12 @@ body{
     justify-content: center;
     grid-area: 2 / 3 / 3 / 4;
 }   
-.desc div img {
+.desc img {
     width: 1530px ;
     height: 400px;
     opacity: 70%;
 }
-.desc div a h2{
+.desc a h2{
     opacity: 100%;
     text-align: center;
 }
