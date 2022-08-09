@@ -250,6 +250,7 @@ body{
 }
 .desc .Descuentos a h2{
     opacity: 100%;
+    justify-content: center;
     text-align: center;
 }
 
