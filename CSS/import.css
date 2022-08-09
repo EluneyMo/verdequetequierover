@@ -245,6 +245,7 @@ body{
 }   
 .desc{
     display: grid;
+    grid-template-columns: ;
 }
 .desc .imagendesc img {
     width: 1530px ;
