@@ -260,6 +260,7 @@ body{
     opacity: 100%;
     place-content: center;
     text-align: center;
+    margin-top: -300px;
     grid-area: 1 / 1 / 2 / 2; 
 }
 
