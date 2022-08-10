@@ -246,7 +246,7 @@ body{
 .desc{
     display: grid;
     grid-template-columns: 1fr ;
-    
+    grid-template-rows: 1fr;
 }
 .desc .imagendesc img {
     width: 1530px ;
