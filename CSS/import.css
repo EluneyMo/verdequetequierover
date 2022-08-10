@@ -248,6 +248,7 @@ body{
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr;
     column-gap: 0px;
+    row-gap: 0px;
 }
 .desc .imagendesc img {
     width: 1530px ;
