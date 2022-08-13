@@ -109,3 +109,17 @@
     animation: forma5 10s ease-in infinite normal both;
     animation-timing-function: ease-in-out;
 }
+@keyframes forma5{
+    0%{
+        top: 80%;
+        rotate: 20deg;
+    }
+    50%{
+        top: 120%;
+        rotate: 150deg;
+    }
+    100%{
+        top: 80%;
+        rotate: 235deg;
+    }
+}
