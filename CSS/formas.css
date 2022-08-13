@@ -84,3 +84,17 @@
     animation: forma4 10s ease-in infinite normal both;
     animation-timing-function: ease-in-out;
 }
+@keyframes forma4{
+    0%{
+        top: 90%;
+        rotate: 20deg;
+    }
+    50%{
+        top: 130%;
+        rotate: 110deg;
+    }
+    100%{
+        top: 90%;
+        rotate: 163deg;
+    }
+}
