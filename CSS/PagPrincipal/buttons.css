@@ -25,7 +25,7 @@
     width: 220px;   
     height: 200px;
     padding: 30px;  
-    background: url(../imagenes/plantas.png);
+    background: url(../../imagenes/plantas.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 20px;
@@ -41,7 +41,7 @@
     width: 220px;
     height: 200px;
     padding: 30px;  
-    background: url(../imagenes/cactus.jpg);
+    background: url(../../imagenes/cactus.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 20px;
@@ -57,7 +57,7 @@
     width: 220px;
     height: 200px;
     padding: 30px;
-    background: url(../imagenes/herramientas.jpg);
+    background: url(../../imagenes/herramientas.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 20px;
@@ -73,7 +73,7 @@
     width: 220px;
     height:200px;
     padding: 30px;
-    background: url(../imagenes/sutrato.jpg);
+    background: url(../../imagenes/sutrato.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 20px;
@@ -88,7 +88,7 @@
     height: 200px;
     width: 220px;
     padding: 30px;
-    background: url(../imagenes/accesorios.webp);
+    background: url(../../imagenes/accesorios.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 20px;
