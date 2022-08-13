@@ -200,3 +200,11 @@
     border: black solid 1px;
     text-align: center;
 }
+.reg1{
+    position: absolute;
+    margin-left: 50%;
+    background: red;
+    width: 0px;
+    height: 3px;
+    transition: 1s;
+}
