@@ -259,6 +259,7 @@ body{
     grid-area: 1 / 1 / 2 / 2; 
 }
 .desc .Descuentos a h2{
+    display: -moz-inline-grid;
     opacity: 100%;
     color: black;
     place-content: center;
