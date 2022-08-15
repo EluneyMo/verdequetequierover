@@ -258,6 +258,7 @@ body{
     opacity: 70%;
     margin-top: 70px;
     position: relative;
+    z-index: 1;
     grid-area: 1 / 1 / 2 / 2; 
 }
 .desc .Descuentos a h2{
