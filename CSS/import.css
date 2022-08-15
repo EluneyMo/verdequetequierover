@@ -268,7 +268,7 @@ body{
     place-content: center;
     text-align: center;
     position: absolute;
-    padding-left: 600px;
+    padding-left: 700px;
     padding-top: 250px;
     z-index: 2;
     grid-area: 1 / 1 / 2 / 2; 
