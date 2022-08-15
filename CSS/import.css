@@ -252,6 +252,7 @@ body{
     row-gap: 0px;
 }
 .desc .imagendesc img {
+    display: inline;
     width: 1530px ;
     height: 400px;
     opacity: 70%;
