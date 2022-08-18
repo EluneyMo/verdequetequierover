@@ -263,4 +263,5 @@ body{
     margin-top: 70px;
     position: relative;
     z-index: 1;
+    grid-area: 1 / 1 / 2 / 2; 
 }
