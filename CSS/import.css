@@ -52,6 +52,9 @@ body{
     margin: 5px;
 }
 /*Liks de botones de accesos de encabezado*/
+.menus button a img{
+    margin: 0px;
+}
 .menus a{
     color: black;
 }
@@ -247,12 +250,12 @@ body{
 }   
 .desc{
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     column-gap: 0px;
     row-gap: 0px;
 }
-.desc .imagendesc img {
+.desc .imagendesc img{
     display: inline;
     width: 1530px ;
     height: 400px;
@@ -273,7 +276,5 @@ body{
     padding-top: 250px;
     font-size: xx-large;
     z-index: 2;
-    grid-area: 1 / 1 / 2 / 2; 
+    grid-area: 1 / 1 / 2 / 2;
 }
-
-
