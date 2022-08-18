@@ -52,7 +52,9 @@ body{
     margin: 5px;
 }
 /*Liks de botones de accesos de encabezado*/
-.menus button a img{}
+.menus button a img{
+    margin: 0px;
+}
 .menus a{
     color: black;
 }
