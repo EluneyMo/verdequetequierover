@@ -258,4 +258,5 @@ body{
 .desc .imagendesc img{
     display: inline;
     width: 1530px ;
+    height: 400px;
 }
