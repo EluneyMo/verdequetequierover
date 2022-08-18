@@ -268,4 +268,5 @@ body{
 .desc .Descuentos a h2{
     display: inline-grid;
     opacity: 100%;
+    color: black;
 }
