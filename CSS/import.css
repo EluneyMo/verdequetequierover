@@ -275,4 +275,5 @@ body{
     padding-left: 725px;
     padding-top: 250px;
     font-size: xx-large;
+    z-index: 2;
 }
