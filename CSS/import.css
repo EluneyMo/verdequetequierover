@@ -255,4 +255,6 @@ body{
     column-gap: 0px;
     row-gap: 0px;
 }
-.desc .imagendesc img{}
+.desc .imagendesc img{
+    display: inline;
+}
