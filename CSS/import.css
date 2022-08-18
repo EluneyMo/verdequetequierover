@@ -262,4 +262,5 @@ body{
     opacity: 70%;
     margin-top: 70px;
     position: relative;
+    z-index: 1;
 }
