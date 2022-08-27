@@ -134,6 +134,9 @@ body{
 .box #img2{
     left: 100%;
 }
+.active{
+    
+}
 /*Contenedor de botones del menu*/
 .parent{
     margin-right: 50%;
