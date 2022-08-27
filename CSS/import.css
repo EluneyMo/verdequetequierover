@@ -114,7 +114,7 @@ body{
     display: flex;
 }
 .box #slideshow-dos {
-    
+    position: relative;
 }
 /*Imagenes del encabezado*/
 .box #slideshow-dos {
