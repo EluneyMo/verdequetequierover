@@ -99,7 +99,7 @@ body{
 }
 /*Lista o ordenada del contenedor de imagenes del encabezado*/
 .box .slides ul{    
-    width: 100%;
+    
     max-height: 500px;
     border: none;
     display: flex;
