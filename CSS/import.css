@@ -98,7 +98,7 @@ body{
     position: relative;
 }
 /*Lista o ordenada del contenedor de imagenes del encabezado*/
-.box .slides ul{    
+.box #container{    
     position: absolute;
     max-height: 500px;
     border: none;
