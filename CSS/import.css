@@ -95,6 +95,7 @@ body{
     margin: 0px;
     display: flex;
     align-items: flex-end;
+    position: relative;
 }
 /*Lista o ordenada del contenedor de imagenes del encabezado*/
 .box .slides ul{    
