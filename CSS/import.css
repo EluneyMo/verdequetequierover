@@ -102,7 +102,7 @@ body{
     position: absolute;
     max-height: 500px;
     border: none;
-    z-index: 1000px;
+    z-index: 1000;
     margin: 0px;
     width: 100%;
 }
@@ -116,6 +116,7 @@ body{
 .box #slideshow-dos {
     position: relative;
     z-index: 998;
+
 }
 /*Imagenes del encabezado*/
 .box #slideshow-dos {
