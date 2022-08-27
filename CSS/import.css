@@ -116,7 +116,7 @@ body{
     display: flex;
 }
 /*Imagenes del encabezado*/
-.box .slides ul li img{
+.box .slides {
     align-items: flex-end;
     display: flex;
     margin:0px; 
