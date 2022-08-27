@@ -116,7 +116,7 @@ body{
 .box #slideshow-dos {
     position: relative;
     z-index: 998;
-
+    height: 600px;
 }
 /*Imagenes del encabezado*/
 .box #slideshow-dos {
