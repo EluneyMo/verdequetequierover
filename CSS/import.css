@@ -131,7 +131,9 @@ body{
     height: 350px;
 }
 /*Trancision de imagenes*/
-
+.box #img2{
+    
+}
 /*Contenedor de botones del menu*/
 .parent{
     margin-right: 50%;
