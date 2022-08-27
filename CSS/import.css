@@ -113,6 +113,9 @@ body{
     padding-left: 0px;
     display: flex;
 }
+.box #slideshow-dos {
+    
+}
 /*Imagenes del encabezado*/
 .box #slideshow-dos {
     align-items: flex-end;
