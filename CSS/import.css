@@ -132,7 +132,7 @@ body{
 }
 /*Trancision de imagenes*/
 .box #img2{
-    
+    left: 100%;
 }
 /*Contenedor de botones del menu*/
 .parent{
