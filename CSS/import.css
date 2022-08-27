@@ -89,7 +89,7 @@ body{
     color: rgb(0, 0, 0);
 }
 /*Contenedor de imagenes de encabezado*/
-.box .slides{
+.box #slidesshow{
     width: 100%;
     max-height: 500px;
     margin: 0px;
