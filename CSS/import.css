@@ -110,8 +110,6 @@ body{
 .box #progressbar {
     align-items: flex-end;
     height: 100%;    
-    
-    list-style: none;
     padding-left: 0px;
     display: flex;
 }
