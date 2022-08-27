@@ -114,7 +114,7 @@ body{
     display: flex;
 }
 /*Imagenes del encabezado*/
-.box .slides {
+.box #slidesshow-dos {
     align-items: flex-end;
     display: flex;
     margin:0px; 
