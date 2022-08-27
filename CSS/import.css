@@ -120,7 +120,7 @@ body{
 }
 /*Imagenes del encabezado*/
 .box #img3 {
-    left: 100%;
+    left: 200%;
     align-items: flex-end;
     display: flex;
     margin:0px; 
