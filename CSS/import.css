@@ -102,11 +102,7 @@ body{
     position: absolute;
     max-height: 500px;
     border: none;
-    display: flex;
-    align-items: flex-end;
-    animation: alternate;
-    animation: cambio 5s infinite alternate;
-    padding: 0;
+    z-index: 1000px;
     margin: 0px;
     width: 100%;
 }
