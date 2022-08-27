@@ -3,4 +3,5 @@ addEventListener ('DOMContentLoaded', () =>){
  
  let i = 1
  const = document.querySelector ('#img1')
+ const = document.querySelector ('#img2')
 }
