@@ -3,6 +3,6 @@ addEventListener ('DOMContentLoaded', () =>){
  
  let i = 1
  const img1= document.querySelector ('#img1')
- const = document.querySelector ('#img2')
+ const img2= document.querySelector ('#img2')
  const progressbar= document.querySelector ('#progressbar')
 }
