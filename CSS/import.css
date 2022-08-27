@@ -107,7 +107,7 @@ body{
     width: 100%;
 }
 /*Lista de etiquetas contnedoras de imagenes del encabezado*/
-.box .slides ul li {
+.box #progressbar {
     align-items: flex-end;
     width: 100%;    
     
