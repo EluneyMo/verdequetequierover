@@ -1,3 +1,4 @@
 addEventListener ('DOMContentLoaded', () =>){
- const imagenes ['imagenes/']   
+ const imagenes = ['imagenes/cuidados-principales-de-los-claveles-1280x720x80xX.jpg' , 'imagenes/Imagen 3 girasol.jpg', 'imagenes/R (1).jpg' ]
+    
 }
