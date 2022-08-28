@@ -9,4 +9,5 @@ addEventListener ('DOMContentLoaded', () =>){
  let porcentajea=porcentajeb
 
  progressbar.style.width= ´${porcentajeb}%´
+ img1.scr =imagenes[0]
 }
