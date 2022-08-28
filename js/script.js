@@ -7,4 +7,6 @@ addEventListener ('DOMContentLoaded', () =>){
  const progressbar= document.querySelector ('#progressbar')
  let porcentajeb=100/imagenes
  let porcentajea=porcentajeb
+
+ progressbar.style.width= ´$(porcentajeb)
 }
