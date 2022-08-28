@@ -5,4 +5,5 @@ addEventListener ('DOMContentLoaded', () =>){
  const img1= document.querySelector ('#img1')
  const img2= document.querySelector ('#img2')
  const progressbar= document.querySelector ('#progressbar')
+ let porcentajeb=100/imagenes
 }
