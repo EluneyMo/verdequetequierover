@@ -12,6 +12,6 @@ addEventListener ('DOMContentLoaded', () =>{
  img1.scr =imagenes[0]
 
  const slideshowdos = () => {
-    
+    img2.src =imagenes[i]
  }
 })
