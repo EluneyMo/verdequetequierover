@@ -10,4 +10,8 @@ addEventListener ('DOMContentLoaded', () =>{
 
  progressbar.style.width= '${porcentajeb}%'
  img1.scr =imagenes[0]
+
+ const slideshow = () => {
+    
+ }
 })
