@@ -119,9 +119,7 @@ body{
     height: 600px;
 }
 /*Imagenes del encabezado*/
-.box #img3 {
-    left: 200%;
-}
+
 .box #slidesshow img{
     align-items: flex-end;
     display: flex;
