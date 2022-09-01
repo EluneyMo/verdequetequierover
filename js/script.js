@@ -15,5 +15,6 @@ addEventListener ('DOMContentLoaded', () =>{
     img2.src =imagenes[i]
     img2.classList.add('active')
     i++
+    porcentajea+=porcentajeb
  }
 })
