@@ -16,5 +16,6 @@ addEventListener ('DOMContentLoaded', () =>{
     img2.classList.add('active')
     i++
     porcentajea+=porcentajeb
+    progressbar.style.width= `${porcentajea}%`
  }
 })
