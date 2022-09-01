@@ -27,4 +27,5 @@ addEventListener ('DOMContentLoaded', () =>{
       img2.classList.remove('active')
     }, 2000);
  }
+ setInterval(slideshowdos, 4000)
 })
