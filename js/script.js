@@ -17,5 +17,8 @@ addEventListener ('DOMContentLoaded', () =>{
     i++
     porcentajea+=porcentajeb
     progressbar.style.width= `${porcentajea}%`
+    if (i == imagenes.length){
+        
+    }
  }
 })
