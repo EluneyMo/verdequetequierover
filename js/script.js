@@ -13,5 +13,6 @@ addEventListener ('DOMContentLoaded', () =>{
 
  const slideshowdos = () => {
     img2.src =imagenes[i]
+    img2.classList.add('active')
  }
 })
