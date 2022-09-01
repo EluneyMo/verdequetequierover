@@ -23,7 +23,7 @@ addEventListener ('DOMContentLoaded', () =>{
     }
 
     setTimeout(() => {
-        
+      img1.src=img2.src
     }, 2000);
  }
 })
