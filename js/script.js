@@ -21,5 +21,9 @@ addEventListener ('DOMContentLoaded', () =>{
         i =0
         porcentajea=porcentajeb-porcentajeb
     }
+
+    setTimeout(() => {
+        
+    }, 2000);
  }
 })
