@@ -24,6 +24,7 @@ addEventListener ('DOMContentLoaded', () =>{
 
     setTimeout(() => {
       img1.src=img2.src
+      img2.classList.remove('active')
     }, 2000);
  }
 })
