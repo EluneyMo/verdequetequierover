@@ -8,7 +8,7 @@ addEventListener ('DOMContentLoaded', () =>{
  let porcentajeb=100/imagenes
  let porcentajea=porcentajeb
 
- progressbar.style.width= '${porcentajeb}%'
+ progressbar.style.width= `${porcentajeb}%`
  img1.scr =imagenes[0]
 
  const slideshowdos = () => {
