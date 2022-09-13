@@ -56,7 +56,7 @@ body{
     margin: 0px;
 }
 .menus button a img #imagen{
-    
+    display: flex;
 }
 .menus a{
     color: black;
