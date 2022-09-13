@@ -57,6 +57,8 @@ body{
 }
 .menus button a img #imagen{
     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .menus a{
     color: black;
