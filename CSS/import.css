@@ -129,7 +129,8 @@ body{
     height: 400px;
 }
 /*Trancision de imagenes*/
-.box #img2{
+.box #img2 {
+    visibility: hidden;
     left: 100%;
 }
 .active{
