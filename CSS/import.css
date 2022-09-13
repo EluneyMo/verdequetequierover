@@ -63,6 +63,7 @@ body{
     height: 53px;
     width: 180px;
     border: 1px solid white;
+    padding: 10px;
 }
 .menus a{
     color: black;
