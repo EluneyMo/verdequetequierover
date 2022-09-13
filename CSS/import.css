@@ -59,6 +59,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    font-size: 20px;
 }
 .menus a{
     color: black;
