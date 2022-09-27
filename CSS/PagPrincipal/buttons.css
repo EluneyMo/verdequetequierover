@@ -200,7 +200,7 @@
     border: black solid 1px;
     text-align: center;
 }
-.reg1{
+.reg{
     position: absolute;
     margin-left: 50%;
     background: red;
@@ -208,17 +208,6 @@
     height: 3px;
     transition: 1s;
 }
-.reg2{
-    position: absolute;
-    margin-left: 45%;
-    background: red;
-    width: 80px;
-    height: 3px;
-    transition: 1s;
-}
-.desc:hover .reg1{
-    width: 80px;
-}
-.desc:hover .reg2{
+.desc:hover .reg{
     width: 80px;
 }
