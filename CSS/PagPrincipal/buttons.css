@@ -197,6 +197,7 @@
     transition: 2s;
 }
 .desc {
+    padding: 5px;
     text-align: center;
     position: relative;
 }
