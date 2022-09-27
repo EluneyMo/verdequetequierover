@@ -214,3 +214,12 @@
     width: 10%;
     right: 45%;
 }
+.reg2{
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    background: red;
+    width: 0;
+    height: 3px;
+    transition: 1s;
+}
