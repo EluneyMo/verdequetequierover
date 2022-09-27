@@ -202,12 +202,14 @@
 }
 .reg{
     position: absolute;
-    margin-left: 50%;
+    right: 50%;
+    bottom: 0;
     background: red;
-    width: 80px;
+    width: 0;
     height: 3px;
     transition: 1s;
 }
 .desc:hover .reg{
-    width: 80px;
+    width: 10%;
+    right: 45%;
 }
