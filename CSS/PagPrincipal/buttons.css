@@ -197,6 +197,7 @@
     transition: 2s;
 }
 .desc {
+    margin-top: 20px;
     padding: 5px;
     text-align: center;
     position: relative;
@@ -205,7 +206,7 @@
     position: absolute;
     right: 50%;
     bottom: 0;
-    background: red;
+    background: rgb(0, 255, 42);
     width: 0;
     height: 3px;
     transition: 1s;
@@ -218,7 +219,7 @@
     position: absolute;
     right: 50%;
     bottom: 0;
-    background: red;
+    background: rgb(0, 255, 42);
     width: 0;
     height: 3px;
     transition: 1s;
