@@ -223,3 +223,7 @@
     height: 3px;
     transition: 1s;
 }
+.desc:hover .reg2{
+    width: 10%;
+    right: 45%;
+}
