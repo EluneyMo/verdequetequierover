@@ -197,8 +197,8 @@
     transition: 2s;
 }
 .desc {
-    border: black solid 1px;
     text-align: center;
+    position: relative;
 }
 .reg{
     position: absolute;
