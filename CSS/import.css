@@ -55,8 +55,8 @@ body{
 .menus button input{
     position: absolute;
     margin-left: -10px;
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 150px;
     margin-top: -50px;
     border: 1px solid white;
     padding: 10px;
