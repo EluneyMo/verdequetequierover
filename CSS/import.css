@@ -55,7 +55,7 @@ body{
 .menus button a img{
     margin: 0px;
 }
-.box .menus .imagen{
+.box .menus .imagen img{
     align-items: flex-start;
     display: flex;
     justify-content: space-between;
