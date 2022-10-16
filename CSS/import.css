@@ -56,7 +56,7 @@ body{
     margin: 0px;
 }
 .box .menus .imagen{
-
+    align-items: flex-start;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
