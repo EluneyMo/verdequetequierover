@@ -52,8 +52,8 @@ body{
     margin: 5px;
 }
 /*Liks de botones de accesos de encabezado*/
-.menus button input img{
-    margin-left: -10px;
+.menus button input{
+    padding-left: -10px;
 }
 .box .menus .imagen img{
     align-items: flex-start;
