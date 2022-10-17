@@ -53,6 +53,7 @@ body{
 }
 /*Liks de botones de accesos de encabezado*/
 .menus button input{
+    align-items: flex-start;
     position: absolute;
     margin-left: -11px;
     width: 180px;
