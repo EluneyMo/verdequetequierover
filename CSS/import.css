@@ -54,7 +54,7 @@ body{
 /*Liks de botones de accesos de encabezado*/
 .menus button input{
     position: absolute;
-    margin-left: -10px;
+    margin-left: -11px;
     width: 170px;
     height: 130px;
     margin-top: -10px;
