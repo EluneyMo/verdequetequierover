@@ -73,3 +73,53 @@
         rotate: 20deg;
     }
 }
+.Estrella4{
+    left: 90%;
+    top: 100%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: rgb(85, 161, 22);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    animation: forma4 10s ease-in infinite normal both;
+    animation-timing-function: ease-in-out;
+}
+@keyframes forma4{
+    0%{
+        top: 90%;
+        rotate: 20deg;
+    }
+    50%{
+        top: 130%;
+        rotate: 110deg;
+    }
+    100%{
+        top: 90%;
+        rotate: 163deg;
+    }
+}
+.Estrella5{
+    left: 85%;
+    top: 90%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: rgb(120, 196, 59);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    animation: forma5 10s ease-in infinite normal both;
+    animation-timing-function: ease-in-out;
+}
+@keyframes forma5{
+    0%{
+        top: 80%;
+        rotate: 20deg;
+    }
+    50%{
+        top: 120%;
+        rotate: 150deg;
+    }
+    100%{
+        top: 80%;
+        rotate: 235deg;
+    }
+}
