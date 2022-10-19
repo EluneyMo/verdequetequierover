@@ -14,19 +14,23 @@
     <link rel="icon" href="imagenes/4d931d2e978e4a778e97046bea8377b4-PhotoRoom.png">
     <link rel="productos" href="productos.html">
     <link rel="curiosidades" href="curiosidades.html">
+    <script src="js/script.js"></script>
 </head>
 <body>
+    
     <!--Encabezado de la pagina-->
     <header>
         <div class="box">
             <h1 class="titulo">VERDE QUE TE QUIERO VER</h1>
             <!--Imagenes de fondo de encabezado-->
-            <div class="slides">
-                <ul>
-                    <li><img src="imagenes/cuidados-principales-de-los-claveles-1280x720x80xX.jpg" alt="claveles"></li>
-                    <li><img src="imagenes/Imagen 3 girasol.jpg" alt="girasol"></li>
-                    <li><img src="imagenes/R (1).jpg" alt="tulipan"></li>
-                </ul>
+            <div id="slidesshow">
+                <div id="container">
+                    <div id="progressbar"></div>
+                </div>
+                <div id="slideshowdos">
+                    <img src="imagenes/cuidados-principales-de-los-claveles-1280x720x80xX.jpg" alt="claveles" id="img1"/>
+                    <img src="imagenes/Imagen 3 girasol.jpg" alt="girasol" id="img2"/>
+                    
             </div>
             <!--Botones de acceso del encabezado-->
             <nav class="menus">
@@ -34,7 +38,10 @@
                 <button><a href="productos.html">Productos</a></button>
                 <button><a href="curiosidades.html">Curiosidades</a></button>
                 <button><a href="index.html">Informacion</a></button>
-                <button><a href="index.html"><img src="imagenes/4d931d2e978e4a778e97046bea8377b4-PhotoRoom.png" alt="icono"></a></button>
+            
+                    <button><input type="image" src="imagenes/4d931d2e978e4a778e97046bea8377b4-PhotoRoom.png" alt="icono" width=190px height=160px></button>
+
+                
             </nav>
         </div>
     </header>
