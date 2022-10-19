@@ -214,7 +214,7 @@ body{
     height: 200px;
     border: 5px solid transparent;
     padding: 30px;
-    background: url(../imagenes/herramientas.jpg);
+    background: url(../../imagenes/herramientas.jpg);
     background-size: 300px 200px;
     background-position: -70px;
     text-decoration: none;
