@@ -159,7 +159,7 @@ body{
     margin-right: 50%;
     margin-left: 30%;
     padding-top: 20px;
-    margin-top: 50px;
+    margin-top: -350px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
