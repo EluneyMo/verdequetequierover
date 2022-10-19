@@ -176,7 +176,7 @@ body{
     height: 200px;
     border: 5px solid transparent;
     padding: 30px;  
-    background: url(../imagenes/plantas.png);
+    background: url(../../imagenes/plantas.png);
     background-size: 300px 200px;   
     background-position: -70px;
     text-decoration: none; 
@@ -195,7 +195,7 @@ body{
     height: 200px;
     border: 5px solid transparent;
     padding: 30px;  
-    background: url(../imagenes/cactus.jpg);
+    background: url(../../imagenes/cactus.jpg);
     background-size: 300px 200px;
     background-position: -70px;
     text-decoration: none;
@@ -214,7 +214,7 @@ body{
     height: 200px;
     border: 5px solid transparent;
     padding: 30px;
-    background: url(../imagenes/herramientas.jpg);
+    background: url(../../imagenes/herramientas.jpg);
     background-size: 300px 200px;
     background-position: -70px;
     text-decoration: none;
@@ -233,7 +233,7 @@ body{
     height:200px;
     border: 5px solid transparent;
     padding: 30px;
-    background: url(../imagenes/sutrato.jpg);
+    background: url(../../imagenes/sutrato.jpg);
     background-size: 300px 200px;
     background-position: -70px;
     text-decoration: none;
@@ -251,7 +251,7 @@ body{
     width: 220px;
     border: 5px solid transparent;
     padding: 30px;
-    background: url(../imagenes/accesorios.webp);
+    background: url(../../imagenes/accesorios.webp);
     background-size: 300px 200px;
     background-position: -70px;
     text-decoration: none;
