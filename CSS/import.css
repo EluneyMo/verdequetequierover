@@ -65,14 +65,7 @@ body{
     text-transform: uppercase;
     border-radius: 20px;
 }
-.box .menus .imagen img{
- 
-    font-size: 20px;
-    height: 20px;
-    width: 20px;
-  
-    margin: 5px;
-}
+
 .menus a{
     color: black;
 }
