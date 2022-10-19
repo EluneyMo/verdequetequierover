@@ -25,6 +25,7 @@ body{
 }
 /*Titulo de Encabezado*/
 .box h1{
+    src:url(font/OleoScriptSwashCaps-Bold) format(truetype);
     border-color: aliceblue;
     width: 500px;
     height: 20px;
@@ -51,6 +52,20 @@ body{
     margin: 5px;
 }
 /*Liks de botones de accesos de encabezado*/
+.menus button input{
+    align-items: flex-start;
+    position: absolute;
+    margin-left: -11px;
+    width: 180px;
+    height: 130px;
+    margin-top: -10px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
 .menus a{
     color: black;
 }
@@ -58,11 +73,11 @@ body{
 .box .menus{
     align-items: flex-start;
     width: 200px;
-    height: 350px;
-    background: rgb(188, 2, 255);   
+    height: 400px;
+    background: rgba(18, 108, 5, 0.615);   
     padding-bottom: 0%;
     padding-left: 0%;
-    margin-top: 0%;
+    margin-bottom: 400px;
     font-size: 16px;
     position: absolute;
     display: flex;
@@ -85,42 +100,47 @@ body{
     color: rgb(0, 0, 0);
 }
 /*Contenedor de imagenes de encabezado*/
-.box .slides{
-    width: 100%;
-    max-height: 500px;
+.box #slidesshow{
+    overflow: hidden;
+   
     margin: 0px;
     display: flex;
     align-items: flex-end;
+    position: relative;
 }
 /*Lista o ordenada del contenedor de imagenes del encabezado*/
-.box .slides ul{    
+.box #container{    
+    position: absolute;
+    max-height: 500px;
     border: none;
-    display: flex;
-    align-items: flex-end;
-    animation: alternate;
-    animation: cambio 5s infinite alternate;
-    padding: 0;
+    z-index: 1000;
     margin: 0px;
     width: 100%;
 }
 /*Lista de etiquetas contnedoras de imagenes del encabezado*/
-.box .slides ul li {
+.box #progressbar {
     align-items: flex-end;
-    width: 100%;    
-    list-style: none;
+    height: 100%;    
     padding-left: 0px;
     display: flex;
 }
+.box #slideshow-dos {
+    position: relative;
+    z-index: 998;
+    height: 600px;
+}
 /*Imagenes del encabezado*/
-.box .slides ul li img{
+
+.box #slidesshow img{
     align-items: flex-end;
     display: flex;
     margin:0px; 
     padding: 0%;
     width: 2000px;
-    height: 350px;
+    height: 400px;
 }
 /*Trancision de imagenes*/
+<<<<<<< HEAD
 @keyframes cambio {
     0%{margin-left: 0;}
     30%{margin-left: 0;}
@@ -128,12 +148,21 @@ body{
     65%{margin-left: -100%;}
     70%{margin-left: -200%;}
     100%{margin-left: -200%;}
+=======
+.box #img2 {
+    visibility: hidden;
+    left: 100%;
+}
+.active{
+    left: 0 !important;
+>>>>>>> c7ee4fbb6f1f039720cb98c78b50b18e8919f418
 }
 /*Contenedor de botones del menu*/
 .parent{
     margin-right: 50%;
     margin-left: 30%;
     padding-top: 20px;
+    margin-top: -350px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -243,15 +272,40 @@ body{
     justify-content: center;
     grid-area: 2 / 3 / 3 / 4;
 }   
-.desc img {
+.desc{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 0px;
+    row-gap: 0px;
+}
+.desc .imagendesc img{
+    display: inline;
     width: 1530px ;
     height: 400px;
     opacity: 70%;
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    grid-area: 1 / 1 / 2 / 2; 
 }
-.desc a h2{
+.desc .Descuentos a h2{
+    display: inline-grid;
     opacity: 100%;
+    color: black;
+    place-content: center;
     text-align: center;
+<<<<<<< HEAD
     
 }
 
 
+=======
+    position: absolute;
+    padding-left: 725px;
+    padding-top: 250px;
+    font-size: xx-large;
+    z-index: 2;
+    grid-area: 1 / 1 / 2 / 2;
+}
+>>>>>>> c7ee4fbb6f1f039720cb98c78b50b18e8919f418
