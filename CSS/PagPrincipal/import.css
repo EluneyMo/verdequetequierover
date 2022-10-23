@@ -282,9 +282,10 @@ body{
 @font-face{
     font-family: Reyhands;
     src:url("../../font/Reyhans.otf") format ("opentype");
-    
+
 }
 .desc .Descuentos a h2{
+    font-family: Reyhands, Arial, Helvetica, sans-serif;
     display: inline-grid;
     opacity: 100%;
     color: black;
