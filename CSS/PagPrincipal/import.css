@@ -294,7 +294,7 @@ body{
     position: absolute;
     padding-left: 725px;
     padding-top: 250px;
-    font-size: xx-large;
+    font-size: 500px;
     z-index: 2;
     grid-area: 1 / 1 / 2 / 2;
 }
