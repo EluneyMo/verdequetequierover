@@ -272,6 +272,6 @@ body{
     grid-area: 1 / 1 / 2 / 2;
 }
 .desc .Descuentos a h2:hover{
-    background-color: blueviolet;
+    background-color: rgba(43, 176, 61, 0.736);
     color: aliceblue;
 }
