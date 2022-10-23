@@ -280,7 +280,7 @@ body{
     grid-area: 1 / 1 / 2 / 2; 
 }
 @font-face{
-    font-family: Reyhands;
+    font-family: 'Reyhands';
     src:url("../../font/Reyhans.otf") format ("opentype");
 
 }
