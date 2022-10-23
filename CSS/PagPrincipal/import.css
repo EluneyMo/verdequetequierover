@@ -289,8 +289,6 @@ body{
     display: inline-grid;
     opacity: 100%;
     color: black;
-    place-content: center;
-    text-align: center;
     position: absolute;
     padding-right: -725px;
     padding-top: 250px;
