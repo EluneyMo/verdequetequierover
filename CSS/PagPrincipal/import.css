@@ -23,19 +23,6 @@ body{
     margin: 0px;
     padding: 0px;
 }
-/*Titulo de Encabezado*/
-.box h1{
-    src:url(font/OleoScriptSwashCaps-Bold) format(truetype);
-    border-color: aliceblue;
-    width: 500px;
-    height: 20px;
-    padding-right:  400px;
-    margin-top: 125px;
-    margin-right: 500px;
-    margin-left: 500px;
-    position: absolute;
-    text-align: center;
-}
 /*Botones de accesos de encabezado*/
 .menus button{
     display: flex;
