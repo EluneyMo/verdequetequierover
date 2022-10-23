@@ -280,6 +280,7 @@ body{
     grid-area: 1 / 1 / 2 / 2; 
 }
 @font-face{
+    font-family: Reyhands;
     
 }
 .desc .Descuentos a h2{
