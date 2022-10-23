@@ -281,7 +281,7 @@ body{
 }
 @font-face{
     font-family: 'Reyhands';
-    src:url(../../font/Reyhans.ttf) format ("truetype");
+    src:url(../../font/Reyhans.ttf);
 
 }
 .desc .Descuentos a h2{
