@@ -259,6 +259,7 @@ body{
 }
 .desc .Descuentos a h2{
     font-family: 'Reyhands';
+    transition: background-color .3s;
     opacity: 100%;
     color: black;
     -webkit-text-stroke-color: rgba(137, 134, 134, 0.647);
