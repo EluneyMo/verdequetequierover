@@ -271,3 +271,6 @@ body{
     z-index: 2;
     grid-area: 1 / 1 / 2 / 2;
 }
+.desc .Descuentos a h2:hover{
+
+}
