@@ -286,7 +286,6 @@ body{
 }
 .desc .Descuentos a h2{
     font-family: 'Reyhands';
-    display: inline-grid;
     opacity: 100%;
     color: black;
     position: absolute;
