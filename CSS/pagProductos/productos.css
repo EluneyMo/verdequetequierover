@@ -15,3 +15,8 @@ nav{
     border: black solid 1px;
     grid-area: nav;
 }
+.productos{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
