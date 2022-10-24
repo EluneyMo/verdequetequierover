@@ -229,5 +229,6 @@
     right: 45%;
 }
 .cuadrado:hover{
-
+    width: 1530px;
+    height: 400px;
 }
