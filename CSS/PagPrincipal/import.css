@@ -261,6 +261,7 @@ body{
     font-family: 'Reyhands';
     transition: background-color .5s;
     opacity: 100%;
+    margin: 0px;
     color: black;
     -webkit-text-stroke-color: rgba(137, 134, 134, 0.647);
     -webkit-text-stroke: 0.5px;
