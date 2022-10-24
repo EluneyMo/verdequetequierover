@@ -228,8 +228,7 @@
     width: 10%;
     right: 45%;
 }
-.desc .cuadrado:hover{
-    width:1530px ;
-    height: 400px;
+.desc :hover .cuadrado{
+   
     color: rgba(12, 125, 12, 0.708);
 }
