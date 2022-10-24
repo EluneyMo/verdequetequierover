@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
 .conten{
     display: grid;
     grid-template-areas: "head" "head"
@@ -27,4 +28,9 @@ nav{
     border-radius: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+.productos p{
+    margin-top: 200px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
 }
