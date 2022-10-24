@@ -1,9 +1,17 @@
+.conten{
+    display: grid;
+    grid-template-areas: "head" "head"
+                          "nav" "conten";
+}
 header{
     border: black solid 1px;
+    grid-area: head;
 }
 content{
     border: black solid 1px;
+    grid-area: conten;
 }
 nav{
     border: black solid 1px;
+    grid-area: nav;
 }
