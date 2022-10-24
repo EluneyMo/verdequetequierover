@@ -10,12 +10,16 @@ header{
 content{
     border: black solid 1px;
     grid-area: conten;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
 }
 nav{
     border: black solid 1px;
     grid-area: nav;
 }
 .productos{
+    border: black solid 1px;
     width: 150px;
     height: 150px;
     border-radius: 20px;
