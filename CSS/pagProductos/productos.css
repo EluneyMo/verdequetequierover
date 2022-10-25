@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+.conten{
+    display: grid;
+    grid-template-areas: "head head"
+                          "nav conten";
+}
+header{
+    border: black solid 1px;
+    grid-area: head;
+}
+content{
+    border: black solid 1px;
+    grid-area: conten;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+}
+nav{
+    border: black solid 1px;
+    grid-area: nav;
+}
+.productos{
+    border: black solid 1px;
+    background-image: url(https://latiendadelcactus.com/wp-content/uploads/2017/10/suculenta-variada-300x300.jpg);
+    opacity: .8;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.productos p{
+    margin-top: 200px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
