@@ -23,19 +23,6 @@ body{
     margin: 0px;
     padding: 0px;
 }
-/*Titulo de Encabezado*/
-.box h1{
-    src:url(font/OleoScriptSwashCaps-Bold) format(truetype);
-    border-color: aliceblue;
-    width: 500px;
-    height: 20px;
-    padding-right:  400px;
-    margin-top: 125px;
-    margin-right: 500px;
-    margin-left: 500px;
-    position: absolute;
-    text-align: center;
-}
 /*Botones de accesos de encabezado*/
 .menus button{
     display: flex;
@@ -84,21 +71,7 @@ body{
     flex-direction: column;
 }
 /*Titulo del encabezado*/
-.box .titulo{
-    position: absolute ;
-    display: flex;
-    align-items: flex-end;
-    font-size: 45px;
-    width: 600px;
-    height: 120px;
-    padding-left:0px;
-    padding-right:0px;
-    margin-left: 500px;
-    margin-top: 7%;
-    position: absolute;
-    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-}
+
 /*Contenedor de imagenes de encabezado*/
 .box #slidesshow{
     overflow: hidden;
@@ -269,8 +242,8 @@ body{
     column-gap: 0px;
     row-gap: 0px;
 }
-.desc .imagendesc img{
-    display: inline;
+.desc .Descuentos .imagendesc img{
+    margin-left: -5px ;
     width: 1530px ;
     height: 400px;
     opacity: 70%;
@@ -279,16 +252,26 @@ body{
     z-index: 1;
     grid-area: 1 / 1 / 2 / 2; 
 }
+@font-face{
+    font-family: 'Reyhands';
+    src:url(../../font/Reyhans.ttf);
+
+}
 .desc .Descuentos a h2{
-    display: inline-grid;
+    font-family: 'Reyhands';
+    transition: background-color .3s;
     opacity: 100%;
     color: black;
-    place-content: center;
-    text-align: center;
+    -webkit-text-stroke-color: rgba(137, 134, 134, 0.647);
+    -webkit-text-stroke: 0.5px;
     position: absolute;
-    padding-left: 725px;
-    padding-top: 250px;
-    font-size: xx-large;
+    padding-left: 225px;
+    padding-top: 150px;
+    font-size: 250px;
     z-index: 2;
     grid-area: 1 / 1 / 2 / 2;
+}
+.desc .Descuentos a h2:hover{
+    color: aliceblue;
+    
 }
