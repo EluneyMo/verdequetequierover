@@ -34,3 +34,12 @@ nav{
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
 }
+.Bus{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: rgb(68, 68, 68);
+    border: 2px solid rgb(92, 172, 0);
+    background: white url(search-icon.png);
+}
