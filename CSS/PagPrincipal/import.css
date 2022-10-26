@@ -16,7 +16,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-<<<<<<< HEAD
+
 /*Titulo de Encabezado*/
 .box h1{
     border-color: aliceblue;
@@ -29,8 +29,6 @@ body{
     position: absolute;
     text-align: center;
 }
-=======
->>>>>>> c4b8a61c8526bdfdaa660fdd34ba1f3c05af987a
 /*Botones de accesos de encabezado*/
 .menus button{
     display: flex;
@@ -103,7 +101,6 @@ body{
     height: 350px;
 }
 /*Trancision de imagenes*/
-<<<<<<< HEAD
 @keyframes cambio {
     0%{margin-left: 0;}
     30%{margin-left: 0;}
@@ -111,7 +108,7 @@ body{
     65%{margin-left: -100%;}
     70%{margin-left: -200%;}
     100%{margin-left: -200%;}
-=======
+}
 .box #img2 {
     visibility: hidden;
     left: 100%;
@@ -274,5 +271,4 @@ body{
 .desc .Descuentos a h2:hover{
     color: aliceblue;
     
->>>>>>> c4b8a61c8526bdfdaa660fdd34ba1f3c05af987a
 }
