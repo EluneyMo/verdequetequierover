@@ -1,9 +1,16 @@
+
 *{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
     text-decoration: none;
 }
+
+header{
+    width: auto;
+    height: 100%;
+}
+
 /*Fondo de pagina*/
 body{
     background-color: rgb(155, 217, 156);
@@ -16,9 +23,9 @@ body{
     margin: 0px;
     padding: 0px;
 }
-<<<<<<< HEAD
 /*Titulo de Encabezado*/
 .box h1{
+    src:url(font/OleoScriptSwashCaps-Bold) format(truetype);
     border-color: aliceblue;
     width: 500px;
     height: 20px;
@@ -29,8 +36,6 @@ body{
     position: absolute;
     text-align: center;
 }
-=======
->>>>>>> c4b8a61c8526bdfdaa660fdd34ba1f3c05af987a
 /*Botones de accesos de encabezado*/
 .menus button{
     display: flex;
@@ -47,6 +52,20 @@ body{
     margin: 5px;
 }
 /*Liks de botones de accesos de encabezado*/
+.menus button input{
+    align-items: flex-start;
+    position: absolute;
+    margin-left: -11px;
+    width: 180px;
+    height: 130px;
+    margin-top: -10px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
 .menus a{
     color: black;
 }
@@ -54,53 +73,71 @@ body{
 .box .menus{
     align-items: flex-start;
     width: 200px;
-    height: 350px;
-    background: rgb(188, 2, 255);   
+    height: 400px;
+    background: rgba(18, 108, 5, 0.615);   
     padding-bottom: 0%;
     padding-left: 0%;
-    margin-top: 0%;
+    margin-bottom: 400px;
     font-size: 16px;
     position: absolute;
     display: flex;
     flex-direction: column;
 }
 /*Titulo del encabezado*/
-
+.box .titulo{
+    position: absolute ;
+    display: flex;
+    align-items: flex-end;
+    font-size: 45px;
+    width: 600px;
+    height: 120px;
+    padding-left:0px;
+    padding-right:0px;
+    margin-left: 500px;
+    margin-top: 7%;
+    position: absolute;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
 /*Contenedor de imagenes de encabezado*/
-.box .slides{
-    width: 100%;
-    max-height: 500px;
+.box #slidesshow{
+    overflow: hidden;
+   
     margin: 0px;
     display: flex;
     align-items: flex-end;
+    position: relative;
 }
 /*Lista o ordenada del contenedor de imagenes del encabezado*/
-.box .slides ul{    
+.box #container{    
+    position: absolute;
+    max-height: 500px;
     border: none;
-    display: flex;
-    align-items: flex-end;
-    animation: alternate;
-    animation: cambio 5s infinite alternate;
-    padding: 0;
+    z-index: 1000;
     margin: 0px;
     width: 100%;
 }
 /*Lista de etiquetas contnedoras de imagenes del encabezado*/
-.box .slides ul li {
+.box #progressbar {
     align-items: flex-end;
-    width: 100%;    
-    list-style: none;
+    height: 100%;    
     padding-left: 0px;
     display: flex;
 }
+.box #slideshow-dos {
+    position: relative;
+    z-index: 998;
+    height: 600px;
+}
 /*Imagenes del encabezado*/
-.box .slides ul li img{
+
+.box #slidesshow img{
     align-items: flex-end;
     display: flex;
     margin:0px; 
     padding: 0%;
     width: 2000px;
-    height: 350px;
+    height: 400px;
 }
 /*Trancision de imagenes*/
 <<<<<<< HEAD
@@ -118,6 +155,7 @@ body{
 }
 .active{
     left: 0 !important;
+>>>>>>> c7ee4fbb6f1f039720cb98c78b50b18e8919f418
 }
 /*Contenedor de botones del menu*/
 .parent{
@@ -148,7 +186,7 @@ body{
     height: 200px;
     border: 5px solid transparent;
     padding: 30px;  
-    background: url(../../imagenes/plantas.png);
+    background: url(../imagenes/plantas.png);
     background-size: 300px 200px;   
     background-position: -70px;
     text-decoration: none; 
@@ -167,7 +205,7 @@ body{
     height: 200px;
     border: 5px solid transparent;
     padding: 30px;  
-    background: url(../../imagenes/cactus.jpg);
+    background: url(../imagenes/cactus.jpg);
     background-size: 300px 200px;
     background-position: -70px;
     text-decoration: none;
@@ -186,7 +224,7 @@ body{
     height: 200px;
     border: 5px solid transparent;
     padding: 30px;
-    background: url(../../imagenes/herramientas.jpg);
+    background: url(../imagenes/herramientas.jpg);
     background-size: 300px 200px;
     background-position: -70px;
     text-decoration: none;
@@ -205,7 +243,7 @@ body{
     height:200px;
     border: 5px solid transparent;
     padding: 30px;
-    background: url(../../imagenes/sutrato.jpg);
+    background: url(../imagenes/sutrato.jpg);
     background-size: 300px 200px;
     background-position: -70px;
     text-decoration: none;
@@ -223,7 +261,7 @@ body{
     width: 220px;
     border: 5px solid transparent;
     padding: 30px;
-    background: url(../../imagenes/accesorios.webp);
+    background: url(../imagenes/accesorios.webp);
     background-size: 300px 200px;
     background-position: -70px;
     text-decoration: none;
@@ -242,7 +280,7 @@ body{
     row-gap: 0px;
 }
 .desc .imagendesc img{
-    margin-left: -5px ;
+    display: inline;
     width: 1530px ;
     height: 400px;
     opacity: 70%;
@@ -251,28 +289,23 @@ body{
     z-index: 1;
     grid-area: 1 / 1 / 2 / 2; 
 }
-@font-face{
-    font-family: 'Reyhands';
-    src:url(../../font/Reyhans.ttf);
-
-}
 .desc .Descuentos a h2{
-    font-family: 'Reyhands';
-    transition: 2s;
+    display: inline-grid;
     opacity: 100%;
-    margin: 0px;
     color: black;
-    -webkit-text-stroke-color: rgba(137, 134, 134, 0.647);
-    -webkit-text-stroke: 0.5px;
+    place-content: center;
+    text-align: center;
+<<<<<<< HEAD
+    
+}
+
+
+=======
     position: absolute;
-    padding-left: 225px;
-    padding-top: 150px;
-    font-size: 250px;
+    padding-left: 725px;
+    padding-top: 250px;
+    font-size: xx-large;
     z-index: 2;
     grid-area: 1 / 1 / 2 / 2;
 }
-.desc .Descuentos a h2:hover{
-    color: aliceblue;
-    
->>>>>>> c4b8a61c8526bdfdaa660fdd34ba1f3c05af987a
-}
+>>>>>>> c7ee4fbb6f1f039720cb98c78b50b18e8919f418
