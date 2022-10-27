@@ -53,7 +53,7 @@ body{
     align-items: flex-start;
     width: 200px;
     height: 350px;
-    background: rgb(188, 2, 255);   
+    background: rgba(15, 138, 6, 0.807);   
     padding-bottom: 0%;
     padding-left: 0%;
     margin-top: 0%;
@@ -101,14 +101,7 @@ body{
     height: 350px;
 }
 /*Trancision de imagenes*/
-@keyframes cambio {
-    0%{margin-left: 0;}
-    30%{margin-left: 0;}
-    35%{margin-left: -100%;}
-    65%{margin-left: -100%;}
-    70%{margin-left: -200%;}
-    100%{margin-left: -200%;}
-}
+
 .box #img2 {
     visibility: hidden;
     left: 100%;
