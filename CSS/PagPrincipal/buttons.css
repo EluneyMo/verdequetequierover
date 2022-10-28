@@ -224,7 +224,11 @@
     height: 3px;
     transition: 1s;
 }
-.desc:hover .reg2{
+.infor:hover .reg2{
     width: 10%;
     right: 45%;
+}
+.desc :hover .cuadrado{
+   
+    color: rgba(12, 125, 12, 0.708);
 }

@@ -241,7 +241,7 @@ body{
     column-gap: 0px;
     row-gap: 0px;
 }
-.desc .Descuentos .imagendesc img{
+.desc .imagendesc img{
     margin-left: -5px ;
     width: 1530px ;
     height: 400px;
@@ -258,8 +258,9 @@ body{
 }
 .desc .Descuentos a h2{
     font-family: 'Reyhands';
-    transition: background-color .3s;
+    transition: 2s;
     opacity: 100%;
+    margin: 0px;
     color: black;
     -webkit-text-stroke-color: rgba(137, 134, 134, 0.647);
     -webkit-text-stroke: 0.5px;
