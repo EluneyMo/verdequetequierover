@@ -41,5 +41,12 @@ nav{
     border-radius: 15px;
     color: rgb(68, 68, 68);
     border: 2px solid rgb(92, 172, 0);
-    background: white url(search-icon.png);
+    background: white url(https://cdn.icon-icons.com/icons2/2566/PNG/512/search_icon_153438.png) no-repeat;
+    background-size: 30px;
+    background-position: 4px;
+    width: 0;
+    transition: all .5s;
+}
+.Bus:hover{
+    width: 180px;
 }
