@@ -44,7 +44,7 @@ nav{
     background: white url(https://cdn.icon-icons.com/icons2/2566/PNG/512/search_icon_153438.png) no-repeat;
     background-size: 30px;
     background-position: 4px;
-    width: 0;
+    width: 80px;
     transition: all .5s;
 }
 .Bus:hover{
