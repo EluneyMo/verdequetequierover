@@ -304,3 +304,7 @@
     .cajita{
         display: flex;
     }
+    .cajita p{
+        display: flex;
+        text-align: center;
+    }
