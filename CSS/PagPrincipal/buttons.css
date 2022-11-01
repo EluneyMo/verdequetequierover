@@ -238,8 +238,8 @@
     .hovers .ac{
         border: 5px solid transparent;
         border-radius: 20px;
-        width: 250px;
-        height: 250px;
+        width: 400px;
+        height: 200px;
     }
     .hovers .ac img{
         border: 5px solid transparent;
