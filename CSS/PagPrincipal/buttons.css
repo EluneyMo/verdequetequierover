@@ -305,5 +305,6 @@
         display: flex;
     }
     .cajita p{
-        display: flex;
+        display: inline-flex;
+        text-align: initials;
     }
