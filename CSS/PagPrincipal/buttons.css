@@ -230,6 +230,7 @@
     }
     .hovers{
         display: grid;
+        grid-template-columns: 1fr;
     }
     .hovers .ac{
         border: 5px solid transparent;
