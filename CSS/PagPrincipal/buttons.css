@@ -234,4 +234,5 @@
     }
     .hovers .ac img{
         border: 5px solid transparent;
+        border-radius: 20px;
     }
