@@ -248,3 +248,8 @@
         height: 190px;
         margin-right: 300px;
        }
+
+
+    .cajita{
+        display: flex;
+    }
