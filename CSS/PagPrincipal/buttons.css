@@ -243,15 +243,19 @@
     }
     .hovers .ar{
         border: 5px solid transparent;
+        border-radius: 20px;
     }
     .hovers .arb{
         border: 5px solid transparent;
+        border-radius: 20px;
     }
     .hovers .bul{
         border: 5px solid transparent;
+        border-radius: 20px;
     }
     .hovers .ca{
         border: 5px solid transparent;
+        border-radius: 20px;
     }
     .hovers .ac img{
         border: 5px solid transparent;
