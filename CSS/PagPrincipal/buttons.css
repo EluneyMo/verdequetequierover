@@ -273,16 +273,16 @@
         margin-right: 300px;
        }
     .hovers .ar img{
-        
+        border: 5px solid transparent;
     }
     .hovers .arb img{
-        
+        border: 5px solid transparent;
     }
     .hovers .bul img{
-        
+        border: 5px solid transparent;
     }
     .hovers .ca img{
-        
+        border: 5px solid transparent;
     }
 
     .cajita{
