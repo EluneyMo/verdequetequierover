@@ -228,6 +228,9 @@
     width: 10%;
     right: 45%;
     }
+    .hovers{
+        display: grid;
+    }
     .hovers .ac{
         border: 5px solid transparent;
         border-radius: 20px;
