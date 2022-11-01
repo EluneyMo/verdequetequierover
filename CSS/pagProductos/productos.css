@@ -7,7 +7,9 @@
 header{
     border: black solid 1px;
     grid-area: head;
+
     margin: 5px;
+
 }
 content{
     border: black solid 1px;
@@ -15,12 +17,16 @@ content{
     display: grid;
     grid-template-columns: repeat(3, auto);
     justify-content: space-evenly;
+
     margin: 5px;
+
 }
 nav{
     border: black solid 1px;
     grid-area: nav;
+
     margin: 5px;
+
 }
 .productos{
     border: black solid 1px;
@@ -36,6 +42,7 @@ nav{
     margin-top: 200px;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
+
 }
 .Bus{
     padding: 9px 10px 9px 32px;
@@ -52,4 +59,5 @@ nav{
 }
 .Bus:hover{
     width: 180px;
+
 }
