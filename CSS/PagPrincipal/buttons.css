@@ -242,16 +242,16 @@
         height: 200px;
     }
     .hovers .ar{
-
+        border: 5px solid transparent;
     }
     .hovers .arb{
-
+        border: 5px solid transparent;
     }
     .hovers .bul{
-
+        border: 5px solid transparent;
     }
     .hovers .ca{
-
+        border: 5px solid transparent;
     }
     .hovers .ac img{
         border: 5px solid transparent;
