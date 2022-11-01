@@ -306,5 +306,6 @@
     }
     .cajita p{
         display: inline-flex;
-        margin-right: 500px ;
+        margin-right: 150px ;
+        position:absolute;
     }
