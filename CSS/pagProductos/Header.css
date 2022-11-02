@@ -14,6 +14,7 @@
     background-position: 4px;
     width: 80px;
     transition: all .5s;
+    margin-left: 50px;
 }
 .pagIni{
     width: 70px;
@@ -22,17 +23,17 @@
     border-radius: 50%;
     overflow: hidden;
     background-image: url(https://images.vexels.com/media/users/3/140527/isolated/preview/449b95d58f554656b159dd3ca21ab123-icono-de-ronda-de-inicio.png);
-    background-size: 70px;
+    background-size: 70px; 
 }
 header a{
    margin-right: 50px;
 }
 header{
-    background: rgb(81, 202, 0);
+    background: rgb(0, 185, 0)
 }
-header img{
-    border: black solid 1px;
-    -webkit-box-shadow: inset -77px 0px 34px -18px rgba(0,0,0,0.57);
-    -moz-box-shadow: inset -77px 0px 34px -18px rgba(0,0,0,0.57);
-    box-shadow: inset -77px 0px 34px -18px rgba(0,0,0,0.57);
+.logo{
+    background: white;
+    -webkit-box-shadow: 10px 4px 32px 28px rgba(255,255,255,1);
+    -moz-box-shadow: 10px 4px 32px 28px rgba(255,255,255,1);
+    box-shadow: 10px 4px 32px 28px rgba(255,255,255,1);
 }
