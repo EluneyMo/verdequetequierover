@@ -270,6 +270,7 @@
         text-align: center;
         align-items: center;
     } 
-    .info img{
+    .info .imagenees img{
         width:500px;
+        position: relative;
     }   
