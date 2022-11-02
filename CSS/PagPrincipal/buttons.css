@@ -310,4 +310,5 @@
         margin-top: 40px;
         font-size: 25px;
         position:absolute;
+        -webkit-text-stroke: 1px solid white;
     }
