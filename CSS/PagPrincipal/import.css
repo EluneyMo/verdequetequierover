@@ -266,7 +266,24 @@
     .desc .Descuentos a h2:hover{
     color: aliceblue;
     }
-    .infor{
+    .info{
         text-align: center;
         align-items: center;
-    }    
+    } 
+    .info .imagenees img{
+        width:1300px;
+        height: 1000px;
+        position: relative;
+    }   
+    .info .imagenees p{
+        margin-bottom: -70px;
+        margin-top: 20px;
+        font-family: 'Reyhands';
+        color: rgb(30, 151, 30);
+        font-size: 50px;
+        text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+
+    }
+    .infor{
+        margin-top: 80px;
+    }
