@@ -2,15 +2,37 @@
     display: flex;
     align-items: center;
 }
+.Bus{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: rgb(68, 68, 68);
+    border: 3px solid rgb(78, 146, 0);
+    background: white url(https://cdn.icon-icons.com/icons2/2566/PNG/512/search_icon_153438.png) no-repeat;
+    background-size: 30px;
+    background-position: 4px;
+    width: 80px;
+    transition: all .5s;
+}
 .pagIni{
     width: 70px;
     height: 70px;
     display: block;
     border-radius: 50%;
     overflow: hidden;
-    background-image: url(https://images.vexels.com/media/users/3/140527/isolated/preview/449b95d58f554656b159dd3ca21ab123-icono-de-ronda-de-inicio.png) ;
+    background-image: url(https://images.vexels.com/media/users/3/140527/isolated/preview/449b95d58f554656b159dd3ca21ab123-icono-de-ronda-de-inicio.png);
     background-size: 70px;
 }
 header a{
-    margin-right: 50px;
+   margin-right: 50px;
+}
+header{
+    background: rgb(81, 202, 0);
+}
+header img{
+    border: black solid 1px;
+    -webkit-box-shadow: inset -77px 0px 34px -18px rgba(0,0,0,0.57);
+    -moz-box-shadow: inset -77px 0px 34px -18px rgba(0,0,0,0.57);
+    box-shadow: inset -77px 0px 34px -18px rgba(0,0,0,0.57);
 }

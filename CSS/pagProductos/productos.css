@@ -40,19 +40,6 @@ nav{
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
 }
-.Bus{
-    padding: 9px 10px 9px 32px;
-    outline: none;
-    font-size: 18px;
-    border-radius: 15px;
-    color: rgb(68, 68, 68);
-    border: 2px solid rgb(92, 172, 0);
-    background: white url(https://cdn.icon-icons.com/icons2/2566/PNG/512/search_icon_153438.png) no-repeat;
-    background-size: 30px;
-    background-position: 4px;
-    width: 80px;
-    transition: all .5s;
-}
 .Bus:hover{
     width: 180px;
 }
