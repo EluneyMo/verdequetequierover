@@ -12,10 +12,6 @@ header{
     justify-content: space-between;
     align-items: center;    
 }
-.contBarra{
-    display: flex;
-    align-items: center;
-}
 content{
     border: black solid 1px;
     grid-area: conten;
@@ -59,13 +55,4 @@ nav{
 }
 .Bus:hover{
     width: 180px;
-}
-.pagIni{
-    width: 70px;
-    height: 70px;
-    display: block;
-    border-radius: 50%;
-    overflow: hidden;
-    background-image: url(https://images.vexels.com/media/users/3/140527/isolated/preview/449b95d58f554656b159dd3ca21ab123-icono-de-ronda-de-inicio.png) ;
-    background-size: 70px;
 }
