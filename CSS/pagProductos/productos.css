@@ -24,21 +24,3 @@ nav{
     grid-area: nav;
     margin: 5px;
 }
-.productos{
-    border: black solid 1px;
-    background-image: url(https://latiendadelcactus.com/wp-content/uploads/2017/10/suculenta-variada-300x300.jpg);
-    opacity: .8;
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-.productos p{
-    margin-top: 200px;
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-}
-.Bus:hover{
-    width: 180px;
-}
