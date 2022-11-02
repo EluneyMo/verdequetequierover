@@ -278,5 +278,6 @@
     .info .imagenees p{
         font-family: 'Reyhands';
         color: rgb(20, 114, 20);
+        font-size: 30px;
         -webkit-text-stroke: 2px solid black;
     }
