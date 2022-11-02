@@ -341,15 +341,19 @@
     }
     .hovers2 .enr{
         border: 5px solid transparent;
+        border-radius: 20px;
     }
     .hovers2 .fl{
         border: 5px solid transparent;
+        border-radius: 20px;
     }
     .hovers2 .her{
         border: 5px solid transparent;
+        border-radius: 20px;
     }
     .hovers2 .sucu{
         border: 5px solid transparent;
+        border-radius: 20px;
     }
     .hovers2 .car img{
         
