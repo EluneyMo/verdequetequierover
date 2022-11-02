@@ -276,6 +276,7 @@
         position: relative;
     }   
     .info .imagenees p{
+        margin-bottom: 30px;
         margin-top: 20px;
         font-family: 'Reyhands';
         color: rgb(30, 151, 30);
