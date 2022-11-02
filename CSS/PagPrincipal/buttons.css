@@ -235,6 +235,7 @@
         grid-column-gap: 0px;
         grid-row-gap: 5px;
         margin-bottom: 100px;
+        position: relative;
     }
     .hovers .ac{
         border: 5px solid transparent;
