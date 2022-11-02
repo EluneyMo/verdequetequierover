@@ -236,7 +236,7 @@
         grid-row-gap: 5px;
         margin-top: -370px;
         margin-left: 20px;
-        position: absolute;
+        position: relative;
 
     }
     .hovers .ac{
