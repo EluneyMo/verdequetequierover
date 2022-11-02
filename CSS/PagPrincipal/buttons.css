@@ -368,17 +368,17 @@
         grid-area: 5 / 1 / 6 / 2;
     }
     .hovers2 .car img{
-        
+        border: 5px solid transparent;
     }
     .hovers2 .enr img{
-
+        border: 5px solid transparent;
     }
     .hovers2 .fl img{
-
+        border: 5px solid transparent;
     }
     .hovers2 .her img{
-
+        border: 5px solid transparent;
     }
     .hovers2 .sucu img{
-
+        border: 5px solid transparent;
     }
