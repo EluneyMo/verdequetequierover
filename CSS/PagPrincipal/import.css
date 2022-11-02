@@ -273,5 +273,5 @@
     .info .imagenees img{
         width:800px;
         height: 600px;
-        position: absolute;
+        position: relative;
     }   
