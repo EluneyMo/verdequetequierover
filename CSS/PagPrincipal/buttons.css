@@ -330,7 +330,7 @@
         grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 5px;
-        margin-top: -850px;
+        margin-top: -800px;
         margin-left: 1200px ;
         position: relative;
     }
