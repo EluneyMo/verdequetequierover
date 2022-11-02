@@ -8,13 +8,11 @@ header{
     grid-area: head;
 
     margin: 5px;
-<<<<<<< HEAD
+
     display: flex;
     justify-content: space-between;
     align-items: center;    
-=======
 
->>>>>>> 43f0a9da05559d01f4c29cf40c30843f53ffff98
 }
 content{
     border: black solid 1px;
@@ -38,8 +36,7 @@ content h1{
     grid-column-start: 1;
     grid-column-end: 4;
     border: black solid 1px;
-<<<<<<< HEAD
-=======
+
     background-image: url(https://latiendadelcactus.com/wp-content/uploads/2017/10/suculenta-variada-300x300.jpg);
     opacity: .8;
     width: 300px;
@@ -70,5 +67,5 @@ content h1{
 .Bus:hover{
     width: 180px;
 
->>>>>>> 43f0a9da05559d01f4c29cf40c30843f53ffff98
+
 }
