@@ -335,4 +335,6 @@
     .hovers2 .car{
         border: 5px solid transparent;
         border-radius: 20px;
+        width: 300px;
+        height: 150px;
     }
