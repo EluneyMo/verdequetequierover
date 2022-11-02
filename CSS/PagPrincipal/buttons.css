@@ -234,7 +234,7 @@
         grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 5px;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
     }
     .hovers .ac{
         border: 5px solid transparent;
