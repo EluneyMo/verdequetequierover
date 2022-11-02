@@ -8,6 +8,8 @@ header{
     border: black solid 1px;
     grid-area: head;
     margin: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 content{
     border: black solid 1px;
