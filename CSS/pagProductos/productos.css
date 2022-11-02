@@ -10,6 +10,11 @@ header{
     margin: 5px;
     display: flex;
     justify-content: space-between;
+    align-items: center;    
+}
+.contBarra{
+    display: flex;
+    align-items: center;
 }
 content{
     border: black solid 1px;
