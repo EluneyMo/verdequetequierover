@@ -5,7 +5,6 @@
                           "nav conten";
 }
 header{
-    border: black solid 1px;
     grid-area: head;
     margin: 5px;
     display: flex;
