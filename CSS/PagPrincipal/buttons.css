@@ -332,7 +332,7 @@
         grid-row-gap: 5px;
         margin-top: -380px;
         margin-left: 1200px ;
-        position: absolute;
+        position: relative;
     }
     .hovers2 .car{
         border: 5px solid transparent;
