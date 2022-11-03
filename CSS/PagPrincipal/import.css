@@ -271,7 +271,7 @@
         align-items: center;
     } 
     .info .imagenees img{
-        width:1300px;
+        width:50%;
         height: 1000px;
         position: relative;
     }   
@@ -285,5 +285,5 @@
 
     }
     .infor{
-        margin-top: 80px;
+        margin-top: 100px;
     }
