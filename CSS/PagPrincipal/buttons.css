@@ -234,8 +234,8 @@
         grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 5px;
-        margin-top: -930px;
-        margin-left: 20px;
+        margin-top: -58%;
+        margin-left: 2%;
         position: relative;
 
     }
@@ -330,8 +330,8 @@
         grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 5px;
-        margin-top: -780px;
-        margin-left: 1200px ;
+        margin-top: -49%;
+        margin-left: 78% ;
         position: relative;
     }
     .hovers2 .car{
