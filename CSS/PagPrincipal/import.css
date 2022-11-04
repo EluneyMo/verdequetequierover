@@ -273,6 +273,7 @@
     .info.imagenees #botonimg{
         background-color: transparent;
         outline: none;
+        border: 0px;
     }
     .info .imagenees #botonimg img{
         width:90%;
