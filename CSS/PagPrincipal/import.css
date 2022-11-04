@@ -249,6 +249,9 @@
     font-family: 'Reyhands';
     src:url(../../font/Reyhans.ttf);
     }
+    @font-face{
+        
+    }
     .desc .Descuentos a h2{
     font-family: 'Reyhands';
     transition: background-color .3s;
