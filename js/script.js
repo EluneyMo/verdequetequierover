@@ -29,6 +29,6 @@ addEventListener ('DOMContentLoaded', () =>{
  }
  setInterval(slideshowdos, 3000)
 })
-function pres(){
-  
+function Mostrarboton(){
+document.getElementById ('hovers')
 }
