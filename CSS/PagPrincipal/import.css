@@ -250,7 +250,7 @@
     src:url(../../font/Reyhans.ttf);
     }
     @font-face{
-        
+        font-family: 'Athena';
     }
     .desc .Descuentos a h2{
     font-family: 'Reyhands';
