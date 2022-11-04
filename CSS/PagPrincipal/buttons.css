@@ -313,7 +313,7 @@
     .cajita{
         display: flex;
     }
-    .cajita p{
+    .cajita .enlace{
         display: inline-flex;
         margin-left: 150px ;
         margin-top: 40px;
