@@ -270,9 +270,13 @@
         text-align: center;
         align-items: center;
     } 
+    .info.imagenees #botonimg{
+        background-color: transparent;
+    }
     .info .imagenees #botonimg img{
         width:90%;
         height: 80%;
+
         position: relative;
     }   
     .info .imagenees  p{
