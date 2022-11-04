@@ -31,5 +31,5 @@ addEventListener ('DOMContentLoaded', () =>{
 })
 function Mostrarboton(){
 document.getElementById ('hovers').style.visibility='visible';
-document.getElementById ('hovers2')
+document.getElementById ('hovers2').style.visibility='visible';
 }
