@@ -237,6 +237,7 @@
         margin-top: -58%;
         margin-left: 2%;
         position: relative;
+        visibility: hidden;
 
     }
     .hovers #ac{
