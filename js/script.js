@@ -29,3 +29,6 @@ addEventListener ('DOMContentLoaded', () =>{
  }
  setInterval(slideshowdos, 3000)
 })
+function pres(){
+  
+}
