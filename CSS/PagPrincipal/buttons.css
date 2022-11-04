@@ -237,7 +237,8 @@
         margin-top: -58%;
         margin-left: 2%;
         position: relative;
-        display: none;
+        visibility: hidden;
+
     }
     .hovers #ac{
         border: 5px solid transparent;
@@ -333,7 +334,7 @@
         margin-top: -49%;
         margin-left: 78% ;
         position: relative;
-        display: none;
+        visibility: hidden;
     }
     .hovers2 #car{
         border: 5px solid transparent;
