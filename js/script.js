@@ -30,5 +30,5 @@ addEventListener ('DOMContentLoaded', () =>{
  setInterval(slideshowdos, 3000)
 })
 function Mostrarboton(){
-document.getElementById ('hovers')
+document.getElementById ('hovers').style.visibility='visible';
 }
