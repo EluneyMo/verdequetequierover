@@ -270,7 +270,7 @@
         text-align: center;
         align-items: center;
     } 
-    .info .imagenees img{
+    .info .imagenees #img{
         width:90%;
         height: 80%;
         position: relative;
