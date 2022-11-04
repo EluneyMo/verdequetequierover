@@ -251,6 +251,7 @@
     }
     @font-face{
         font-family: 'Athena';
+        src:url(../../font/Athena.ttf);
     }
     .desc .Descuentos a h2{
     font-family: 'Reyhands';
