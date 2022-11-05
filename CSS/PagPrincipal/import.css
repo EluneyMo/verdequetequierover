@@ -315,6 +315,7 @@
     #infor .wsp p{
         display: inline-flex;
         font-size: 30px;
+        margin-left: 15px;
     }
     #infor .wsp img{
         background-color: aliceblue;
