@@ -297,6 +297,7 @@
     .infor .wsp img{
         width:130px;
         height: 120px;
-        box-shadow: 10px 5px 5px black;;
+        box-shadow: 10px 5px 5px black;
+        border-radius: 50px;
     }
  
