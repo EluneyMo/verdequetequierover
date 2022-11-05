@@ -296,7 +296,8 @@
     }
     #infor .wsp{
         display: inline-flex;
-        font-size: 20px;
+        
+
     }
     #infor .gmail{
         display: inline-flex;
