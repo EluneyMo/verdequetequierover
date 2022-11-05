@@ -296,7 +296,7 @@
     }
     #infor p{
         font-size: 30px;
-        border: 2px aliceblue;
+        border-top-color: #000000;
     }
     #infor .wsp{
         display: inline-flex;
