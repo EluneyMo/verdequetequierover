@@ -301,6 +301,7 @@
     #infor .gmail{
         display: inline-flex;
        background-color: aliceblue;
+       border-radius: 10px;
     }
     #infor .gmail p{
         display: inline-flex;
