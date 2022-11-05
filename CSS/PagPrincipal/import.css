@@ -294,7 +294,7 @@
         margin-top: 10%;
         text-align: center;
     }
-    #infor p{
+    #infor .envios{
         font-size: 30px;
         border-width: thin;
         border-top-color: #000000;
