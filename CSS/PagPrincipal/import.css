@@ -312,6 +312,9 @@
         
         text-align: center !important;
     }
+    #infor .wsp p{
+        
+    }
     #infor .wsp img{
         background-color: aliceblue;
         width:50px;
