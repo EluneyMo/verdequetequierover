@@ -290,17 +290,17 @@
         text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
 
     }
-    .infor{
+    #infor{
         margin-top: 10%;
         text-align: center;
     }
-    .infor .wsp img{
+    #infor .wsp img{
         width:120px;
         height: 120px;
         box-shadow: 15px 7px 5px black;
         border-radius:20px;
     }
-    .infor .gmail img{
+    #infor .gmail img{
         width: 140px;
         height: 120px;
         box-shadow: 15px 7px 5px black;
