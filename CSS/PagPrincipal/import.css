@@ -294,6 +294,9 @@
         margin-top: 10%;
         text-align: center;
     }
+    #infor p{
+        
+    }
     #infor .wsp{
         display: inline-flex;
         background-color: aliceblue;
