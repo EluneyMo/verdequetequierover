@@ -303,5 +303,6 @@
     .infor .gmail img{
         width: 140px;
         height: 120px;
+        box-shadow: 15px 7px 5px black;
     }
  
