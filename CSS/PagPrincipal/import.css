@@ -294,7 +294,9 @@
         margin-top: 10%;
         text-align: center;
     }
-    #infor .wsp{}
+    #infor .wsp{
+        display: inline-flex;
+    }
     #infor .wsp img{
         width:50px;
         height: ropx;
