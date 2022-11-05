@@ -296,6 +296,7 @@
     }
     #infor p{
         font-size: 30px;
+        border-width: thin;
         border-top-color: #000000;
     }
     #infor .wsp{
