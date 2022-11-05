@@ -313,6 +313,7 @@
         text-align: center !important;
     }
     #infor .wsp p{
+        display: inline-flex;
         
     }
     #infor .wsp img{
