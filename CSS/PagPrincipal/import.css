@@ -301,6 +301,7 @@
     #infor .gmail{
         display: inline-flex;
         font-size: 20px;
+        text-align: center;
     }
     #infor .wsp img{
         background-color: aliceblue;
