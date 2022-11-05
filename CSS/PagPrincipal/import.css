@@ -91,9 +91,9 @@
     padding-left: 0px;
     display: flex;
     }
-    .box #slideshowdos {
+    .box #slideshow-dos {
     position: relative;
-    z-index: 998px;
+    z-index: 998;
     height: 600px;
     }
     /*Imagenes del encabezado*/
