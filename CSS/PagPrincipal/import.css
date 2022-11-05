@@ -1,0 +1,326 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    header{
+    width: auto;
+    height: 100%;
+    }
+    /*Fondo de pagina*/
+    body{
+    background-color: rgb(155, 217, 156);
+    }
+    /*Contenedor de Encabezado*/
+    .box{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    }
+    /*Botones de accesos de encabezado*/
+    .menus button{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 20px;
+    height: 52.5px;
+    width: 180px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin: 5px;
+    }
+    /*Liks de botones de accesos de encabezado*/
+    .menus button input{
+    align-items: flex-start;
+    position: absolute;
+    margin-left: -11px;
+    width: 180px;
+    height: 130px;
+    margin-top: -10px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    }
+    .menus a{
+    color: black;
+    }
+    /*Contenedor de botones de acceso: encabezado*/
+    .box .menus{
+    align-items: flex-start;
+    width: 200px;
+    height: 400px;
+    background: rgba(18, 108, 5, 0.615);
+    padding-bottom: 0%;
+    padding-left: 0%;
+    margin-bottom: 400px;
+    font-size: 16px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    }
+    /*Titulo del encabezado*/
+    /*Contenedor de imagenes de encabezado*/
+    .box #slidesshow{
+    overflow: hidden;
+    margin: 0px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    }
+    /*Lista o ordenada del contenedor de imagenes del encabezado*/
+    .box #container{
+    position: absolute;
+    max-height: 500px;
+    border: none;
+    z-index: 1000;
+    margin: 0px;
+    width: 100%;
+    }
+    /*Lista de etiquetas contnedoras de imagenes del encabezado*/
+    .box #progressbar {
+    align-items: flex-end;
+    height: 100%;
+    padding-left: 0px;
+    display: flex;
+    }
+    .box #slideshow-dos {
+    position: relative;
+    z-index: 998;
+    height: 600px;
+    }
+    /*Imagenes del encabezado*/
+    .box #slideshowdos img{
+    align-items: flex-end;
+    display: flex;
+    margin:0px;
+    padding: 0%;
+    width: 2000px;
+    height: 400px;
+    }
+    /*Trancision de imagenes*/
+    .box #img2 {
+    visibility: hidden;
+    left: 100%;
+    }
+    .active{
+    left: 0 !important;
+    }
+    /*Contenedor de botones del menu*/
+    .parent{
+    margin-right: 50%;
+    margin-left: 30%;
+    padding-top: 20px;
+    margin-top: -350px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+    /*Links de los botones del menu*/
+    .parent a{
+    border-color: black;
+    color: aliceblue;
+    font-size: x-large;
+    padding-top: 80px;
+    text-align: center;
+    justify-content: center;
+    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+    }
+    /*Boton p del menu*/
+    .p{
+    margin-left:-10px;
+    width: 220px;
+    height: 200px;
+    border: 5px solid transparent;
+    padding: 30px;
+    background: url(../../imagenes/plantas.png);
+    background-size: 300px 200px;
+    background-position: -70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    grid-area: 1 / 1 / 2 / 2;
+    }
+    /*Boton c del menu*/
+    .c{
+    margin-left: -90px;
+    margin-right: 10px;
+    width: 220px;
+    height: 200px;
+    border: 5px solid transparent;
+    padding: 30px;
+    background: url(../../imagenes/cactus.jpg);
+    background-size: 300px 200px;
+    background-position: -70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    grid-area: 1 / 2 / 2 / 3;
+    }
+    /*Boton h del menu*/
+    .h{
+    padding-left: -30px;
+    margin-left: -10px;
+    width: 220px;
+    height: 200px;
+    border: 5px solid transparent;
+    padding: 30px;
+    background: url(../../imagenes/herramientas.jpg);
+    background-size: 300px 200px;
+    background-position: -70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    grid-area: 1 / 3 / 2 / 4;
+    }
+    /*Boton s del menu*/
+    .s{
+    margin-left: 110px;
+    margin-right: -30px;
+    width: 220px;
+    height:200px;
+    border: 5px solid transparent;
+    padding: 30px;
+    background: url(../../imagenes/sutrato.jpg);
+    background-size: 300px 200px;
+    background-position: -70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    grid-area: 2 / 1 / 3 / 2;
+    }
+    /*Boton a del menu*/
+    .a{
+    margin-left:-130px;
+    height: 200px;
+    width: 220px;
+    border: 5px solid transparent;
+    padding: 30px;
+    background: url(../../imagenes/accesorios.webp);
+    background-size: 300px 200px;
+    background-position: -70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    grid-area: 2 / 3 / 3 / 4;
+    }
+    .desc{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 0px;
+    row-gap: 0px;
+    }
+    .desc .Descuentos .imagendesc img{
+    margin-left: -5% ;
+    width: 1530px ;
+    height: 400px;
+    opacity: 70%;
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    grid-area: 1 / 1 / 2 / 2;
+    }
+    @font-face{
+    font-family: 'Reyhands';
+    src:url(../../font/Reyhans.ttf);
+    }
+    @font-face{
+        font-family: 'Athena';
+        src:url(../../font/Athena.ttf);
+    }
+    .desc .Descuentos a h2{
+    font-family: 'Reyhands';
+    transition: background-color .3s;
+    opacity: 100%;
+    color: black;
+    -webkit-text-stroke-color: rgba(137, 134, 134, 0.647);
+    -webkit-text-stroke: 0.5px;
+    position: absolute;
+    padding-left: 225px;
+    padding-top: 150px;
+    font-size: 250px;
+    z-index: 2;
+    grid-area: 1 / 1 / 2 / 2;
+    }
+    .desc .Descuentos a h2:hover{
+    color: aliceblue;
+    }
+    .info{
+        text-align: center;
+        align-items: center;
+    } 
+   
+    .info .imagenees #img{
+        width:90%;
+        height: 80%;
+
+        position: relative;
+    }   
+    .info .imagenees  p{
+        margin-bottom: -70px;
+        margin-top: 20px;
+        font-family: 'Athena';
+        color: rgb(28, 152, 63);
+        font-size: 50px;
+        text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+
+    }
+    #infor{
+        margin-top: 10%;
+        text-align: center;
+    }
+    #infor .wsp{
+        display: inline-flex;
+        font-size: 20px;
+    }
+    #infor .gmail{
+        display: inline-flex;
+       background-color: aliceblue;
+       border-radius: 10px;
+    }
+    #infor .gmail p{
+        display: inline-flex;
+        font-size: 20px;
+        margin-left: 15px;
+        text-align: center;
+    }
+    #infor .wsp img{
+        background-color: aliceblue;
+        width:50px;
+        height: 50px;
+        box-shadow: 15px 7px 5px black;
+        border-radius:20px;
+    }
+    #infor .gmail img{
+        background-color: aliceblue;
+        width: 70px;
+        height: 50px;
+        box-shadow: 15px 7px 5px black;
+        border-radius:10px;
+    }
+ 
