@@ -297,6 +297,9 @@
     #infor .wsp{
         display: inline-flex;
     }
+    #infor .gmail{
+        
+    }
     #infor .wsp img{
         width:50px;
         height: ropx;
