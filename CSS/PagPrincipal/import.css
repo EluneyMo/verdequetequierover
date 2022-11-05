@@ -303,6 +303,7 @@
        
     }
     #infor .gmail p{
+        display: inline-flex;
         font-size: 20px;
         
     }
