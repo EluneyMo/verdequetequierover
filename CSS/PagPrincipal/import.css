@@ -296,11 +296,11 @@
     }
     #infor .wsp{
         display: inline-flex;
-        font-size: 25px;
+        font-size: 20px;
     }
     #infor .gmail{
         display: inline-flex;
-        font-size: 25px;
+        font-size: 20px;
     }
     #infor .wsp img{
         width:50px;
