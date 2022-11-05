@@ -295,14 +295,14 @@
         text-align: center;
     }
     #infor .wsp img{
-        width:120px;
-        height: 120px;
+        width:50px;
+        height: ropx;
         box-shadow: 15px 7px 5px black;
         border-radius:20px;
     }
     #infor .gmail img{
-        width: 140px;
-        height: 120px;
+        width: 70px;
+        height: 50px;
         box-shadow: 15px 7px 5px black;
         border-radius:10px;
     }
