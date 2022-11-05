@@ -310,6 +310,7 @@
         border-radius:20px;
     }
     #infor .gmail img{
+        background-color: aliceblue;
         width: 70px;
         height: 50px;
         box-shadow: 15px 7px 5px black;
