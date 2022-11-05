@@ -297,7 +297,7 @@
     #infor .wsp{
         display: inline-flex;
         background-color: aliceblue;
-
+        border-radius: 10px;
     }
     #infor .gmail{
         display: inline-flex;
