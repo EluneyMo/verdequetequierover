@@ -93,7 +93,7 @@
     }
     .box #slideshowdos {
     position: relative;
-    z-index: 998;
+    z-index: 998px;
     height: 600px;
     }
     /*Imagenes del encabezado*/
