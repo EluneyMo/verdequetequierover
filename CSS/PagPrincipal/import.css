@@ -295,7 +295,7 @@
         text-align: center;
     }
     #infor p{
-        
+        font-size: 30px;
     }
     #infor .wsp{
         display: inline-flex;
