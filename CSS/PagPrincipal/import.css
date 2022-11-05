@@ -298,6 +298,7 @@
         font-size: 30px;
         border-width: thin;
         border-top-color: #000000;
+        border-right-color: rgb(0, 0, 0);
     }
     #infor .wsp{
         display: inline-flex;
