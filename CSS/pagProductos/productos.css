@@ -19,6 +19,14 @@ header{
     justify-content: space-evenly;
     margin: 5px;
 }
+.cAcuaticas{
+    border: black solid 1px;
+    grid-area: conten;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 5px;
+}
 nav{
     border: black solid 1px;
     grid-area: nav;
