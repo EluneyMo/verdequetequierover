@@ -1,4 +1,4 @@
-const contDeProductos = document.getElementById('contProductos');
+const contDeProductos = document.getElementById('suculentas');
 
 Plantas.forEach((content) =>{
     const div = document.createElement('div');
