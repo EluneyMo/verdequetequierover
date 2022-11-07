@@ -11,7 +11,7 @@ header{
     justify-content: space-between;
     align-items: center;    
 }
-content{
+.coSuculentas{
     border: black solid 1px;
     grid-area: conten;
     display: grid;
