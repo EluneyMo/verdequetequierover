@@ -28,5 +28,4 @@ content h1{
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
-    border: black solid 1px;
 }
