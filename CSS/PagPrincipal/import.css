@@ -249,6 +249,10 @@
     font-family: 'Reyhands';
     src:url(../../font/Reyhans.ttf);
     }
+    @font-face{
+        font-family: 'Athena';
+        src:url(../../font/Athena.ttf);
+    }
     .desc .Descuentos a h2{
     font-family: 'Reyhands';
     transition: background-color .3s;
@@ -270,20 +274,36 @@
         text-align: center;
         align-items: center;
     } 
-    .info .imagenees img{
+   
+    .info .imagenees #img{
         width:90%;
         height: 80%;
+
         position: relative;
     }   
-    .info .imagenees p{
+    .info .imagenees  p{
         margin-bottom: -70px;
         margin-top: 20px;
-        font-family: 'Reyhands';
-        color: rgb(30, 151, 30);
+        font-family: 'Athena';
+        color: rgb(28, 152, 63);
         font-size: 50px;
         text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
 
     }
     .infor{
-        margin-top: 100px;
+        margin-top: 10%;
+        text-align: center;
     }
+    .infor .wsp img{
+        width:120px;
+        height: 120px;
+        box-shadow: 15px 7px 5px black;
+        border-radius:20px;
+    }
+    .infor .gmail img{
+        width: 140px;
+        height: 120px;
+        box-shadow: 15px 7px 5px black;
+        border-radius:10px;
+    }
+ 
