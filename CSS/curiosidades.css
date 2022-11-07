@@ -4,7 +4,10 @@
  background-color:rgb(155, 217, 156);
 }
 header{
- height:25%;
+ 
  width: 100%;
  background-color: beige;
+}
+.memumenu{
+ height: 30%;
 }
