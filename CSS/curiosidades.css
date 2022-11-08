@@ -1,13 +1,13 @@
-*{
- 
- background-color:rgb(155, 217, 156);
- margin: 0px;
- padding: 0px;
-}
 header{
  background-color: beige;
 
 }
 #logo{
  background-color: beige;
+}
+#parent{
+ 
+ background-color:rgb(155, 217, 156);
+ margin: 0px;
+ padding: 0px;
 }
