@@ -117,6 +117,9 @@
     .active{
     left: 0 !important;
     }
+    .box #img1{
+        
+    }
     /*Contenedor de botones del menu*/
     .parent{
     margin-right: 50%;
