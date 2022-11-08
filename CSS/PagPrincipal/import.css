@@ -9,12 +9,12 @@
     height: 100%;
     }
     html{
-        width: 1267px;
+        width: 1265px;
     }
     /*Fondo de pagina*/
     body{
     background-color: rgb(155, 217, 156);
-    width:1267px;
+    width:1265px;
     }
     /*Contenedor de Encabezado*/
     .box{
@@ -106,7 +106,7 @@
     display: flex;
     margin-left:15.7%;
     padding: 0%;
-    width: 1267px;
+    width: 1265px;
     height: 400px;
     }
     /*Trancision de imagenes*/
@@ -241,7 +241,7 @@
     }
     .desc .Descuentos .imagendesc img{
     margin-left: -5% ;
-    width: 1530px ;
+    width: 1265px ;
     height: 400px;
     opacity: 70%;
     margin-top: 70px;
