@@ -5,13 +5,9 @@
  padding: 0px;
 }
 header{
- 
+ background-color: beige;
 
 }
-.memumenu{
-              display: flex;
-height: 100px;
- width: 100px;
+#logo{
  background-color: beige;
- position: relative;
 }
