@@ -35,3 +35,4 @@ document.getElementById ('hovers2').style.visibility='visible';
 }
 const img = document.querySelector('img');
 const anchoMitad = window.innerWidth / 2;
+const altoMitad = window.innerHeight / 2;
