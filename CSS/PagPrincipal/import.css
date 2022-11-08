@@ -117,7 +117,7 @@
     .active{
     left: 0 !important;
     }
-    .box #slideshowdos #img1{
+    .box #slideshowdos img #img1{
         width: 1265px;
     }
     /*Contenedor de botones del menu*/
