@@ -33,3 +33,5 @@ function Mostrarboton(){
 document.getElementById ('hovers').style.visibility='visible';
 document.getElementById ('hovers2').style.visibility='visible';
 }
+const img = document.querySelector('img');
+const anchoMitad = window.innerWidth / 2;
