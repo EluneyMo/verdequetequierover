@@ -1,10 +1,11 @@
 header{
  background-color: beige;
-
+ display: inline-flex;
 }
 #logo{
  background-color: beige;
 }
+
 #parent{
  
  background-color:rgb(155, 217, 156);
