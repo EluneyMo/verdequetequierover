@@ -8,6 +8,9 @@
     width: auto;
     height: 100%;
     }
+    html{
+        width: 2000px;
+    }
     /*Fondo de pagina*/
     body{
     background-color: rgb(155, 217, 156);
