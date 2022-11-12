@@ -98,7 +98,7 @@
     .box #slideshowdos {
     position: relative;
     z-index: 998;
-    height: 600px;
+    height: 400px;
     }
     /*Imagenes del encabezado*/
     .box #slideshowdos img{
