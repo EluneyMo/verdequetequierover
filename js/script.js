@@ -62,6 +62,7 @@ enviar.addEventListener('keydown', function () {
     const randomY = parseInt(Math.random()*100);
     enviar.style.setProperty('top',randomY+'%');
     enviar.style.setProperty('left',randomX+'%');
+    enviar.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
   clearTimeout(timeout)
   timeout = setTimeout(() => {
   })
