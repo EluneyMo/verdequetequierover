@@ -232,7 +232,7 @@
         display: grid;
         grid-template-columns: (3, 1fr);
         grid-template-rows: repeat(5, 1fr);
-        grid-column-gap: 0px;
+        grid-column-gap: 20px;
         grid-row-gap: 5px;
         margin-top: -58%;
         margin-left: 2%;
