@@ -9,12 +9,12 @@
     height: 100%;
     }
     html{
-        width: 1265px;
+        width: 1920px;
     }
     /*Fondo de pagina*/
     body{
     background-color: rgb(155, 217, 156);
-    width:1265px;
+    width:1920px;
     }
     /*Contenedor de Encabezado*/
     .box{
@@ -84,7 +84,7 @@
     position: absolute;
     max-height: 500px;
     border: none;
-    z-index: 1000;
+    z-index: 1000px;
     margin: 0px;
     width: 100%;
     }
@@ -118,7 +118,7 @@
     left: 0 !important;
     }
     .box #slideshowdos img #img1{
-        width: 1265px;
+        width: 1920px;
     }
     /*Contenedor de botones del menu*/
     .parent{
