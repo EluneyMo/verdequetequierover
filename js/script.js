@@ -59,5 +59,6 @@ body.addEventListener('mousemove', (m) => {
 const enviar = document.querySelector('#enviar');
 enviar.addEventListener('keydown', function () {
   clearTimeout(timeout)
-
+  timeout = setTimeout(() => {
+  })
 })
