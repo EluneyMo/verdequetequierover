@@ -35,5 +35,6 @@ document.getElementById ('hovers2').style.visibility='visible';
 }
 const girasol = document.getElementById('girasol');
 const correo = document.getElementById('correo');
+const telefono= document.getElementById('tel');
 const anchoMitad = window.innerWidth / 2;
 const altoMitad = window.innerHeight / 2;
