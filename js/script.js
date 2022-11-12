@@ -58,6 +58,8 @@ body.addEventListener('mousemove', (m) => {
 
 const enviar = document.querySelector('#enviar');
 enviar.addEventListener('keydown', function () {
+  const randomX = parseInt(Math.random()*100);
+    const randomY = parseInt(Math.random()*100);
   clearTimeout(timeout)
   timeout = setTimeout(() => {
   })
