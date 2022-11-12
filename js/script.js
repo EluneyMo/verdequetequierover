@@ -60,6 +60,7 @@ const enviar = document.querySelector('#enviar');
 enviar.addEventListener('keydown', function () {
   const randomX = parseInt(Math.random()*100);
     const randomY = parseInt(Math.random()*100);
+    enviar.style.setProperty('top',randomY+'%')
   clearTimeout(timeout)
   timeout = setTimeout(() => {
   })
