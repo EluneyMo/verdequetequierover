@@ -33,6 +33,7 @@ function Mostrarboton(){
 document.getElementById ('hovers').style.visibility='visible';
 document.getElementById ('hovers2').style.visibility='visible';
 }
-const img = document.querySelector('img');
+const girasol = document.getElementById('girasol');
+
 const anchoMitad = window.innerWidth / 2;
 const altoMitad = window.innerHeight / 2;
