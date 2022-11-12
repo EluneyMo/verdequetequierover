@@ -73,7 +73,7 @@
     /*Titulo del encabezado*/
     /*Contenedor de imagenes de encabezado*/
     .box #slidesshow{
-    overflow: hidden;
+    
     margin: 0px;
     display: flex;
     align-items: flex-end;
