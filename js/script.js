@@ -37,5 +37,6 @@ const girasol = document.getElementById('girasol');
 const correo = document.getElementById('correo');
 const telefono= document.getElementById('tel');
 const asunto= document.getElementById('asun');
+const body = document.querySelector('body');
 const anchoMitad = window.innerWidth / 2;
 const altoMitad = window.innerHeight / 2;
