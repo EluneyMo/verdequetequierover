@@ -44,4 +44,4 @@ let seguirPunteroMouse = true;
 
 body.addEventListener('mousemove', (m) => {
 
-}
+})
