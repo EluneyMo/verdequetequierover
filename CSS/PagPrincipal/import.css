@@ -125,7 +125,7 @@
     margin-right: 50%;
     margin-left: 30%;
     padding-top: 20px;
-    margin-top: -350px;
+    margin-top: -200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
