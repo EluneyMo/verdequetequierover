@@ -273,7 +273,7 @@
     -webkit-text-stroke: 0.5px;
     position: absolute;
     padding-left: 330px;
-    padding-top: 150px;
+    padding-top: 100px;
     font-size: 190px;
     z-index: 2;
     grid-area: 1 / 1 / 2 / 2;
