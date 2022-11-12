@@ -63,7 +63,5 @@ enviar.addEventListener('mouseover', function () {
     enviar.style.setProperty('top',randomY+'%');
     enviar.style.setProperty('left',randomX+'%');
     enviar.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
-  clearTimeout(timeout)
-  timeout = setTimeout(() => {
-  })
+  
 })
