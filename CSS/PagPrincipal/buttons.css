@@ -333,81 +333,71 @@
         text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
 
     }
-    #hovers2{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 5px;
-        margin-top: -55.8%;
-        margin-left: 86.5% ;
-        position: relative;
-        visibility: hidden;
-    }
-    #hovers2 #car{
+   
+    #hovers #car{
         border: 5px solid transparent;
         border-radius: 20px;
         width: 300px;
         height: 150px;
         grid-area: 1 / 3 / 2 / 4;
     }
-    #hovers2 #enr{
+    #hovers #enr{
         border: 5px solid transparent;
         border-radius: 20px;
         width: 300px;
         height: 150px;
         grid-area: 2 / 3 / 3 / 4;
     }
-    #hovers2 #fl{
+    #hovers #fl{
         border: 5px solid transparent;
         border-radius: 20px;
         width: 300px;
         height: 150px;
         grid-area: 3 / 3 / 4 / 4; 
     }
-    #hovers2 #her{
+    #hovers #her{
         border: 5px solid transparent;
         border-radius: 20px;
         width: 300px;
         height: 150px;
         grid-area: 4 / 3 / 5 / 4;
     }
-    #hovers2 #sucu{
+    #hovers #sucu{
         border: 5px solid transparent;
         border-radius: 20px;
         width: 300px;
         height: 150px;
         grid-area: 5 / 3 / 6 / 4;
     }
-    #hovers2 #car img{
+    #hovers #car img{
         border: 5px solid transparent;
         border-radius: 20px;
         width: 140px;
         height: 140px;
         margin-right: 300px;
     }
-    #hovers2 #enr img{
+    #hovers #enr img{
         border: 5px solid transparent;
         border-radius: 20px;
         width: 140px;
         height: 140px;
         margin-right: 300px;
     }
-    #hovers2 #fl img{
+    #hovers #fl img{
         border: 5px solid transparent;
         border-radius: 20px;
         width: 140px;
         height: 140px;
         margin-right: 300px;
     }
-    #hovers2 #her img{
+    #hovers #her img{
         border: 5px solid transparent;
         border-radius: 20px;
         width: 140px;
         height: 140px;
         margin-right: 300px;
     }
-    #hovers2 #sucu img{
+    #hovers #sucu img{
         border: 5px solid transparent;
         border-radius: 20px;
         width: 140px;
