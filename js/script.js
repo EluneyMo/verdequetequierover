@@ -44,6 +44,8 @@ let seguirPunteroMouse = true;
 
 body.addEventListener('mousemove', (m) => {
   if (seguirPunteroMouse) {
+    if (m.clientX < anchoMitad && m.clientY < altoMitad) {
 
+    }
   }
 })
