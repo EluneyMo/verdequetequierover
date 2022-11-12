@@ -45,7 +45,7 @@ let seguirPunteroMouse = true;
 body.addEventListener('mousemove', (m) => {
   if (seguirPunteroMouse) {
     if (m.clientX < anchoMitad && m.clientY < altoMitad) {
-      girasol.src = "imagenes/1-PhotoRoom.png";
+      girasol.src = "../imagenes/1-PhotoRoom.png";
     }else if (m.clientX < anchoMitad && m.clientY > altoMitad) {
 
     }
