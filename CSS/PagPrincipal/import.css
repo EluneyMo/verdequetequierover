@@ -241,6 +241,7 @@
     grid-template-rows: 1fr;
     column-gap: 0px;
     row-gap: 0px;
+    width: 1375px;
     }
     .desc .Descuentos .imagendesc img{
     margin-left: -5% ;
