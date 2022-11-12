@@ -43,5 +43,7 @@ const altoMitad = window.innerHeight / 2;
 let seguirPunteroMouse = true;
 
 body.addEventListener('mousemove', (m) => {
+  if (seguirPunteroMouse) {
 
+  }
 })
