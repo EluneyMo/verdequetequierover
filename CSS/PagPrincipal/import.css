@@ -9,12 +9,12 @@
     height: 100%;
     }
     html{
-        width: 1920px;
+        width: 1375px;
     }
     /*Fondo de pagina*/
     body{
     background-color: rgb(155, 217, 156);
-    width:1920px;
+    width:1375px;
     }
     /*Contenedor de Encabezado*/
     .box{
