@@ -286,7 +286,13 @@
         align-items: center;
     } 
    
-      
+    .info .imagenees #img{
+        margin-left: 3.5%;
+        width:90%;
+        height: 80%;
+
+        position: relative;
+    }   
     .info .imagenees  p{
         margin-left: 3.5%;
         margin-bottom: -70px;
