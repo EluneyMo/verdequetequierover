@@ -40,3 +40,4 @@ const asunto= document.getElementById('asun');
 const body = document.querySelector('body');
 const anchoMitad = window.innerWidth / 2;
 const altoMitad = window.innerHeight / 2;
+let seguirPunteroMouse = true;
