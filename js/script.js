@@ -49,7 +49,7 @@ body.addEventListener('mousemove', (m) => {
     }else if (m.clientX < anchoMitad && m.clientY > altoMitad) {
       girasol.src = "../imagenes/3-removebg-preview.png";
     }else if (m.clientX > anchoMitad && m.clientY < altoMitad) {
-
+      girasol.src = "../imagenes/4-removebg-preview.png";
     }
   }
 })
