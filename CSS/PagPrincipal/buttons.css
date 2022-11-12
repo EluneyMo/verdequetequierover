@@ -314,6 +314,9 @@
     .cajita{
         display: flex;
     }
+    .cajita a{
+        
+    }
     .cajita .enlace{
         display: inline-flex;
         margin-left: 150px ;
