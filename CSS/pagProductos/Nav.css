@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 .indice{
-    border: black solid 1px;
     width: auto;
     height: 9%;
     position: fixed;
@@ -10,7 +9,6 @@
 .indice ul{
     padding: 0;
     text-align: center;
-
 }
 .indice li{
     transition: .4s all;
@@ -27,15 +25,16 @@
     text-align: center;
     padding: 7px;
     padding-bottom: 7px;
+    transition: .4s all;
 }
 .indice:hover{
     width: 15%;
     height: 65%;
-    background: green;
+    background: rgb(0, 185, 0);
 }
 .indice:hover h1{
     font-family: 'Nunito', sans-serif;
-    padding: 3px;
+    padding: 2px;
     font-size: 35px;
 }
 .indice:hover a{

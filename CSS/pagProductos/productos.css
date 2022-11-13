@@ -57,7 +57,6 @@ header{
 }
 
 .coCactus{
-    border: black solid 1px;
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -84,7 +83,6 @@ header{
 }
 
 .coFlores{
-    border: black solid 1px;
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -93,7 +91,6 @@ header{
 }
 
 .coHerbáceas{
-    border: black solid 1px;
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -102,11 +99,11 @@ header{
 }
 
 nav{
-    border: black solid 1px;
     grid-area: nav;
     margin: 5px;
 }
 content h1{
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
