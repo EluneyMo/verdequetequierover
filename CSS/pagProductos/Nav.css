@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 .indice{
     border: black solid 1px;
     width: auto;
@@ -22,6 +23,7 @@
     padding: 0;
 }
 .indice h1{
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     padding: 7px;
     padding-bottom: 7px;
@@ -32,7 +34,8 @@
     background: green;
 }
 .indice:hover h1{
-    padding: 4px;
+    font-family: 'Nunito', sans-serif;
+    padding: 3px;
     font-size: 35px;
 }
 .indice:hover a{
