@@ -3,7 +3,7 @@
     width: auto;
     height: 9%;
     position: fixed;
-    transition: .4s all;
+    transition: .5s all;
     z-index: 1;
 }
 .indice ul{
@@ -12,12 +12,12 @@
 
 }
 .indice li{
-    transition: .3s all;
+    transition: .4s all;
     list-style-type: none;
 }
 .indice a{
     text-decoration: none;
-    transition: .3s all;
+    transition: .4s all;
     font-size: 0;
     padding: 0;
 }
@@ -25,4 +25,19 @@
     text-align: center;
     padding: 7px;
     padding-bottom: 7px;
+}
+.indice:hover{
+    width: 15%;
+    height: 65%;
+    background: green;
+}
+.indice:hover h1{
+    padding: 4px;
+    font-size: 35px;
+}
+.indice:hover a{
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 4px;
 }
