@@ -56,7 +56,7 @@ body.addEventListener('mousemove', (m) => {
   }
 })
 
-const enviar = document.querySelector('#enviar');
+const enviar = document.querySelector('enviar');
 enviar.addEventListener('submit', function () {
   const randomX = parseInt(Math.random()*100);
     const randomY = parseInt(Math.random()*100);
