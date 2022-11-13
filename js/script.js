@@ -57,7 +57,7 @@ body.addEventListener('mousemove', (m) => {
 })
 
 const enviar = document.querySelector('#enviar');
-enviar.addEventListener('mouseover', function () {
+enviar.addEventListener('submit', function () {
   const randomX = parseInt(Math.random()*100);
     const randomY = parseInt(Math.random()*100);
     enviar.style.setProperty('top',randomY+'%');
