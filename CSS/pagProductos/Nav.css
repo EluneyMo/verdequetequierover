@@ -1,23 +1,28 @@
-nav h1{
+.indice{
     border: black solid 1px;
-    padding: 10px 20px;
-    text-align: center;
+    width: auto;
+    height: 9%;
+    position: fixed;
+    transition: .4s all;
+    z-index: 1;
 }
-nav ul, li{
-    border: black solid 1px;
-}
-nav ul{
-    list-style-type: none;
-    margin: 0;
+.indice ul{
     padding: 0;
-    
+    text-align: center;
+
 }
-nav ul li{
-    padding: 10px 20px;
+.indice li{
+    transition: .3s all;
+    list-style-type: none;
 }
-nav ul li a{
+.indice a{
     text-decoration: none;
-    color: white;
-    font-size: 0px;
-    padding: 0px;
+    transition: .3s all;
+    font-size: 0;
+    padding: 0;
+}
+.indice h1{
+    text-align: center;
+    padding: 7px;
+    padding-bottom: 7px;
 }
