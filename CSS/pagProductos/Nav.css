@@ -1,3 +1,23 @@
 nav h1{
     border: black solid 1px;
+    padding: 10px 20px;
+    text-align: center;
+}
+nav ul, li{
+    border: black solid 1px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul li{
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0px;
+    padding: 0px;
 }
