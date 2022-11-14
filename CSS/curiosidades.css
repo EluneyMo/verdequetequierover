@@ -6,6 +6,10 @@ header{
  background-color: beige;
 }
 
+nav{
+ max-width: 900px;
+}
+
 #parent{
  
  background-color:rgb(155, 217, 156);
