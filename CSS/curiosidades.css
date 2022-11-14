@@ -142,3 +142,7 @@ p{
  
 } 
 
+#pie .wasp p{
+ display: inline-flex;
+}
+
