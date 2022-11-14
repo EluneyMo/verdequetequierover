@@ -322,6 +322,7 @@
         border-radius: 10px;
         margin-right: 1%;
         margin-top: 1%;
+        width:200px;
     }
     #infor .gmail{
         display: inline-flex;
@@ -329,6 +330,7 @@
        border-radius: 10px;
        margin-left: 1%;
        margin-top: 1%;
+       width:200px
     }
     #infor .gmail p{
         display: inline-flex;
