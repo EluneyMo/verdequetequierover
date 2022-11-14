@@ -52,18 +52,21 @@ if(asun== ""){
 }
 if (val==2){
   movimiento2();
+  return false;
 }
 if(correo==""){
   val++;
 }
 if (val==3){
   movimiento4();
+  return false;
 }
 if (sugerencias == ""){
   val++;
 }
 if (val==4){
   movimiento5();
+  return false;
 }
 }
 document.getElementById("correo").addEventListener("keyup", mover);
