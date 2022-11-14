@@ -412,7 +412,7 @@
         height: 40px;
     }
     #enviar:hover{
-        
-        transform: translate(100px);
+        margin: 20px, 30px, 100px, 40px;
+       
     }
    
