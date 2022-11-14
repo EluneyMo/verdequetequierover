@@ -56,10 +56,15 @@ if (val==2){
 if(correo==""){
   val++;
 }
+if (val==3){
+
+}
 if (sugerencias == ""){
   val++;
 }
-
+if (val==4){
+  
+}
 }
 document.getElementById("correo").addEventListener("keyup", mover);
 document.getElementById("tel").addEventListener("keyup", mover);
