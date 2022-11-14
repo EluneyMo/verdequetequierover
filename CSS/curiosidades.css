@@ -33,6 +33,7 @@ nav{
 .horizontal1{
  position: absolute;
  display: none;
+ list-style: none;
 }
 
 
