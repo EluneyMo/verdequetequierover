@@ -80,6 +80,7 @@ if (val == 0){
 }
 }
 document.getElementById("correo").addEventListener("keyup", mover);
+document.getElementById("tel").addEventListener("keyup", mover);
 const enviar = document.querySelector('enviar');
 enviar.addEventListener('submit', function () {
   const randomX = parseInt(Math.random()*100);
