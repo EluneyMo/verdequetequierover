@@ -210,6 +210,7 @@
     width: 0;
     height: 3px;
     transition: 1s;
+    margin-top: -30px;
     }
     .desc:hover .reg{
     width: 10%;
