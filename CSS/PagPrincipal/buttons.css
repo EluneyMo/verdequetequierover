@@ -216,7 +216,7 @@
     width: 200%;
     right: -15%;
     }
-    .desc .reg2{
+    .reg2{
         margin-top: 300px;
     position: absolute;
     right: 50%;
@@ -226,7 +226,7 @@
     height: 3px;
     transition: 1s;
     }
-    .desc:hover .reg2{
+    .reg2:hover {
     width: 10%;
     right: 45%;
     }
