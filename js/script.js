@@ -74,7 +74,7 @@ if (sugerencias == ""){
   val++;
 }
 if (val == 0){
-  
+  document.getElementById ("enviar").style.translate = '0px 0px 0px';
 }
 }
 const enviar = document.querySelector('enviar');
