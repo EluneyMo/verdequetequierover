@@ -57,13 +57,13 @@ if(correo==""){
   val++;
 }
 if (val==3){
-
+  movimiento4();
 }
 if (sugerencias == ""){
   val++;
 }
 if (val==4){
-  
+  movimiento5();
 }
 }
 document.getElementById("correo").addEventListener("keyup", mover);
