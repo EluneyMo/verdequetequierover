@@ -58,7 +58,7 @@ body.addEventListener('mousemove', (m) => {
 function mover(){
   correo=document.getElementById("correo").value;
   tel=document.getElementById("tel").value;
-  
+asun=document.getElementById("asun").value;
 }
 const enviar = document.querySelector('enviar');
 enviar.addEventListener('submit', function () {
