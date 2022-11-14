@@ -6,6 +6,7 @@
 header{
  background-color: beige;
  display: inline-flex;
+ width: 1300px
 }
 #logo{
  background-color: beige;
