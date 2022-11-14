@@ -408,7 +408,8 @@
         margin-right: 300px;
     }
     .sugerenias{
-        
+        align-items: center;
+        text-align: center;
     }
     .Enviar input{
         margin-top: 30px;
