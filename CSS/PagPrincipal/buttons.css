@@ -226,7 +226,7 @@
     height: 3px;
     transition: 1s;
     }
-    .reg2:hover {
+    .reg2:hover .reg2{
     width: 10%;
     right: 45%;
     }
