@@ -61,8 +61,6 @@ nav{
  padding: 15px 15px 15px 20px;
  text-decoration: none;
 }
-
-
              
 
 
@@ -72,9 +70,16 @@ nav{
  margin: 0px;
  padding: 0px;
 }
+            
+
 h1{
  text-align: center;
  font-size: 55px;
+ 
+
+}
+h2{
+ text-align: center;
 }
 #parent img{
  width: 500px;
