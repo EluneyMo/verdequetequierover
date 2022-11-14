@@ -25,6 +25,7 @@ nav{
  list-style: none;
  display: flex;
  justify-content: space-around;
+
  
 }
 .menu1 > li > a{
@@ -73,4 +74,7 @@ nav{
 }
 h1{
  text-align: center;
+}
+#parent img{
+ width: 500px;
 }
