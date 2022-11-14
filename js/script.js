@@ -51,7 +51,7 @@ if(asun== ""){
   val++;
 }
 if (val==2){
-  
+  movimiento2();
 }
 if(correo==""){
   val++;
