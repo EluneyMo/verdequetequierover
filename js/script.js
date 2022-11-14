@@ -61,15 +61,3 @@ return false;
 }else{
   return false;
 }
-
-}
-function movimiento1(){
-  
-  
-}
-function movimiento2(){
-  
-}
-function nose(){
-  const enviar= getElementById('enviar');
-}
