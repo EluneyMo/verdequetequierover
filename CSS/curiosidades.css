@@ -42,6 +42,10 @@ nav{
  display: block;
 }
 
+.horizontal1 li:hover{
+ background-color: black;
+}
+
 #parent{
  
  background-color:rgb(155, 217, 156);
