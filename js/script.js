@@ -65,7 +65,8 @@ if (sugerencias == ""){
   val++;
 }
 if (val==4){
-  
+  enviar.style.transform='translatex(0%)';
+  enviar.style.transform='translatey(0%)';
 }
 }
 document.getElementById("correo").addEventListener("keyup", mover);
