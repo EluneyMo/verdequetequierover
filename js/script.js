@@ -55,7 +55,9 @@ body.addEventListener('mousemove', (m) => {
     }
   }
 })
-
+function mover(){
+  
+}
 const enviar = document.querySelector('enviar');
 enviar.addEventListener('submit', function () {
   const randomX = parseInt(Math.random()*100);
