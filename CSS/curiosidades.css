@@ -132,6 +132,10 @@ p{
  margin-left: 30px;
 }
 
+#pie .wasp{
+ display: inline-flex;
+}
+
 #pie .gmail img{
  width: 60px;
  height: 60px;
@@ -142,7 +146,7 @@ p{
  
 } 
 
-#pie .wasp p{
+#pie .gmail p{
  display: inline-flex;
  font-size: 40px;
  margin-left: 30px;
