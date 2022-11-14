@@ -59,6 +59,7 @@ function mover(){
   correo=document.getElementById("correo").value;
   tel=document.getElementById("tel").value;
 asun=document.getElementById("asun").value;
+sugerencias= document.getElementById("sugerencias").value;
 val=0;
 if(){
 
@@ -67,7 +68,7 @@ if(){
 
 }
 if(){
-  
+
 }
 }
 const enviar = document.querySelector('enviar');
