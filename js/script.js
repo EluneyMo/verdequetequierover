@@ -60,7 +60,15 @@ function mover(){
   tel=document.getElementById("tel").value;
 asun=document.getElementById("asun").value;
 val=0;
+if(){
 
+}
+if(){
+
+}
+if(){
+  
+}
 }
 const enviar = document.querySelector('enviar');
 enviar.addEventListener('submit', function () {
