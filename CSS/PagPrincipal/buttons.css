@@ -207,10 +207,10 @@
     right: 50%;
     bottom: 0;
     background: rgb(0, 255, 42);
-    width: 100px;
-    height: 4px;
+    width: 0;
+    height: 3px;
     transition: 1s;
-    margin-top: -100px;
+    margin-top: -30px;
     }
     .desc:hover .reg{
     width: 10%;
