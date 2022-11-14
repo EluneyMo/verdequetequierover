@@ -76,7 +76,7 @@ if (sugerencias == ""){
 if (val == 0){
   enviar.style.transform = `translate(0px,0px)`;
 }else{
-  enviar.style.translate = '100px 100px 90px'
+  enviar.style.transform = `translate(100px,2px)`;
 }
 }
 document.getElementById("correo").addEventListener("keyup", mover);
