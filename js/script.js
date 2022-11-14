@@ -83,12 +83,3 @@ document.getElementById("correo").addEventListener("keyup", mover);
 document.getElementById("tel").addEventListener("keyup", mover);
 document.getElementById("asun").addEventListener("keyup", mover);
 document.getElementById("sugerencias").addEventListener("keyup", mover);
-const enviar = document.querySelector('enviar');
-enviar.addEventListener('submit', function () {
-  const randomX = parseInt(Math.random()*100);
-    const randomY = parseInt(Math.random()*100);
-    enviar.style.setProperty('top',randomY+'%');
-    enviar.style.setProperty('left',randomX+'%');
-    enviar.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
-  
-})
