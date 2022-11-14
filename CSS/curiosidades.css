@@ -124,3 +124,7 @@ p{
  margin-top: 20px;
  
 }
+
+#pie .wasp p{
+ display: inline-flex;
+}
