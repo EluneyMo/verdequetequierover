@@ -55,11 +55,13 @@ if (sugerencias == ""){
 if (val == 0){
   enviar.style.transform = `translate(0px, 0px)`;
 }else{
+  enviar.addEventListener ('mouseover', function()){
   const randomX = parseInt(Math.random()*100);
   const randomY = parseInt(Math.random()*100);
   enviar.style.setProperty('top',randomY+'%');
   enviar.style.setProperty('left',randomX+'%');
   enviar.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
+}
 }
 }
 document.getElementById("correo").addEventListener("keyup", mover);
