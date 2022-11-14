@@ -47,6 +47,7 @@ val=1;
 return false;
 }
 if((tel=="" && correo=="" && asun=="" && suge=="") && a==1){
+  movimiento2();
 }
 
 
