@@ -19,12 +19,21 @@ nav{
  display: flex;
  justify-content: space-around;
 }
-.horizontal1 > li > a{
+.menu1 > li > a{
  display: block;
  padding: 15px 20px;
  color: darkmagenta;
  text-decoration: none;
 }
+
+.menu1 li:hover{
+ display: block;
+}
+
+.horizontal1{
+ position: absolute;
+}
+
 
 #parent{
  
