@@ -8,14 +8,20 @@
     margin-top: 10px;
     position: relative;
 }
-.content p{
+.content a{
     position: absolute;
-    top: 50%;
+    text-decoration: none;
+    top: 80%;
     left: 50%;
+    background: rgba(0, 119, 0, 0.733);
     transform: translate(-50%, -50%);
+    width: 250px;
+    text-align: center;
     font-size: 50px;
+    border-radius: 50px;
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: rgba(0, 0, 0, 0.75);
+    transition: .5s;
 }
 .content img{
     object-fit: cover;
@@ -28,5 +34,10 @@
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: black;
+}
+.content a:hover{
+    background: rgb(0, 119, 0);
+    box-shadow: inset 1px 1px 10px 1px rgba(255, 255, 255, 1);
     color: black;
 }
