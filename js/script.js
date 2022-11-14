@@ -43,7 +43,9 @@ sugerencias= document.getElementById("sugerencias").value;
 if(tel==""){
 val++;
 }
-if(val==1){}
+if(val==1){
+  movimiento1();
+}
 if(asun== ""){
   val++;
 }
