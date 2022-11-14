@@ -412,6 +412,6 @@
         height: 40px;
     }
     #enviar:hover{
-        translate: 50px 100px 30px;
+        transform: translate(50px 100px 30px);
     }
    
