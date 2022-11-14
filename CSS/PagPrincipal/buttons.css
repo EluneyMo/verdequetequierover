@@ -410,6 +410,7 @@
     .sugerenias{
         align-items: center;
         text-align: center;
+        margin-left: 10px;
     }
     .sugerenias #correo{
         width: 310px;
