@@ -9,9 +9,10 @@ header{
 nav{
  max-width: 900px;
  margin:auto;
- background-color: cadetblue;
+ background-color: rgb(44, 47, 47);
  font-size: 20px;
  margin-top: 50px;
+ 
 }
 
 .menu1{
@@ -22,7 +23,7 @@ nav{
 .menu1 > li > a{
  display: block;
  padding: 15px 20px;
- color: darkmagenta;
+ color: rgb(8, 8, 8);
  text-decoration: none;
 }
 
@@ -52,6 +53,9 @@ nav{
  padding: 15px 15px 15px 20px;
  text-decoration: none;
 }
+
+
+             
 
 
 #parent{
