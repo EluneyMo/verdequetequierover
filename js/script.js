@@ -58,6 +58,7 @@ if (val == 0){
   const randomX = parseInt(Math.random()*100);
   const randomY = parseInt(Math.random()*100);
   enviar.style.setProperty('top',randomY+'%');
+  enviar.style.setProperty('left',randomX+'%');
 }
 }
 document.getElementById("correo").addEventListener("keyup", mover);
