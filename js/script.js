@@ -43,6 +43,8 @@ const suge=document.forms ['sugerenciasss']['sugerencias'].value;
 
 if((tel=="" && correo=="" && asun=="" && suge=="") && a==0){
 movimiento1();
+val=1;
+return false;
 }
 if(val==1){
   movimiento1();
