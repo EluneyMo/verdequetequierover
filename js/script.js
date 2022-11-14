@@ -33,7 +33,7 @@ function Mostrarboton(){
 
 document.getElementById ('hovers').style.visibility='visible';
 document.getElementById ('hovers2').style.visibility='visible';
-
+}
 var val=0;
 function mover(){
   const correo=document.forms ['sugerenciasss']['correo'].value;
@@ -70,6 +70,3 @@ function movimiento2(){
   enviar.style.transform='translatey(50%)';
   enviar.style.transform='translatex(20%)';
 }
-
-
-
