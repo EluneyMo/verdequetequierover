@@ -37,9 +37,9 @@ document.getElementById ('hovers2').style.visibility='visible';
 var val=0;
 function mover(){
   const correo=document.forms ['sugerenciasss']['correo'].value;
-const tel=document.forms ['sugerenciasss']['tel'].value;
-const asun=document.forms ['sugerenciasss']['asun'].value;
-const suge=document.forms ['sugerenciasss']['sugerencias'].value;
+  const tel=document.forms ['sugerenciasss']['tel'].value;
+  const asun=document.forms ['sugerenciasss']['asun'].value;
+  const suge=document.forms ['sugerenciasss']['sugerencias'].value;
 
 if((tel=="" && correo=="" && asun=="" && suge=="") && val==0){
 movimiento1();
@@ -67,6 +67,8 @@ function movimiento1(){
 }
 function movimiento2(){
   const enviar= getElementById('enviar');
-  
   enviar.style.transform='translatex(100%)';
+}
+function nose(){
+  const enviar= getElementById('enviar');
 }
