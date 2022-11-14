@@ -206,7 +206,7 @@
     position: absolute;
     right: 50%;
     bottom: 0;
-    background: rgb(9, 93, 24);
+    background: rgba(15, 144, 38, 0.877);
     width: 0;
     height: 5px;
     transition: 1s;
