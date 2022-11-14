@@ -412,7 +412,7 @@
         text-align: center;
     }
     .sugerenias #correo{
-        
+        width: 100px;
     }
     .Enviar input{
         margin-top: 30px;
