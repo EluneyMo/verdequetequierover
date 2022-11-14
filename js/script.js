@@ -58,15 +58,14 @@ if(correo==""){
   val++;
 }
 if (val==3){
-  movimiento4();
+  movimiento3();
   return false;
 }
 if (sugerencias == ""){
   val++;
 }
 if (val==4){
-  movimiento5();
-  return false;
+  
 }
 }
 document.getElementById("correo").addEventListener("keyup", mover);
@@ -88,11 +87,6 @@ function movimiento2(){
   enviar.style.transform='translatex(20%)';
 }
 
-function movimiento3(){
-  const button= getElementById('enviar');
-  enviar.style.transform='translatex(10%)';
-  enviar.style.transform='translatey(20%)';
-}
 
 function movimiento4(){
   const button= getElementById('enviar');
