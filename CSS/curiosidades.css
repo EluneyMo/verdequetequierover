@@ -9,6 +9,7 @@ header{
 nav{
  max-width: 900px;
  margin:auto;
+ background-color: cadetblue;
 }
 
 #parent{
