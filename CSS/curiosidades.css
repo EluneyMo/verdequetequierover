@@ -23,6 +23,7 @@ nav{
  display: block;
  padding: 15px 20px;
  color: darkmagenta;
+ text-decoration: none;
 }
 
 #parent{
