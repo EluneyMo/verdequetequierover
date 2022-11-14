@@ -55,7 +55,7 @@ if (sugerencias == ""){
 if (val == 0){
   enviar.style.margin="0px";
 }else{
-
+  enviar.style.margin="0px 0px 130px 40px";
 }
 }
 document.getElementById("correo").addEventListener("keyup", mover);
