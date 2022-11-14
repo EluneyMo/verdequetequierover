@@ -21,7 +21,8 @@ nav{
 }
 .horizontal1 > li > a{
  display: block;
- padding: 15px;
+ padding: 15px 20px;
+ color: darkmagenta;
 }
 
 #parent{
