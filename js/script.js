@@ -45,6 +45,7 @@ val++;
 }
 if(val==1){
   movimiento1();
+  return false;
 }
 if(asun== ""){
   val++;
