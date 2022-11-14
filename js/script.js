@@ -62,11 +62,11 @@ return false;
 }
 function movimiento1(){
   const enviar= getElementById('enviar');
-  enviar.style.transform='translatex(30%)';
+  enviar.style.transform='translatex(50%)';
   
 }
 function movimiento2(){
   const enviar= getElementById('enviar');
   
-  enviar.style.transform='translatex(20%)';
+  enviar.style.transform='translatex(100%)';
 }
