@@ -61,14 +61,17 @@ function mover(){
 asun=document.getElementById("asun").value;
 sugerencias= document.getElementById("sugerencias").value;
 val=0;
-if(){
+if(tel==""){
 
 }
-if(){
+if(asun== ""){
 
 }
-if(){
+if(correo==""){
 
+}
+if (sugerencias == ""){
+  
 }
 }
 const enviar = document.querySelector('enviar');
