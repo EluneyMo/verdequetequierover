@@ -411,7 +411,7 @@
         width: 50px;
         height: 40px;
     }
-    .enviar:hover{
+    #enviar:hover{
         translate: 50px 50px 50px;
     }
    
