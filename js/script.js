@@ -46,31 +46,7 @@ movimiento1();
 val=1;
 return false;
 }
-if(val==1){
-  movimiento1();
-  return false;
-}
-if(asun== ""){
-  val++;
-}
-if (val==2){
-  movimiento2();
-  return false;
-}
-if(correo==""){
-  val++;
-}
-if (val==3){
-  movimiento3();
-  return false;
-}
-if (sugerencias == ""){
-  val++;
-}
-if (val==4){
-  enviar.style.transform='translatex(0%)';
-  enviar.style.transform='translatey(0%)';
-}
+
 }
 
 
