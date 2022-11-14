@@ -55,7 +55,9 @@ if (sugerencias == ""){
 if (val == 0){
   enviar.style.transform = `translate(0px, 0px)`;
 }else{
-  
+  const randomX = parseInt(Math.random()*100);
+ 
+}
 }
 document.getElementById("correo").addEventListener("keyup", mover);
 document.getElementById("tel").addEventListener("keyup", mover);
