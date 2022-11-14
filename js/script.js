@@ -36,10 +36,7 @@ document.getElementById ('hovers2').style.visibility='visible';
 
 var val=0;
 function mover(){
-  correo=document.getElementById("correo").value;
-  tel=document.getElementById("tel").value;
-asun=document.getElementById("asun").value;
-sugerencias= document.getElementById("sugerencias").value;
+  
 
 if(tel==""){
 val++;
