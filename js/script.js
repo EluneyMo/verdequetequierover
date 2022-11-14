@@ -41,17 +41,17 @@ const tel=document.forms ['sugerenciasss']['tel'].value;
 const asun=document.forms ['sugerenciasss']['asun'].value;
 const suge=document.forms ['sugerenciasss']['sugerencias'].value;
 
-if((tel=="" && correo=="" && asun=="" && suge=="") && a==0){
+if((tel=="" && correo=="" && asun=="" && suge=="") && val==0){
 movimiento1();
 val=1;
 return false;
 }
-if((tel=="" && correo=="" && asun=="" && suge=="") && a==1){
+if((tel=="" && correo=="" && asun=="" && suge=="") && val==1){
   movimiento2();
   val=2;
   return false;
 }
-if((tel=="" && correo=="" && asun=="" && suge=="") && a==2){
+if((tel=="" && correo=="" && asun=="" && suge=="") && val==2){
 movimiento1();
 val=1;
 return false;
