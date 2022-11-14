@@ -1,5 +1,5 @@
 let Suculentas = [
-    {id: 1, nombre: "Suculentas", cantidad: 1, desc: "Sin definir", precio: "$200"},
+    {id: 1, nombre: "Suculentas", cantidad: 1, desc: "Sin definir", precio: "$200", img: "./imagenes/flores.jpeg"},
     {id: 2, nombre: "Suculentas", cantidad: 1, desc: "Sin definir", precio: "$300"},
     {id: 3, nombre: "Suculentas", cantidad: 1, desc: "Sin definir", precio: "$300"},
     {id: 4, nombre: "Suculentas", cantidad: 1, desc: "Sin definir", precio: "$300"},

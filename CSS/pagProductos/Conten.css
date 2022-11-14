@@ -1,12 +1,12 @@
 .content{
     border: black solid 1px;
-    background-image: url(https://latiendadelcactus.com/wp-content/uploads/2017/10/suculenta-variada-300x300.jpg);
     opacity: .8;
     width: 300px;
     height: 300px;
     border-radius: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
+    position: relative;
 }
 .content p{
     text-align: center;
