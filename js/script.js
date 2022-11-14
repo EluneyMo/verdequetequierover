@@ -41,18 +41,21 @@ function mover(){
   const asun=document.forms ['sugerenciasss']['asun'].value;
   const suge=document.forms ['sugerenciasss']['sugerencias'].value;
 
-if((tel=="" && correo=="" && asun=="" && suge=="") && val==0){
-movimiento1();
+if((tel=="" || correo=="" || asun=="" || suge=="") && val==0){
+  const enviar= getElementById('enviar');
+  enviar.style.transform='translatex(50%)';
 val=1;
 return false;
 }
-if((tel=="" && correo=="" && asun=="" && suge=="") && val==1){
-  movimiento2();
+if((tel=="" || correo=="" || asun=="" || suge=="") && val==1){
+  const enviar= getElementById('#enviar');
+  enviar.style.transform='translatex(100%)';
   val=2;
   return false;
 }
-if((tel=="" && correo=="" && asun=="" && suge=="") && val==2){
-movimiento1();
+if((tel=="" || correo=="" || asun=="" || suge=="") && val==2){
+  const enviar= getElementById('#enviar');
+  enviar.style.transform='translatex(50%)';
 val=1;
 return false;
 }else{
@@ -61,13 +64,11 @@ return false;
 
 }
 function movimiento1(){
-  const enviar= getElementById('enviar');
-  enviar.style.transform='translatex(50%)';
+  
   
 }
 function movimiento2(){
-  const enviar= getElementById('enviar');
-  enviar.style.transform='translatex(100%)';
+  
 }
 function nose(){
   const enviar= getElementById('enviar');
