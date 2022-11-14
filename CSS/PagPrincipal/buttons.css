@@ -415,13 +415,15 @@
     }
     .sugerenias #correo{
         width: 310px;
+        height: 25px;
     }
     .sugerenias #tel{
         width: 310px;
-
+        height: 25px;
     }
     .sugerenias #asun{
         width: 310px;
+        height: 25px;
     }
     .Enviar input{
         margin-top: 30px;
