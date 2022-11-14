@@ -116,7 +116,6 @@ p{
  text-align: center;
 }
 #pie .wasp img{
- width: 300px;
- 
- 
+ width: 60px;
+ background-color: aliceblue; 
 }
