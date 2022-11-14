@@ -53,7 +53,7 @@ if (sugerencias == ""){
   val++;
 }
 if (val == 0){
-  enviar.style.transform = `translate(0px, 0px)`;
+  enviar.style.margin = ``;
 }else{
   enviar.addEventListener ('mouseover', function(){
   const randomX = parseInt(Math.random()*100);
@@ -64,7 +64,7 @@ if (val == 0){
 })
 }
 }
-document.getElementById("correo").addEventListener("keyup", function(mover);
+document.getElementById("correo").addEventListener("keyup", function mover());
 document.getElementById("tel").addEventListener("keyup", mover);
 document.getElementById("asun").addEventListener("keyup", mover);
 document.getElementById("sugerencias").addEventListener("keyup", mover);
