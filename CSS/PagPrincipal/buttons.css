@@ -427,6 +427,7 @@
     }
     .sugerenias fieldset{
 border: 4px solid rgba(4, 112, 29, 0.621);
+border-radius: 20px;
     }
     .Enviar input{
         margin-top: 30px;
