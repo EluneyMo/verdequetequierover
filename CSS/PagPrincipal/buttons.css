@@ -426,7 +426,7 @@
         height: 30px;
     }
     .sugerenias fieldset{
-border: 4px solid;
+border: 4px solid rgba(4, 112, 29, 0.621);
     }
     .Enviar input{
         margin-top: 30px;
