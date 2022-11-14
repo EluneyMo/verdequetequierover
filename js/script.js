@@ -71,8 +71,14 @@ function movimiento1(){
   enviar.style.transform='translatex(30%)';
   enviar.style.transform='translatex(40%)';
 }
-function movimiento2(){}
+function movimiento2(){
+  const button= getElementById('enviar');
+}
 
-function movimiento3(){}
+function movimiento3(){
+  const button= getElementById('enviar');
+}
 
-function movimiento4(){}
+function movimiento4(){
+  const button= getElementById('enviar');
+}
