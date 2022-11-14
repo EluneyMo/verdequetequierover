@@ -15,7 +15,7 @@ header{
 nav{
  max-width: 900px;
  margin:auto;
- background-color: rgb(44, 47, 47);
+ background-color: rgb(14, 61, 61);
  font-size: 20px;
  margin-top: 50px;
  
@@ -24,7 +24,7 @@ nav{
 .menu1{
  list-style: none;
  display: flex;
- width: 400px;
+ width: 600px;
  justify-content: center;
  
 }
