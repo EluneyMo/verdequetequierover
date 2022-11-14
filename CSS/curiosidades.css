@@ -19,8 +19,9 @@ nav{
  display: flex;
  justify-content: space-around;
 }
-.horizontal1{
+.horizontal1 > li > a{
  display: block;
+ padding: 15px;
 }
 
 #parent{
