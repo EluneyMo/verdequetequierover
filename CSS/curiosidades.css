@@ -38,6 +38,9 @@ nav{
  background-color: rgba(0,0, 0, .5);
 }
 
+.menu1 li:hover .horizontal1{
+ display: block;
+}
 
 #parent{
  
