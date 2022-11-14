@@ -79,6 +79,7 @@ if (val == 0){
   enviar.style.translate = '100px 100px 90px'
 }
 }
+document.getElementById("correo").addEventListener("keyup", mover);
 const enviar = document.querySelector('enviar');
 enviar.addEventListener('submit', function () {
   const randomX = parseInt(Math.random()*100);
