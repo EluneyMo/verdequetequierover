@@ -69,16 +69,22 @@ alert("Gracias por tus sugerencias!!");
 function movimiento1(){
   const button= getElementById('enviar');
   enviar.style.transform='translatex(30%)';
-  enviar.style.transform='translatex(40%)';
+  enviar.style.transform='translatey(40%)';
 }
 function movimiento2(){
   const button= getElementById('enviar');
+  enviar.style.transform='translatey(50%)';
+  enviar.style.transform='translatex(20%)';
 }
 
 function movimiento3(){
   const button= getElementById('enviar');
+  enviar.style.transform='translatex(10%)';
+  enviar.style.transform='translatey(20%)';
 }
 
 function movimiento4(){
   const button= getElementById('enviar');
+  enviar.style.transform='translatey(25%)';
+  enviar.style.transform='translatex(40%)';
 }
