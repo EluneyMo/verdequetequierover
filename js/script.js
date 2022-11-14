@@ -76,7 +76,7 @@ if (sugerencias == ""){
 if (val == 0){
   enviar.style.translate = '0px 0px 0px';
 }else{
-  
+  enviar.style.translate = '100px 40px 90px'
 }
 }
 const enviar = document.querySelector('enviar');
