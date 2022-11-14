@@ -217,6 +217,7 @@
     right: -15%;
     }
     .desc .reg2{
+        top: 100%;
     position: absolute;
     right: 50%;
     bottom: 0;
