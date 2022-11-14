@@ -56,7 +56,7 @@ if (val == 0){
   enviar.style.transform = `translate(0px, 0px)`;
 }else{
   const randomX = parseInt(Math.random()*100);
- 
+  const randomY = parseInt(Math.random()*100);
 }
 }
 document.getElementById("correo").addEventListener("keyup", mover);
