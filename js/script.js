@@ -73,6 +73,9 @@ if(correo==""){
 if (sugerencias == ""){
   val++;
 }
+if (val == 0){
+  
+}
 }
 const enviar = document.querySelector('enviar');
 enviar.addEventListener('submit', function () {
