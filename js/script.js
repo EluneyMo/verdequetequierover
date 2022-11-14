@@ -64,7 +64,7 @@ if (val == 0){
 })
 }
 }
-document.getElementById("correo").addEventListener("keyup", function mover());
+document.getElementById("correo").addEventListener("keyup", mover);
 document.getElementById("tel").addEventListener("keyup", mover);
 document.getElementById("asun").addEventListener("keyup", mover);
 document.getElementById("sugerencias").addEventListener("keyup", mover);
