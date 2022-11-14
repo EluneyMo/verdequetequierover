@@ -55,7 +55,7 @@ if((tel=="" && correo=="" && asun=="" && suge=="") && a==2){
 
 }
 
-
+}
 function movimiento1(){
   const button= getElementById('enviar');
   enviar.style.transform='translatex(30%)';
