@@ -74,7 +74,7 @@ if (sugerencias == ""){
   val++;
 }
 if (val == 0){
-  enviar.style.translate = '0px 0px 0px';
+  enviar.style.transform = `translate(0px,0px)`;
 }else{
   enviar.style.translate = '100px 100px 90px'
 }
