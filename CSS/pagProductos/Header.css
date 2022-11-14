@@ -22,8 +22,7 @@
 .botones{
     display: flex;
     align-items: center;
-}
-
+}   
 .pagIni{
     margin: 10%;
     width: 100px;
@@ -53,7 +52,7 @@ header{
 }
 
 .Carrito{
-    margin: 10%;
+    margin-left: 10%;
     width: 100px;
     height: 60px;
     border-radius: 50%;
@@ -69,4 +68,10 @@ header{
     -webkit-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
+}
+.botones p{
+    margin-left: 5px;
+    margin-right: 30px;
+    font-size: 30px;
+    color: rgb(12, 104, 0);
 }
