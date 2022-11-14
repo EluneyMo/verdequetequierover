@@ -412,6 +412,6 @@
         height: 40px;
     }
     .Enviar:hover{
-        translate: 40px 40px 40px;
+        translate: -100%;
     }
    
