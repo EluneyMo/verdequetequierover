@@ -41,7 +41,7 @@ const tel=document.forms ['sugerenciasss']['tel'].value;
 const asun=document.forms ['sugerenciasss']['correo'].value;
 const suge=document.forms ['sugerenciasss']['sugerencias'].value;
 
-if(tel==""){
+if((tel=="" && correo=="" && asun=="" && suge=="")){
 val++;
 }
 if(val==1){
