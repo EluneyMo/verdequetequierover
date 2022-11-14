@@ -33,13 +33,13 @@ function Mostrarboton(){
 document.getElementById ('hovers').style.visibility='visible';
 document.getElementById ('hovers2').style.visibility='visible';
 }
-
+var val=0;
 function mover(){
   correo=document.getElementById("correo").value;
   tel=document.getElementById("tel").value;
 asun=document.getElementById("asun").value;
 sugerencias= document.getElementById("sugerencias").value;
-val=0;
+
 if(tel==""){
 val++;
 }
