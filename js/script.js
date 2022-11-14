@@ -50,6 +50,9 @@ if(val==1){
 if(asun== ""){
   val++;
 }
+if (val==2){
+  
+}
 if(correo==""){
   val++;
 }
