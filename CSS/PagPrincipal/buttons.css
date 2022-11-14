@@ -207,7 +207,7 @@
     right: 50%;
     bottom: 0;
     background: rgb(0, 255, 42);
-    width: 0;
+    width: 100px;
     height: 4px;
     transition: 1s;
     margin-top: -100px;
