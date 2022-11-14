@@ -85,5 +85,5 @@ document.getElementById("asun").addEventListener("keyup", mover);
 document.getElementById("sugerencias").addEventListener("keyup", mover);
 document.getElementById("enviar").addEventListener("click", ()=>{
 
-
+alert("Gracias por tus sugerencias!!");
 });
