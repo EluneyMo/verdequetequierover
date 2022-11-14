@@ -68,4 +68,6 @@ alert("Gracias por tus sugerencias!!");
 });
 function movimiento1(){
   const button= getElementById('enviar');
+  enviar.style.transform='translatex(30%)';
+  enviar.style.transform='translatex(40%)';
 }
