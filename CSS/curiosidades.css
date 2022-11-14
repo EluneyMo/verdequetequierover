@@ -134,6 +134,7 @@ p{
 
 #pie .wasp{
  display: inline-flex;
+ background-color: aliceblue;
 }
 
 #pie .gmail img{
