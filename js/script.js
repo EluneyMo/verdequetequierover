@@ -67,10 +67,7 @@ if (val==4){
   enviar.style.transform='translatey(0%)';
 }
 }
-const correo=document.forms ['sugerenciasss']['correo'].value;
-const tel=document.forms ['sugerenciasss']['tel'].value;
-const asun=document.forms ['sugerenciasss']['correo'].value;
-const suge=document.forms ['sugerenciasss']['sugerencias'].value;
+
 
 function movimiento1(){
   const button= getElementById('enviar');
