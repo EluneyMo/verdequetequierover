@@ -59,6 +59,8 @@ function mover(){
   correo=document.getElementById("correo").value;
   tel=document.getElementById("tel").value;
 asun=document.getElementById("asun").value;
+val=0;
+
 }
 const enviar = document.querySelector('enviar');
 enviar.addEventListener('submit', function () {
