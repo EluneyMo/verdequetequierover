@@ -425,6 +425,9 @@
         width: 310px;
         height: 30px;
     }
+    .sugerenias fieldset{
+
+    }
     .Enviar input{
         margin-top: 30px;
         width: 310px;
@@ -434,6 +437,7 @@
         font-size: 30px;
         font-family: 'Athena';
         border-radius: 20px;
+        margin-bottom: 30px ;
     }
     #enviar:hover{
         margin-left: 200px;
