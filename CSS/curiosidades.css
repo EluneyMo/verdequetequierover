@@ -18,6 +18,7 @@ nav{
  background-color: rgb(14, 61, 61);
  font-size: 20px;
  margin-top: 50px;
+ border-radius: 10px;
  
 }
 
@@ -25,7 +26,7 @@ nav{
  list-style: none;
  display: flex;
  width: 600px;
- 
+
  justify-content: center;
  
 }
@@ -34,10 +35,12 @@ nav{
  padding: 15px 20px;
  color: rgb(243, 234, 234);
  text-decoration: none;
+ border-radius: 10px;
 }
 
 .menu1 li:hover{
- background-color: red;
+ background-color: rgb(116, 56, 56);
+ border-radius: 10px;
 }
 
 .horizontal1{
@@ -46,6 +49,7 @@ nav{
  list-style: none;
  width: 200px;
  background-color: rgba(0,0, 0, .5);
+ border-radius: 10px;
 }
 
 .menu1 li:hover .horizontal1{
