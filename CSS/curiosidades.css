@@ -74,12 +74,15 @@ nav{
 }
 h1{
  text-align: center;
+ font-size: 55px;
 }
 #parent img{
  width: 500px;
  height: 350px;
  margin-left: 400px;
 }
+
+
 
 p{
  margin-left: 200px;
