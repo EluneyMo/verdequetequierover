@@ -46,6 +46,11 @@ nav{
  background-color: black;
 }
 
+.horizontal1 li a{
+ display: block;
+}
+
+
 #parent{
  
  background-color:rgb(155, 217, 156);
