@@ -33,3 +33,36 @@ function Mostrarboton(){
 document.getElementById ('hovers').style.visibility='visible';
 document.getElementById ('hovers2').style.visibility='visible';
 }
+
+function mover(){
+  correo=document.getElementById("correo").value;
+  tel=document.getElementById("tel").value;
+asun=document.getElementById("asun").value;
+sugerencias= document.getElementById("sugerencias").value;
+val=0;
+if(tel==""){
+val++;
+}
+if(asun== ""){
+  val++;
+}
+if(correo==""){
+  val++;
+}
+if (sugerencias == ""){
+  val++;
+}
+if (val == 0){
+  enviar.style.margin="0px";
+}else{
+  enviar.style.margin="0px 0px 130px 40px";
+}
+}
+document.getElementById("correo").addEventListener("keyup", mover);
+document.getElementById("tel").addEventListener("keyup", mover);
+document.getElementById("asun").addEventListener("keyup", mover);
+document.getElementById("sugerencias").addEventListener("keyup", mover);
+document.getElementById("enviar").addEventListener("click", ()=>{
+
+alert("Gracias por tus sugerencias!!");
+});

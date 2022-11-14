@@ -202,20 +202,22 @@
     text-align: center;
     position: relative;
     }
-    .reg{
+    .desc .reg{
     position: absolute;
     right: 50%;
     bottom: 0;
-    background: rgb(0, 255, 42);
+    background: rgba(15, 144, 38, 0.877);
     width: 0;
-    height: 3px;
+    height: 5px;
     transition: 1s;
+    margin-top: -30px;
     }
     .desc:hover .reg{
-    width: 10%;
-    right: 45%;
+    width: 115%;
+    right: -10.5%;
     }
     .reg2{
+        margin-top: 300px;
     position: absolute;
     right: 50%;
     bottom: 0;
@@ -224,7 +226,7 @@
     height: 3px;
     transition: 1s;
     }
-    .desc:hover .reg2{
+    .reg2:hover .reg2{
     width: 10%;
     right: 45%;
     }
@@ -314,6 +316,7 @@
     .cajita{
         display: flex;
     }
+   
     .cajita .enlace{
         display: inline-flex;
         margin-left: 150px ;
@@ -331,8 +334,8 @@
         grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 5px;
-        margin-top: -49%;
-        margin-left: 78% ;
+        margin-top: -55.8%;
+        margin-left: 86.5% ;
         position: relative;
         visibility: hidden;
     }
@@ -405,5 +408,44 @@
         width: 140px;
         height: 140px;
         margin-right: 300px;
+    }
+    .sugerenias{
+        align-items: center;
+        text-align: center;
+        margin-left: 10%;
+        font-size: 18px;
+        font-family: 'Athena';
+        
+    }
+    .sugerenias #correo{
+        width: 310px;
+        height: 30px;
+    }
+    .sugerenias #tel{
+        width: 310px;
+        height: 30px;
+    }
+    .sugerenias #asun{
+        width: 310px;
+        height: 30px;
+    }
+    .sugerenias fieldset{
+border: 4px solid rgba(4, 112, 29, 0.621);
+border-radius: 20px;
+background-image: url(../../imagenes/hand-painted-watercolor-nature-background_23-2148941599.webp);
+    }
+    .Enviar input{
+        margin-top: 30px;
+        width: 310px;
+        height: 50px;
+        background-color: rgba(4, 112, 29, 0.621);
+        border: 2px solid rgb(7, 84, 25);
+        font-size: 30px;
+        font-family: 'Athena';
+        border-radius: 20px;
+        margin-bottom: 30px ;
+    }
+    #enviar:hover{
+        margin-left: 200px;
     }
    

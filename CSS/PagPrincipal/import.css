@@ -8,9 +8,13 @@
     width: auto;
     height: 100%;
     }
+    html{
+        width: 1375px;
+    }
     /*Fondo de pagina*/
     body{
     background-color: rgb(155, 217, 156);
+    width:1375px;
     }
     /*Contenedor de Encabezado*/
     .box{
@@ -57,10 +61,10 @@
     align-items: flex-start;
     width: 200px;
     height: 400px;
-    background: rgba(18, 108, 5, 0.615);
+    background: rgb(19, 108, 5);
     padding-bottom: 0%;
     padding-left: 0%;
-    margin-bottom: 400px;
+    margin-bottom: 0px;
     font-size: 16px;
     position: absolute;
     display: flex;
@@ -69,7 +73,7 @@
     /*Titulo del encabezado*/
     /*Contenedor de imagenes de encabezado*/
     .box #slidesshow{
-    overflow: hidden;
+    
     margin: 0px;
     display: flex;
     align-items: flex-end;
@@ -80,7 +84,7 @@
     position: absolute;
     max-height: 500px;
     border: none;
-    z-index: 1000;
+    z-index: 1000px;
     margin: 0px;
     width: 100%;
     }
@@ -91,18 +95,18 @@
     padding-left: 0px;
     display: flex;
     }
-    .box #slideshow-dos {
+    .box #slideshowdos {
     position: relative;
     z-index: 998;
-    height: 600px;
+    height: 400px;
     }
     /*Imagenes del encabezado*/
     .box #slideshowdos img{
     align-items: flex-end;
     display: flex;
-    margin:0px;
+    margin-left:14.5%;
     padding: 0%;
-    width: 2000px;
+    width: 1327px;
     height: 400px;
     }
     /*Trancision de imagenes*/
@@ -113,12 +117,15 @@
     .active{
     left: 0 !important;
     }
+    .box #slideshowdos img #img1{
+        width: 1920px;
+    }
     /*Contenedor de botones del menu*/
     .parent{
     margin-right: 50%;
-    margin-left: 30%;
+    margin-left: 33%;
     padding-top: 20px;
-    margin-top: -350px;
+    margin-top: 3%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -234,11 +241,15 @@
     grid-template-rows: 1fr;
     column-gap: 0px;
     row-gap: 0px;
+    width: 1375px;
+    }
+    .desc .Descuentos .imagendesc{
+        width: 1375px;
     }
     .desc .Descuentos .imagendesc img{
-    margin-left: -5% ;
-    width: 1530px ;
-    height: 400px;
+    margin-left: -3% ;
+    width: 1555px ;
+    height: 250px;
     opacity: 70%;
     margin-top: 70px;
     position: relative;
@@ -261,9 +272,9 @@
     -webkit-text-stroke-color: rgba(137, 134, 134, 0.647);
     -webkit-text-stroke: 0.5px;
     position: absolute;
-    padding-left: 225px;
-    padding-top: 150px;
-    font-size: 250px;
+    padding-left: 360px;
+    padding-top: 100px;
+    font-size: 190px;
     z-index: 2;
     grid-area: 1 / 1 / 2 / 2;
     }
@@ -276,13 +287,15 @@
     } 
    
     .info .imagenees #img{
+        margin-left: 11%;
         width:90%;
         height: 80%;
 
         position: relative;
     }   
     .info .imagenees  p{
-        margin-bottom: -70px;
+        margin-right: 3%;
+        margin-bottom: -50px;
         margin-top: 20px;
         font-family: 'Athena';
         color: rgb(28, 152, 63);
@@ -293,6 +306,7 @@
     #infor{
         margin-top: 10%;
         text-align: center;
+        margin-left: 10% ;
     }
     #infor .envios{
         font-size: 30px;
@@ -308,6 +322,7 @@
         border-radius: 10px;
         margin-right: 1%;
         margin-top: 1%;
+       
     }
     #infor .gmail{
         display: inline-flex;
@@ -315,34 +330,44 @@
        border-radius: 10px;
        margin-left: 1%;
        margin-top: 1%;
+       
     }
     #infor .gmail p{
         display: inline-flex;
-        font-size: 30px;
-        margin-left: 15px;
+        font-size: 40px;
+        margin-left: 30px;
         
         text-align: center !important;
     }
     #infor .wsp p{
         display: inline-flex;
-        font-size: 30px;
-        margin-left: 10px;
+        font-size: 40px;
+        margin-left: 30px;
     }
     #infor .wsp img{
         background-color: aliceblue;
-        width:35px;
-        height: 35px;
+        width:60px;
+        height: 60px;
         box-shadow: 5px 5px 5px rgb(72, 71, 71);
         border-radius:20px;
        margin-left: 10px;
        
-
+    margin-top: 20px;
     }
     #infor .gmail img{
         background-color: aliceblue;
-        width: 50px;
-        height: 35px;
+        width: 80px;
+        height: 60px;
         box-shadow: 5px 5px 5px rgb(72, 71, 71);
-    
+        margin-top: 20px;
+    }
+    .sugerencias{
+        text-align: center;
+        align-items: center;
+    }
+    .sugerenias h2{
+        font-family: 'Athena';
+        color: rgb(0, 0, 0);
+        text-shadow: rgb(25, 29, 22) 0.1em 0.1em 0.2em
     }
  
