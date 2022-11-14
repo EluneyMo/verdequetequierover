@@ -51,6 +51,9 @@ if((tel=="" && correo=="" && asun=="" && suge=="") && a==1){
   val=2;
   return false;
 }
+if((tel=="" && correo=="" && asun=="" && suge=="") && a==2){
+
+}
 
 
 function movimiento1(){
