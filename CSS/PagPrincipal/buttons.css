@@ -415,6 +415,7 @@
         margin-left: 10%;
         font-size: 18px;
         font-family: 'Athena';
+        text-shadow: black 0.1em 0.1em 0.2em
     }
     .sugerenias #correo{
         width: 310px;
