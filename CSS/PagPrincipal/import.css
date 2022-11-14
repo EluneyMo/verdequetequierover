@@ -97,7 +97,7 @@
     height: 600px;
     }
     /*Imagenes del encabezado*/
-    .box #slidesshow img{
+    .box #slideshowdos img{
     align-items: flex-end;
     display: flex;
     margin:0px;
@@ -236,7 +236,7 @@
     row-gap: 0px;
     }
     .desc .Descuentos .imagendesc img{
-    margin-left: -5px ;
+    margin-left: -5% ;
     width: 1530px ;
     height: 400px;
     opacity: 70%;
@@ -290,20 +290,59 @@
         text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
 
     }
-    .infor{
+    #infor{
         margin-top: 10%;
         text-align: center;
     }
-    .infor .wsp img{
-        width:120px;
-        height: 120px;
-        box-shadow: 15px 7px 5px black;
-        border-radius:20px;
+    #infor .envios{
+        font-size: 30px;
+        border-width: thin;
+        border-top-color: #000000;
+        border-right-color: rgb(0, 0, 0);
+        border-bottom-color: #000000;
+        border-left-color: rgb(0, 0, 0);
     }
-    .infor .gmail img{
-        width: 140px;
-        height: 120px;
-        box-shadow: 15px 7px 5px black;
-        border-radius:10px;
+    #infor .wsp{
+        display: inline-flex;
+        background-color: aliceblue;
+        border-radius: 10px;
+        margin-right: 1%;
+        margin-top: 1%;
+    }
+    #infor .gmail{
+        display: inline-flex;
+       background-color: aliceblue;
+       border-radius: 10px;
+       margin-left: 1%;
+       margin-top: 1%;
+    }
+    #infor .gmail p{
+        display: inline-flex;
+        font-size: 30px;
+        margin-left: 15px;
+        
+        text-align: center !important;
+    }
+    #infor .wsp p{
+        display: inline-flex;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    #infor .wsp img{
+        background-color: aliceblue;
+        width:35px;
+        height: 35px;
+        box-shadow: 5px 5px 5px rgb(72, 71, 71);
+        border-radius:20px;
+       margin-left: 10px;
+       
+
+    }
+    #infor .gmail img{
+        background-color: aliceblue;
+        width: 50px;
+        height: 35px;
+        box-shadow: 5px 5px 5px rgb(72, 71, 71);
+    
     }
  

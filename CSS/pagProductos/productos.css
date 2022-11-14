@@ -11,7 +11,7 @@ header{
     justify-content: space-between;
     align-items: center;    
 }
-content{
+.coSuculentas{
     border: black solid 1px;
     grid-area: conten;
     display: grid;
@@ -19,6 +19,88 @@ content{
     justify-content: space-evenly;
     margin: 5px;
 }
+
+.coAcuaticas{
+    border: black solid 1px;
+    grid-area: conten;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.coArbustos{
+    border: black solid 1px;
+    grid-area: conten;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.coArboles{
+    border: black solid 1px;
+    grid-area: conten;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.coBulbosas{
+    border: black solid 1px;
+    grid-area: conten;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.coCactus{
+    border: black solid 1px;
+    grid-area: conten;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.coPlantas_Carnivoras{
+    border: black solid 1px;
+    grid-area: conten;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.coEnredaderas{
+    border: black solid 1px;
+    grid-area: conten;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.coFlores{
+    border: black solid 1px;
+    grid-area: conten;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.coHerbáceas{
+    border: black solid 1px;
+    grid-area: conten;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
 nav{
     border: black solid 1px;
     grid-area: nav;
