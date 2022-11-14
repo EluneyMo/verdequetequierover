@@ -24,8 +24,8 @@ nav{
 .menu1{
  list-style: none;
  display: flex;
- justify-content: space-around;
-
+ width: 400px;
+ justify-content: center;
  
 }
 .menu1 > li > a{
@@ -105,4 +105,5 @@ p{
  margin-bottom: 35px;
  font-size: 20px; 
 }
+
 
