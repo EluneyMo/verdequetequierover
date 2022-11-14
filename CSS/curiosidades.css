@@ -161,6 +161,7 @@ p{
 #pie .gmail{
  display: inline-flex; 
  background-color: aliceblue;
+ border-radius: 10px;
 
 }
 
