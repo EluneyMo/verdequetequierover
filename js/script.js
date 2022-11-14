@@ -67,5 +67,5 @@ document.getElementById("enviar").addEventListener("click", ()=>{
 alert("Gracias por tus sugerencias!!");
 });
 function movimiento1(){
-  
+  const button= getElementById('enviar');
 }
