@@ -214,7 +214,7 @@
     }
     .desc:hover .reg{
     width: 100%;
-    right: 0%;
+    right: -10%;
     }
     .reg2{
     position: absolute;
