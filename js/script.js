@@ -30,9 +30,10 @@ addEventListener ('DOMContentLoaded', () =>{
  setInterval(slideshowdos, 3000)
 })
 function Mostrarboton(){
+
 document.getElementById ('hovers').style.visibility='visible';
 document.getElementById ('hovers2').style.visibility='visible';
-}
+
 var val=0;
 function mover(){
   correo=document.getElementById("correo").value;
@@ -69,6 +70,7 @@ if (val==4){
   enviar.style.transform='translatey(0%)';
 }
 }
+
 document.getElementById("correo").addEventListener("keyup", mover);
 document.getElementById("tel").addEventListener("keyup", mover);
 document.getElementById("asun").addEventListener("keyup", mover);
@@ -93,4 +95,5 @@ function movimiento4(){
   const button= getElementById('enviar');
   enviar.style.transform='translatey(40%)';
   enviar.style.transform='translatex(30%)';
+}
 }
