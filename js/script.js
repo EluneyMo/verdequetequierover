@@ -70,7 +70,10 @@ if (val==4){
   enviar.style.transform='translatey(0%)';
 }
 }
-const correo=document.forms ['sugerenciasss'][correo].value;
+const correo=document.forms ['sugerenciasss']['correo'].value;
+const tel=document.forms ['sugerenciasss']['tel'].value;
+const asun=document.forms ['sugerenciasss']['correo'].value;
+const suge=document.forms ['sugerenciasss']['correo'].value;
 document.getElementById("correo").addEventListener("keyup", mover);
 document.getElementById("tel").addEventListener("keyup", mover);
 document.getElementById("asun").addEventListener("keyup", mover);
