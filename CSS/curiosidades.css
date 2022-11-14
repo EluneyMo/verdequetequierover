@@ -158,3 +158,9 @@ p{
  text-align: center in !important;
 }
 
+#pie .gmail{
+ display: inline-flex; 
+ background-color: aliceblue;
+
+}
+
