@@ -128,4 +128,5 @@ p{
 #pie .wasp p{
  display: inline-flex;
  font-size: 40px;
+ margin-left: 30px;
 }
