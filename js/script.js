@@ -68,9 +68,4 @@ function movimiento2(){
 }
 
 
-function movimiento4(){
-  const button= getElementById('enviar');
-  enviar.style.transform='translatey(40%)';
-  enviar.style.transform='translatex(30%)';
-}
-}
+
