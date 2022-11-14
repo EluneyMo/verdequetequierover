@@ -62,16 +62,16 @@ asun=document.getElementById("asun").value;
 sugerencias= document.getElementById("sugerencias").value;
 val=0;
 if(tel==""){
-
+val++;
 }
 if(asun== ""){
-
+  val++;
 }
 if(correo==""){
-
+  val++;
 }
 if (sugerencias == ""){
-  
+  val++;
 }
 }
 const enviar = document.querySelector('enviar');
