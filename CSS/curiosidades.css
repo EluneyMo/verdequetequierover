@@ -175,4 +175,6 @@ footer{
  margin-top: 1%;
 
 }
-
+fieldset{
+              border: 2px solid rgba(8, 84, 11, 0.861);
+}
