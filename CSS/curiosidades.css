@@ -1,15 +1,24 @@
+@font-face{
+              font-family: 'Athena';
+src: url(../font/Athena.ttf);
+}
 *{
  margin: 0;
  padding: 0;
- 
+ font-family: 'Athena';
 }
 header{
- background-color: beige;
+ background-color:rgb(155, 217, 156);
  display: inline-flex;
  width: 100%;
 }
 #logo{
  background-color: beige;
+ margin-left: 140px;
+ margin-right: -30px;
+ width: 220px;
+ height: 190px;
+ border-radius: 20px;
 }
 
 nav{
@@ -17,15 +26,16 @@ nav{
  margin:auto;
  background-color: rgb(14, 61, 61);
  font-size: 20px;
- margin-top: 50px;
+ margin-top: 60px;
  border-radius: 10px;
- 
+ margin-left: 30px;
+ margin-bottom: 120px;
 }
 
 .menu1{
  list-style: none;
  display: flex;
- width: 600px;
+ width: 700px;
 
  justify-content: center;
  
@@ -111,14 +121,13 @@ p{
  font-size: 20px; 
 }
 
-#pie{
- 
+footer{
+ background-color: rgb(155, 217, 156);
  text-align: center;
 }
-#pie .wasp img{
+.wasp img{
  width: 60px;
- height: 60px;
- background-color: aliceblue; 
+ height: 60px; 
  box-shadow: 5px 5px 5px rgb(72, 71, 71) ;
  border-radius: 20px;
  margin-top: 20px;
@@ -126,13 +135,13 @@ p{
  
 }
 
-#pie .wasp p{
+.wasp p{
  display: inline-flex;
  font-size: 40px;
  margin-left: 30px;
 }
 
-#pie .wasp{
+.wasp{
  display: inline-flex;
  background-color: aliceblue;
  border-radius: 10px;
@@ -141,7 +150,7 @@ p{
 
 }
 
-#pie .gmail img{
+.gmail img{
  width: 60px;
  height: 60px;
  background-color: aliceblue;
@@ -151,14 +160,14 @@ p{
  
 } 
 
-#pie .gmail p{
+.gmail p{
  display: inline-flex;
  font-size: 40px;
  margin-left: 30px;
  text-align: center in !important;
 }
 
-#pie .gmail{
+.gmail{
  display: inline-flex; 
  background-color: aliceblue;
  border-radius: 10px;
