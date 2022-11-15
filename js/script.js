@@ -34,6 +34,11 @@ function Mostrarboton(){
 document.getElementById ('hovers').style.visibility='visible';
 document.getElementById ('hovers2').style.visibility='visible';
 }
+
+
+
+
+
 var val=0;
 function mover(){
   const correo=document.forms ['sugerenciasss']['correo'].value;
@@ -42,23 +47,31 @@ function mover(){
   const suge=document.forms ['sugerenciasss']['sugerencias'].value;
 
 if((tel=="" || correo=="" || asun=="" || suge=="") && val==0){
-  const enviar= getElementById('enviar');
-  enviar.style.transform='translatex(50%)';
+  movimiento1();
 val=1;
 return false;
 }
 if((tel=="" || correo=="" || asun=="" || suge=="") && val==1){
-  const enviar= getElementById('#enviar');
-  enviar.style.transform='translatex(100%)';
+  movimiento2();
   val=2;
   return false;
 }
 if((tel=="" || correo=="" || asun=="" || suge=="") && val==2){
-  const enviar= getElementById('#enviar');
-  enviar.style.transform='translatex(50%)';
+  movimiento1();
 val=1;
 return false;
 }else{
+  document.getElementById('#enviar').style.cursor='pointer';
   return false;
 }
+
+}
+function movimiento1(){
+  const enviar= getElementById('#enviar');
+  enviar.style.transform='translatex(-160%)';
+  
+}
+function movimiento2(){
+  const enviar= getElementById('#enviar');
+  enviar.style.transform='translatex(0%)';
 }

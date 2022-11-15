@@ -435,6 +435,7 @@ border-radius: 20px;
 background-image: url(../../imagenes/hand-painted-watercolor-nature-background_23-2148941599.webp);
     }
     #enviar{
+        position: relative;
         margin-top: 30px;
         width: 310px;
         height: 50px;
