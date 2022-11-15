@@ -47,8 +47,8 @@ function mover(){
   const suge=document.forms ['sugerenciasss']['sugerencias'].value;
 
 if((tel=="" || correo=="" || asun=="" || suge=="") && val==0){
- 
-  enviar.style.margin ='0px,0px,30px,0px';
+  movimiento1();
+  
 val=1;
 return false;
 }
