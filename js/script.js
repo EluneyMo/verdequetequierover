@@ -38,7 +38,7 @@ document.getElementById ('hovers2').style.visibility='visible';
 
 function movimiento1(){
   const enviar= getElementById('enviar');
-  enviar.style.transform='translatex(-160%)';
+  enviar.style.transform='translatex(-50%)';
   
 }
 function movimiento2(){
