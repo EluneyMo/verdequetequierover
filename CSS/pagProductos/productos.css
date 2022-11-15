@@ -12,7 +12,10 @@ header{
     align-items: center;    
 }
 .coSuculentas{
+<<<<<<< HEAD
     border: black solid 1px;
+=======
+>>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -21,7 +24,10 @@ header{
 }
 
 .coAcuaticas{
+<<<<<<< HEAD
     border: black solid 1px;
+=======
+>>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -30,7 +36,10 @@ header{
 }
 
 .coArbustos{
+<<<<<<< HEAD
     border: black solid 1px;
+=======
+>>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -39,7 +48,10 @@ header{
 }
 
 .coArboles{
+<<<<<<< HEAD
     border: black solid 1px;
+=======
+>>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -48,7 +60,10 @@ header{
 }
 
 .coBulbosas{
+<<<<<<< HEAD
     border: black solid 1px;
+=======
+>>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -57,7 +72,10 @@ header{
 }
 
 .coCactus{
+<<<<<<< HEAD
     border: black solid 1px;
+=======
+>>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -66,7 +84,10 @@ header{
 }
 
 .coPlantas_Carnivoras{
+<<<<<<< HEAD
     border: black solid 1px;
+=======
+>>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -75,7 +96,10 @@ header{
 }
 
 .coEnredaderas{
+<<<<<<< HEAD
     border: black solid 1px;
+=======
+>>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -84,7 +108,10 @@ header{
 }
 
 .coFlores{
+<<<<<<< HEAD
     border: black solid 1px;
+=======
+>>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -93,7 +120,10 @@ header{
 }
 
 .coHerbáceas{
+<<<<<<< HEAD
     border: black solid 1px;
+=======
+>>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
     grid-area: conten;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -102,11 +132,11 @@ header{
 }
 
 nav{
-    border: black solid 1px;
     grid-area: nav;
     margin: 5px;
 }
 content h1{
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;

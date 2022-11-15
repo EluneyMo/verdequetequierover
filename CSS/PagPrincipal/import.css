@@ -247,9 +247,15 @@
         width: 1375px;
     }
     .desc .Descuentos .imagendesc img{
+<<<<<<< HEAD
     margin-left: -3% ;
     width: 1555px ;
     height: 250px;
+=======
+    margin-left: -5% ;
+    width: 1530px ;
+    height: 400px;
+>>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
     opacity: 70%;
     margin-top: 70px;
     position: relative;
@@ -315,6 +321,7 @@
         border-right-color: rgb(0, 0, 0);
         border-bottom-color: #000000;
         border-left-color: rgb(0, 0, 0);
+<<<<<<< HEAD
     }
     #infor .wsp{
         display: inline-flex;
@@ -369,5 +376,50 @@
         font-family: 'Athena';
         color: rgb(0, 0, 0);
         text-shadow: rgb(25, 29, 22) 0.1em 0.1em 0.2em
+=======
+    }
+    #infor .wsp{
+        display: inline-flex;
+        background-color: aliceblue;
+        border-radius: 10px;
+        margin-right: 1%;
+        margin-top: 1%;
+    }
+    #infor .gmail{
+        display: inline-flex;
+       background-color: aliceblue;
+       border-radius: 10px;
+       margin-left: 1%;
+       margin-top: 1%;
+    }
+    #infor .gmail p{
+        display: inline-flex;
+        font-size: 30px;
+        margin-left: 15px;
+        
+        text-align: center !important;
+    }
+    #infor .wsp p{
+        display: inline-flex;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    #infor .wsp img{
+        background-color: aliceblue;
+        width:35px;
+        height: 35px;
+        box-shadow: 5px 5px 5px rgb(72, 71, 71);
+        border-radius:20px;
+       margin-left: 10px;
+       
+
+    }
+    #infor .gmail img{
+        background-color: aliceblue;
+        width: 50px;
+        height: 35px;
+        box-shadow: 5px 5px 5px rgb(72, 71, 71);
+    
+>>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
     }
  
