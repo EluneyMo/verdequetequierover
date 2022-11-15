@@ -182,17 +182,17 @@ fieldset{
               margin-right: 50px;
            
 }
-.reg3{
+#cui .reg3{
               position: absolute;
               right: 50%;
               bottom: 0;
-              background: rgba(255, 255, 255, 0.877);
+              background: rgba(79, 42, 42, 0.877);
               width: 0;
               height: 5px;
               transition: 1s;
               margin-top: -30px;
 }
-.reg3:hover{
+#cui:hover .reg3{
               width: 10%;
     right: 50%;
 }
