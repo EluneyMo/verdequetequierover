@@ -36,6 +36,15 @@ document.getElementById ('hovers2').style.visibility='visible';
 }
 
 
+function movimiento1(){
+  const enviar= getElementById('enviar');
+  enviar.style.transform='translatex(-160%)';
+  
+}
+function movimiento2(){
+  const enviar= getElementById('enviar');
+  enviar.style.transform='translatex(0%)';
+}
 
 
 
@@ -65,13 +74,4 @@ return false;
   return false;
 }
 
-}
-function movimiento1(){
-  const enviar= getElementById('#enviar');
-  enviar.style.transform='translatex(-160%)';
-  
-}
-function movimiento2(){
-  const enviar= getElementById('#enviar');
-  enviar.style.transform='translatex(0%)';
 }
