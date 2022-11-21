@@ -30,39 +30,48 @@ addEventListener ('DOMContentLoaded', () =>{
  setInterval(slideshowdos, 3000)
 })
 function Mostrarboton(){
+
 document.getElementById ('hovers').style.visibility='visible';
 document.getElementById ('hovers2').style.visibility='visible';
 }
 
-function mover(){
-  correo=document.getElementById("correo").value;
-  tel=document.getElementById("tel").value;
-asun=document.getElementById("asun").value;
-sugerencias= document.getElementById("sugerencias").value;
-val=0;
-if(tel==""){
-val++;
-}
-if(asun== ""){
-  val++;
-}
-if(correo==""){
-  val++;
-}
-if (sugerencias == ""){
-  val++;
-}
-if (val == 0){
-  enviar.style.margin="0px";
-}else{
-  enviar.style.margin="0px 0px 130px 40px";
-}
-}
-document.getElementById("correo").addEventListener("keyup", mover);
-document.getElementById("tel").addEventListener("keyup", mover);
-document.getElementById("asun").addEventListener("keyup", mover);
-document.getElementById("sugerencias").addEventListener("keyup", mover);
-document.getElementById("enviar").addEventListener("click", ()=>{
 
-alert("Gracias por tus sugerencias!!");
-});
+function movimiento1(){
+  const enviar= getElementById('enviar');
+  enviar.style.transform='translatex(-50%)';
+  
+}
+function movimiento2(){
+  const enviar= getElementById('enviar');
+  enviar.style.transform='translatex(0%)';
+}
+
+
+
+var val=0;
+function mover(){
+  const correo=document.forms ['sugerenciasss']['correo'].value;
+  const asun=document.forms ['sugerenciasss']['asun'].value;
+
+
+if((correo=="" || asun=="") && val==0){
+  movimiento1();
+  
+val=1;
+return false;
+}
+if((correo=="" || asun=="" ) && val==1){
+  movimiento2();
+  val=2;
+  return false;
+}
+if((correo=="" || asun=="" ) && val==2){
+  movimiento1();
+val=1;
+return false;
+}else{
+  document.getElementById('#enviar').style.cursor='pointer';
+  return false;
+}
+
+}

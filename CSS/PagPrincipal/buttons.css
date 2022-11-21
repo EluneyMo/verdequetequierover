@@ -435,7 +435,7 @@ border: 4px solid rgba(4, 112, 29, 0.621);
 border-radius: 20px;
 background-image: url(../../imagenes/hand-painted-watercolor-nature-background_23-2148941599.webp);
     }
-    .Enviar input{
+    #enviar{
         margin-top: 30px;
         width: 310px;
         height: 50px;
@@ -445,10 +445,16 @@ background-image: url(../../imagenes/hand-painted-watercolor-nature-background_2
         font-family: 'Athena';
         border-radius: 20px;
         margin-bottom: 30px ;
+        
     }
+<<<<<<< HEAD
     #enviar:hover{
         margin-left: 200px;
     }
 =======
 >>>>>>> 04211223ad59531dce0bf5e8af0574024e024ec9
+=======
+    
+    
+>>>>>>> 2290071f19c3927b1a8e8c3483d9cc61155414ac
    
