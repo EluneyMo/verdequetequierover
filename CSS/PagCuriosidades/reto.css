@@ -9,3 +9,7 @@
    -webkit-transform-origin: 50% 50%;
    transform-origin:50%50%;
 }
+
+*{
+   background-color: rgb(155, 217, 156);
+}
