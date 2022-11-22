@@ -24,3 +24,7 @@ function mouseover(){
               return false;
      };
 };
+
+function buttonMoverLeft(){
+     
+}
