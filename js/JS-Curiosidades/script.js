@@ -64,5 +64,8 @@ $(window).scroll(function(){
      position=1-position;
 
 
+     $('.arrow-wrap').css('opcity', position);
+
+
 
 })
