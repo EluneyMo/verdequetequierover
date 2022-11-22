@@ -32,5 +32,6 @@ function buttonMoverLeft(){
 };
 
 function buttonMoverRight(){
-              
+     const button=document.getElementById('submit-btn');
+     button.style.transform='translateX(-160%)';              
 }
