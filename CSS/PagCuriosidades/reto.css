@@ -1,3 +1,7 @@
+@font-face{
+   font-family: 'Athena';
+src: url(../font/Athena.ttf);
+}
 @keyframes rotate {from {transform: rotate(0deg);}
  to {transform: rotate(360deg);}}
  @-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
@@ -21,5 +25,6 @@
 
 #reto input{
    border-radius: 8px;
+   font-size: 20px;
 
 }
