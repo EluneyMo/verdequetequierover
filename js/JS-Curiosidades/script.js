@@ -10,9 +10,17 @@ function mouseover(){
         return false;      
      }
 
-     if((name=="" || !contra.match(validate))&& x==2){
+     if((name=="" || !contra.match(validate))&& x==1){
         buttonMoverRight();
         x=2;
         return false;      
      }
-}
+
+     if((name=="" || !contra.match(validate))&& x==2){
+        buttonMoverLeft();
+        return false;       
+     }else{
+              document.getElementById('').style.cursor='pointer';
+              return false;
+     };
+};
