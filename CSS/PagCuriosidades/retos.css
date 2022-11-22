@@ -2,13 +2,16 @@
  font-family: 'Athena';
  src: url(../font/Athena.ttf);
 }
-
+*{
+  font-family: 'Athena';
+  
+}
 .login{
-  border: 2px solid rgba(rgb(54, 33, 33), green, blue, alpha);
-  position: absolute;
+  border: 2px solid rgba(rgb(85, 125, 45), green, blue, alpha);
+  
   width: 349px;
-  margin-left: 500px;
-  background-color:rgb(155, 217, 156);
+  
+  background-color:rgb(231, 238, 231);
    
 }
 
@@ -16,8 +19,10 @@
    height: 30px;
    margin: 8px auto;
    border-radius: 6px;
-   font-family: 'Athena';
+   padding-left: 15px;
+   display: block;
    
+        
 }
 
 

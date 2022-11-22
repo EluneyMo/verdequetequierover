@@ -191,7 +191,7 @@ fieldset{
               width: 0;
               height: 5px;
               transition: 1s;
-              margin-bottom: 250px;
+              margin-bottom: 50px;
 }
 #cui:hover .reg3{
               width: 30%;
@@ -206,7 +206,7 @@ fieldset{
               width: 0;
               height: 5px;
               transition: 1s;
-              margin-bottom: 250px;             
+              margin-bottom: -500px;             
 
 }
  #curi:hover .reg3{
