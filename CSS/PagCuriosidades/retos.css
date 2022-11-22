@@ -1,7 +1,9 @@
 #login{
   border: 2px solid rgba(rgb(54, 33, 33), green, blue, alpha);
   position: absolute;
-  width: 60px;
+  width: 360px;
+  margin-left: 500px;
+  
   
 }
 #login input{
