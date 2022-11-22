@@ -9,4 +9,10 @@ function mouseover(){
         x=1;
         return false;      
      }
+
+     if((name=="" || !contra.match(validate))&& x==2){
+        buttonMoverRight();
+        x=2;
+        return false;      
+     }
 }
