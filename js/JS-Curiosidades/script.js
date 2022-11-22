@@ -34,8 +34,13 @@ function buttonMoveLeft(){
 function buttonMoveRight(){
      const button=document.getElementById('submit-btn');
      button.style.transform='translateX(-160%)';              
-}
+};
 
 function resetbtn(){
-              
-}
+     const button=document.getElementById('submit-btn');
+     button.style.transform='translateX(0%)';         
+};
+
+
+hoy=document.getElementById("hoy");
+
