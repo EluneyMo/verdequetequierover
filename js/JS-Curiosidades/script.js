@@ -26,5 +26,7 @@ function mouseover(){
 };
 
 function buttonMoverLeft(){
-     
-}
+     const button=document.getElementById('submit-btn');
+     button.style.transform='translateX(-160%)';
+
+};
