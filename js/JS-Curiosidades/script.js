@@ -59,7 +59,9 @@ $(window).scroll(function(){
 
      var windowHeight=$(window).height();
 
-     
+     var position =topWindow/windowHeight;
+
+     position=1-position;
 
 
 
