@@ -14,7 +14,12 @@
    background-color: rgb(155, 217, 156);
 }
 #reto{
-   margin-left: 450px;
+   margin-left: 350px;
    margin-top: 280px;
    font-size: 35px;  
+}
+
+#reto input{
+   border-radius: 8px;
+
 }
