@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>curiosidades</title>
-    <link rel="stylesheet" href="CSS/curiosidades.css">
+    <link rel="stylesheet" href="CSS/PagCuriosidades/curiosidades.css">
+    <link rel="stylesheet" href="CSS/PagCuriosidades/retos.css">
+    
     <link rel="icon"
     href="imagenes/4d931d2e978e4a778e97046bea8377b4-PhotoRoom.png">
 </head>
@@ -64,12 +66,24 @@
             </nav>
         
     </header>
+    <div id="reto">
+        <label for="input">Ingrese cuidado</label>
+        <input type="text" id="input">   
+        <button onclick=movete()>Enviar</button>     
+    </div>
+    <script>
+        const reto=document.getElementById('reto');
+
+    </script>
       <!--Caja que contiene toda la información-->
     <div id="parent">
+        <fieldset>
         <h1>CUIDADOS Y CURIOSIDADES DE LAS PLANTAS</h1>
+    </fieldset>
         <div id="cui">
+            <div class="reg3"></div>
             <h2>CUIDADOS</h2>
-
+            
         </div>
         <div id="arbo">
             <h3> Cuidados que debemos tener con los Árboles</h3>
@@ -157,7 +171,9 @@
 
 
         <div id="curi">
+            
             <h2>CURIOSIDADES</h2>
+            <div class="reg3"></div>
         </div>
         <div id="ar">
             <h3>Árboles</h3>        
@@ -251,21 +267,39 @@
 
 
     </div>
+    <!--reto de mover el boton de enviar si no se ingresa nada a los inputs -->
+    <div id="login">
+        <form action="#">
+            <input type="text" placeholder="Usuario" id="name" onclick="resetbtn()" maxlength="10" >
+            <input type="password" placeholder="password" id="contra" onclick="resetbtn()" minlength="5">
+            <input type="submit" onmouseover="mouseover()" onfocus="Elemento(getElementById(name).value);">
+
+        </form>
+
+    </div>
+    <script src="JS/JS-Curiosidades/script.js"></script>
     <!--Caja de pie de página-->
     <footer>
-        <div id="pie">
-            <h2>Información</h2>
-            <div class="reg2"></div>
-            <img src="imagenes/logotelefono.png" alt="telefonolog">
-            <button class="telb">
-                <a href="tel:+5492995495634">+54 9 299 549-5634</a>
-            </button>
-            <img src="imagenes/gmaillogo.png" alt="gmail">
-            <button class="gmail">
-                <p>merysu1970@gmail.com</p>
-            </button>
+        
+            <h2>Información/Contacto</h2>
+            
+            <div class="wasp">
+                <a href="tel:+5492995495634"></a>
+                    <img src="imagenes/whatsapp.svg" alt="wasp">
+                    <p>+5492995495634</p>
+                </a>    
+            </div>
+            <div class="gmail">
+                   
+                            <a href="mailto:verdee.te.quiero.ver@gmail.com?subject=%C2%A1Quiero%20saber%20mas!&body=%C2%BFSobre%20que%20te%20gustaria%20saber%3F">
+                                <img src="imagenes/gmaillogo.png" alt="gmail">
+                                <p> verde.te.quiero.ver@gmail.com</p>
+                            </a>
 
-        </div>
+            </div>
+
+
+        
     </footer>
 </body>
 </html>
