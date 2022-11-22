@@ -44,3 +44,6 @@ function resetbtn(){
 
 hoy=document.getElementById("hoy");
 
+function Elemento(name){
+              
+}
