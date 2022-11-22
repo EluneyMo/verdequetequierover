@@ -1,11 +1,15 @@
-#login{
+.login{
   border: 2px solid rgba(rgb(54, 33, 33), green, blue, alpha);
   position: absolute;
-  width: 360px;
+  width: 349px;
   margin-left: 500px;
-  background-color: rgb(229, 211, 246);
+  background-color:rgb(155, 217, 156);
    
 }
-#login input{
-  
+
+.login input{
+    
 }
+
+
+           
