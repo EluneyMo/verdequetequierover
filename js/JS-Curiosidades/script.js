@@ -51,3 +51,8 @@ function Elemento(name){
      hoy.appendChild(h1);
               
 }
+
+$(window).scroll(function(){
+     var topWindow=$(window).scrollTop();         
+
+})
