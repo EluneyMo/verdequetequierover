@@ -30,3 +30,7 @@ function buttonMoverLeft(){
      button.style.transform='translateX(-160%)';
 
 };
+
+function buttonMoverRight(){
+              
+}
