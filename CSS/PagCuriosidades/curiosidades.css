@@ -59,7 +59,7 @@ nav{
  display: none;
  list-style: none;
  width: 200px;
- background-color: rgba(0,0, 0, .5);
+ background-color: rgb(24, 38, 38);
  border-radius: 10px;
 }
 
@@ -68,7 +68,7 @@ nav{
 }
 
 .horizontal1 li:hover{
- background-color: black;
+ background-color: rgb(68, 46, 46);
 }
 
 .horizontal1 li a{
@@ -191,7 +191,7 @@ fieldset{
               width: 0;
               height: 5px;
               transition: 1s;
-              margin-bottom: 165px;
+              margin-bottom: 160px;
 }
 #cui:hover .reg3{
               width: 30%;
