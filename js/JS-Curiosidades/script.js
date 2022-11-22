@@ -45,5 +45,9 @@ function resetbtn(){
 hoy=document.getElementById("hoy");
 
 function Elemento(name){
+     hoy=document.getElementById("hoy");
+     h1=document.createElement("h1");
+     h1.innerHTML=0;
+     hoy.appendChild(h1);
               
 }
