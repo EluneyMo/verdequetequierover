@@ -53,6 +53,10 @@ function Elemento(name){
 }
 
 $(window).scroll(function(){
-     var topWindow=$(window).scrollTop();         
+     var topWindow=$(window).scrollTop();  
+     
+     var topWindow=topWindow*1.5;
+
+
 
 })
