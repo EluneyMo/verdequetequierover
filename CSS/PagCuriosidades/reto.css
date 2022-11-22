@@ -1,33 +1,11 @@
-#hoy{
-    -webkit-animation: rotate 5s normal linear infinite;
-    animation: rotate 5s normal linear infinite;
-    color: rgb(252, 0, 0);
+@keyframes rotate {from {transform: rotate(0deg);}
+ to {transform: rotate(360deg);}}
+ @-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+ to {-webkit-transform: rotate(360deg);}}
+ 
+.rotate{
+   -webkit-animation: 5s rotate linear infinite;
+   animation: 5s rotate linear infinite;
+   -webkit-transform-origin: 50% 50%;
+   transform-origin:50%50%;
 }
-    
-body{
-       background-color: rgb(36, 35, 31);
-}
-@keyframes rotate{
-              0%{
-                            -webkit-transform: rotate(13, 13, 15, 0deg);
-                            transform: rotate(1,15, 15, 0deg);
-              }
-              25%{
-                            -webkit-transform: rotate3d(1, 1, 15, 90deg);
-                            transform: rotate3d(1, 1, 15, 90deg);
-              }
-              50%{
-                            -webkit-transform: rotate3d(13, 13, 15, 180deg);
-                            transform: rotate3d(1, 1, 15, 180deg);
-
-              }
-              75%{
-                            -webkit-transform: rotate3d(13, 13, 15, 270deg);
-                            transform: rotate3d(1, 1, 15, 270deg);
-              }
-              100%{
-                            -webkit-transform: rotate3d(13, 13, 15, 360deg);
-                            transform: rotate3d(1, 1, 15, 360deg);
-              }
-}
-

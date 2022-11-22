@@ -7,7 +7,7 @@
     <title>curiosidades</title>
     <link rel="stylesheet" href="CSS/PagCuriosidades/curiosidades.css">
     <link rel="stylesheet" href="CSS/PagCuriosidades/retos.css">
-    <link rel="stylesheet" href="CSS/PagCuriosidades/reto.css">
+    
     <link rel="icon"
     href="imagenes/4d931d2e978e4a778e97046bea8377b4-PhotoRoom.png">
 </head>
@@ -16,8 +16,7 @@
     <header>
         
             <div id="logo">
-                <a href="reto.html"></a>
-                <a href="index.html"><img src="imagenes/4d931d2e978e4a778e97046bea8377b4-PhotoRoom.png" alt="logo"></a>
+                <a href="reto.html"><img src="imagenes/4d931d2e978e4a778e97046bea8377b4-PhotoRoom.png" alt="logo"></a>
             </div>
             
         
@@ -67,23 +66,7 @@
             </nav>
         
     </header>
-    <div id="reto">
-        <label for="input">Ingrese cuidado</label>
-        <input type="text" id="input">   
-        <button onclick=rotate()>Enviar</button>     
-    </div>
-    <script>
-        const reto=document.getElementById('reto');
-            function rotate(){
-                const input=document.getElementById('reto');
-                const h1=document.createElement('h1');
-                console.log(input);
-                h1.textContent=input;
-                reto.appendChild(h1);
-                reto.classList.add('rotate');
-            }
-
-    </script>
+    
       <!--Caja que contiene toda la información-->
     <div id="parent">
         <fieldset>
