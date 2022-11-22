@@ -25,13 +25,17 @@ function mouseover(){
      };
 };
 
-function buttonMoverLeft(){
+function buttonMoveLeft(){
      const button=document.getElementById('submit-btn');
      button.style.transform='translateX(-160%)';
 
 };
 
-function buttonMoverRight(){
+function buttonMoveRight(){
      const button=document.getElementById('submit-btn');
      button.style.transform='translateX(-160%)';              
+}
+
+function resetbtn(){
+              
 }
