@@ -8,20 +8,20 @@
               <title>Rotacion</title>
 </head>
 <body>
-              <div id="div">
+              <div id="reto">
                             <label for="input">Ingrese cuidado</label>
                             <input type="text" id="input" >   
-                            <button onclick=caradepinga()>Enviar</button>     
+                            <button onclick=rotate()>Enviar</button>     
               </div>
               <script>
-                            const div=document.getElementById('div');
-                                function caradepinga(){
+                            const div=document.getElementById('reto');
+                                function rotate(){
                                     const input=document.getElementById('input').value;
                                     const h1=document.createElement('h1');
                                     console.log(input);
                                     h1.textContent=input;
-                                    div.appendChild(h1);
-                                    div.classList.add('rotate');
+                                    reto.appendChild(h1);
+                                    reto.classList.add('rotate');
                             }
                     
               </script>
