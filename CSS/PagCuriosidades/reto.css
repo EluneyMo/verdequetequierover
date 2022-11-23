@@ -35,5 +35,6 @@ src: url(../font/Athena.ttf);
 #reto button{
    border-radius: 8px;
    font-size: 30px;
+   font-family: 'Athena';
 
 }
